@@ -21,13 +21,13 @@ This system resolves those operational challenges by providing:
 
 | Layer | Technologies Selected |
 | :--- | :--- |
-| **Frontend** | HTML5, CSS3, Vanilla JavaScript (Zero npm dependencies, responsive, enterprise design) |
+| **Frontend** | HTML5, CSS3, JavaScript |
 | **Backend** | Python 3.10+, FastAPI, SQLAlchemy 2.0 ORM, Pydantic v2 |
 | **Database** | MySQL 8.0+ (InnoDB engine, utf8mb4 collation) |
 | **AI & RAG** | Gemini 1.5 Flash API (Configurable) + Sentence-Transformers + Deterministic Semantic Search |
 | **Data Generation** | Python, Pandas, NumPy, Faker, Standard CSV/JSON (Deterministic seed `20261022`) |
 | **Authentication** | JWT (JSON Web Tokens), PBKDF2/Bcrypt hashing, Role-Based Access Control (RBAC) |
-| **Documentation & Testing** | Interactive Swagger UI (`/docs`), OpenAPI 3.0, Pytest |
+| **Documentation & Testing** | Interactive Swagger UI (`/docs`), Pytest |
 
 ---
 
@@ -210,17 +210,34 @@ The backend is now live at:
 
 ### Step 8: Access the Frontend Web Application
 
-The frontend is served directly by the backend! Open your web browser and navigate to:
-```
-http://localhost:8000/
-```
-Or start an independent static HTTP server if desired:
+The frontend and backend can be started independently.
+
+**Option 1: Run the Frontend Separately (Recommended)**
+
+Open a new terminal in the project root and run:
+
 ```powershell
 python -m http.server 3000 --directory frontend
 ```
-*(Then visit `http://localhost:3000/`)*
 
----
+Open your browser and visit:
+
+`http://localhost:3000/`
+
+**Option 2: Access Through the Backend**
+
+If the backend is configured to serve the frontend, visit:
+
+`http://localhost:8000/`
+
+**Important:** Start the backend separately in another terminal:
+
+```powershell
+python -m uvicorn app.main:app --app-dir backend --reload --port 8000
+```
+
+The frontend communicates with the backend API running on port `8000`.
+
 
 ## 5. Demo Login Credentials
 
