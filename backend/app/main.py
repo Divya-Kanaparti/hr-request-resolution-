@@ -63,7 +63,6 @@ def root_redirect():
 
 @app.on_event("startup")
 def on_startup():
-    """Startup initialization tasks."""
     try:
         # Create tables automatically if using SQLite fallback, or ensure schema ready
         Base.metadata.create_all(bind=engine)

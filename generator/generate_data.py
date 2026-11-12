@@ -236,7 +236,7 @@ def generate_dataset(profile: str = "starter", output_dir: str = "data"):
 
     categories_keys = list(SAMPLE_TOPICS.keys())
     for p_idx in range(1, 31):
-        p_id = f"POL-{p_idx:03d}"
+        p_id = f"POL-HR-2026-{p_idx:03d}"
         cat_id = categories_keys[(p_idx - 1) % len(categories_keys)]
         cat_code = next(c[2] for c in CATEGORIES_SPEC if c[0] == cat_id)
         doc_code = f"POL-{cat_code}-{p_idx:02d}"
@@ -253,8 +253,8 @@ def generate_dataset(profile: str = "starter", output_dir: str = "data"):
         })
 
         # Add 2 versions: v1.0 (SUPERSEDED/ARCHIVED), v2.0 (ACTIVE)
-        v1_id = f"VER-{p_idx:03d}-1"
-        v2_id = f"VER-{p_idx:03d}-2"
+        v1_id = f"VER-{p_id}-01"
+        v2_id = f"VER-{p_id}-02"
 
         policy_versions.append({
             "version_id": v1_id,
@@ -292,7 +292,7 @@ def generate_dataset(profile: str = "starter", output_dir: str = "data"):
             f"Standard processing time is 2 to 5 business days, verified and administered by Human Resources."
         )
         knowledge_articles.append({
-            "article_id": f"ART-{art_idx:04d}",
+            "article_id": f"KB-{art_idx:06d}",
             "policy_version_id": assigned_pver["version_id"],
             "title": art_title,
             "section_number": sec_num,
@@ -322,7 +322,7 @@ def generate_dataset(profile: str = "starter", output_dir: str = "data"):
     base_date = datetime(2026, 1, 5, 9, 0, 0)
 
     for t_idx in range(1, num_tickets + 1):
-        t_id = f"TCK-{t_idx:05d}"
+        t_id = f"TKT-2026-{t_idx:06d}"
         tracking_num = f"REQ-2026-{t_idx:05d}"
         emp = random.choice(regular_employees)
 
@@ -424,9 +424,12 @@ def generate_dataset(profile: str = "starter", output_dir: str = "data"):
             "calculated_business_hours": 8.0,
             "created_at": created_at.isoformat()
         })
+        ticket_message_number = 0
+
+        ticket_message_number += 1
 
         messages.append({
-            "message_id": f"MSG-{len(messages) + 1:06d}",
+            "message_id": f"MSG-{t_id}-{ticket_message_number:03d}",
             "ticket_id": t_id,
             "sender_id": emp["emp_id"],
             "message_type": "EMPLOYEE_NOTE",
@@ -437,8 +440,9 @@ def generate_dataset(profile: str = "starter", output_dir: str = "data"):
         })
 
         if status in ["IN_PROGRESS", "RESOLVED"]:
+            ticket_message_number += 1
             messages.append({
-                "message_id": f"MSG-{len(messages) + 1:06d}",
+                "message_id": f"MSG-{t_id}-{ticket_message_number:03d}",
                 "ticket_id": t_id,
                 "sender_id": assigned_agent["emp_id"],
                 "message_type": "AGENT_REPLY",
@@ -449,14 +453,30 @@ def generate_dataset(profile: str = "starter", output_dir: str = "data"):
             })
 
         if status in ["RESOLVED", "CLOSED"]:
-            policy_used = "VER-001-2"
+            # Select policy versions belonging to this ticket's category.
+            matching_policy = next(
+                policy for policy in policy_docs
+                if policy["category_id"] == cat_id
+            )
+            active_version = next(
+                version for version in policy_versions
+                if version["policy_id"] == matching_policy["policy_id"]
+                and version["status"] == "ACTIVE"
+            )
+            obsolete_version = next(
+                version for version in policy_versions
+                if version["policy_id"] == matching_policy["policy_id"]
+                and version["status"] == "SUPERSEDED"
+            )
+
+            policy_used = active_version["version_id"]
             is_obsolete = (t_idx % 50 == 1)
             is_unsupported = (t_idx % 40 == 4)
 
             if is_obsolete:
                 has_anomaly = True
                 anomaly_type = "OBSOLETE_POLICY_CITATION"
-                policy_used = "VER-001-1"
+                policy_used = obsolete_version["version_id"]
                 res_notes = "Resolved using archived Policy Version 1.0 guidelines (superseded in 2025)."
             elif is_unsupported:
                 has_anomaly = True
@@ -503,14 +523,22 @@ def generate_dataset(profile: str = "starter", output_dir: str = "data"):
             "expected_resolution_due": correct_res_due.isoformat()
         })
 
-    # Fill extra messages to target count
+    # Fill extra messages to target count, maintaining a sequence per ticket.
     target_msg_count = num_messages
     current_msg_count = len(messages)
+
+    message_counters = {}
+    for message in messages:
+        parent_ticket_id = message["ticket_id"]
+        message_counters[parent_ticket_id] = message_counters.get(parent_ticket_id, 0) + 1
+
     for extra in range(current_msg_count + 1, target_msg_count + 1):
         rand_ticket = tickets[(extra - 1) % len(tickets)]
+        ticket_id = rand_ticket["ticket_id"]
+        message_counters[ticket_id] = message_counters.get(ticket_id, 0) + 1
         is_internal = (extra % 5 == 0)
         messages.append({
-            "message_id": f"MSG-{extra:06d}",
+            "message_id": f"MSG-{ticket_id}-{message_counters[ticket_id]:03d}",
             "ticket_id": rand_ticket["ticket_id"],
             "sender_id": rand_ticket["employee_id"] if extra % 2 == 0 else "EMP-0003",
             "message_type": "INTERNAL_NOTE" if is_internal else ("EMPLOYEE_NOTE" if extra % 2 == 0 else "AGENT_REPLY"),

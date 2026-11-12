@@ -14,7 +14,7 @@ def test_ticket_relationships(db):
     emp = db.query(Employee).filter(Employee.emp_id == "EMP-TEST-01").first()
     
     t = Ticket(
-        ticket_id="TCK-REL-01",
+        ticket_id="TKT-2026-000001",
         tracking_number="REQ-2026-8801",
         employee_id=emp.emp_id,
         category_id="CAT-001",
@@ -47,7 +47,7 @@ def test_ticket_relationships(db):
     )
     # Add message
     msg = Message(
-        message_id="MSG-REL-01",
+        message_id="MSG-TKT-2026-000001-001",
         ticket_id=t.ticket_id,
         sender_id=emp.emp_id,
         message_type=MessageTypeEnum.EMPLOYEE_NOTE,
@@ -57,7 +57,7 @@ def test_ticket_relationships(db):
     db.commit()
 
     # Verify relationships
-    loaded_ticket = db.query(Ticket).filter(Ticket.ticket_id == "TCK-REL-01").first()
+    loaded_ticket = db.query(Ticket).filter(Ticket.ticket_id == "TKT-2026-000001").first()
     assert loaded_ticket.employee.full_name == "Standard Employee"
     assert loaded_ticket.category.name == "Benefits"
     assert len(loaded_ticket.assignments) == 1

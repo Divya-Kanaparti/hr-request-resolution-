@@ -9,7 +9,11 @@ from app.models.policy import PolicyDocument, PolicyVersion, KnowledgeArticle, P
 from app.models.employee import Employee
 from app.schemas.policy import PolicyDocumentCreate, PolicyVersionCreate, KnowledgeArticleCreate
 from app.services.audit_service import log_audit_event
-import uuid
+from app.core.id_conventions import (
+    generate_knowledge_article_id,
+    generate_policy_id,
+    generate_policy_version_id,
+)
 
 def create_policy_document(
     db: Session,
@@ -17,7 +21,7 @@ def create_policy_document(
     doc_in: PolicyDocumentCreate
 ) -> PolicyDocument:
     """Create a new policy document with its initial draft/active version."""
-    policy_id = f"POL-{uuid.uuid4().hex[:8].upper()}"
+    policy_id = generate_policy_id(db)
     pdoc = PolicyDocument(
         policy_id=policy_id,
         doc_code=doc_in.doc_code,
@@ -32,7 +36,7 @@ def create_policy_document(
 
     if doc_in.initial_version:
         v_in = doc_in.initial_version
-        version_id = f"VER-{uuid.uuid4().hex[:8].upper()}"
+        version_id = generate_policy_version_id(db, pdoc.policy_id)
         pver = PolicyVersion(
             version_id=version_id,
             policy_id=pdoc.policy_id,
@@ -50,9 +54,9 @@ def create_policy_document(
         db.flush()
 
         if v_in.articles:
-            for art_in in v_in.articles:
+            for article_index, art_in in enumerate(v_in.articles):
                 art = KnowledgeArticle(
-                    article_id=f"ART-{uuid.uuid4().hex[:8].upper()}",
+                    article_id=generate_knowledge_article_id(db, article_index),
                     policy_version_id=pver.version_id,
                     title=art_in.title,
                     section_number=art_in.section_number,
@@ -97,7 +101,7 @@ def create_new_version(
             if not old_ver.effective_to:
                 old_ver.effective_to = v_in.effective_from
 
-    version_id = f"VER-{uuid.uuid4().hex[:8].upper()}"
+    version_id = generate_policy_version_id(db, pdoc.policy_id)
     pver = PolicyVersion(
         version_id=version_id,
         policy_id=pdoc.policy_id,
@@ -115,9 +119,9 @@ def create_new_version(
     db.flush()
 
     if v_in.articles:
-        for art_in in v_in.articles:
+        for article_index, art_in in enumerate(v_in.articles):
             art = KnowledgeArticle(
-                article_id=f"ART-{uuid.uuid4().hex[:8].upper()}",
+                article_id=generate_knowledge_article_id(db, article_index),
                 policy_version_id=pver.version_id,
                 title=art_in.title,
                 section_number=art_in.section_number,

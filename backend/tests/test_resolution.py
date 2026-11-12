@@ -25,7 +25,7 @@ def test_resolve_ticket_and_submit_rating(client, employee_token, agent_token):
             "resolution_type": "POLICY_EXPLANATION",
             "resolution_notes": "Directed employee to the Delta Dental network portal using member ID. Verified coverage is 100% preventive.",
             "root_cause": "Provider directory lookup",
-            "policy_version_used_id": "VER-001-2"
+            "policy_version_used_id": "VER-POL-HR-2026-001-02"
         }
     )
     assert resolve_res.status_code == 200

@@ -2,6 +2,7 @@
 Ticket Submission, Classification, Triage, and RBAC Test Suite
 """
 import pytest
+import re
 
 def test_ticket_creation_and_auto_classification(client, employee_token):
     res = client.post(
@@ -17,7 +18,7 @@ def test_ticket_creation_and_auto_classification(client, employee_token):
     )
     assert res.status_code == 201
     data = res.json()
-    assert data["ticket_id"].startswith("TCK-")
+    assert re.fullmatch(r"TKT-\d{4}-\d{6}", data["ticket_id"])
     assert data["tracking_number"].startswith("REQ-2026-")
     assert data["status"] in ["NEW", "IN_PROGRESS"]
     assert data["category_name"] == "Benefits"
@@ -133,6 +134,17 @@ def test_ticket_messaging_internal_note_privacy(client, employee_token, agent_to
             "is_internal": True
         }
     )
+    reply_res = client.post(
+        f"/api/v1/tickets/{ticket_id}/messages",
+        headers={"Authorization": f"Bearer {agent_token}"},
+        json={
+            "content": "The review is underway.",
+            "message_type": "AGENT_REPLY",
+            "is_internal": False
+        }
+    )
+    assert reply_res.status_code == 201
+    assert reply_res.json()["message_id"] == f"MSG-{ticket_id}-002"
 
     # Employee views ticket -> internal note MUST BE FILTERED OUT
     emp_view = client.get(f"/api/v1/tickets/{ticket_id}", headers={"Authorization": f"Bearer {employee_token}"})
@@ -145,4 +157,5 @@ def test_ticket_messaging_internal_note_privacy(client, employee_token, agent_to
     agent_messages = agent_view.json()["messages"]
     agent_internal_msgs = [m for m in agent_messages if m.get("is_internal") is True]
     assert len(agent_internal_msgs) == 1
+    assert agent_internal_msgs[0]["message_id"] == f"MSG-{ticket_id}-001"
 

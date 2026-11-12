@@ -10,9 +10,9 @@ from app.models.category import PriorityEnum
 from app.services.anomaly_service import run_full_anomaly_scan
 
 def test_detect_obsolete_policy_citation(db, client, compliance_token):
-    # Create ticket resolved with superseded policy version VER-001-1
+    # Create ticket resolved with superseded policy version 01.
     t = Ticket(
-        ticket_id="TCK-ANOM-01",
+        ticket_id="TKT-2026-000001",
         tracking_number="REQ-2026-9001",
         employee_id="EMP-TEST-01",
         category_id="CAT-001",
@@ -31,7 +31,7 @@ def test_detect_obsolete_policy_citation(db, client, compliance_token):
         resolved_by_id="EMP-TEST-02",
         resolution_type=ResolutionTypeEnum.POLICY_EXPLANATION,
         resolution_notes="Resolved using older guidelines",
-        policy_version_used_id="VER-001-1" # Superseded version
+        policy_version_used_id="VER-POL-HR-2026-001-01"  # Superseded version
     )
     db.add(res)
     db.commit()
@@ -46,7 +46,7 @@ def test_detect_obsolete_policy_citation(db, client, compliance_token):
 def test_detect_sensitive_case_in_general_queue(db, client, compliance_token):
     # Create ticket with sensitive harassment trigger, but NO confidential_assigned_to
     t = Ticket(
-        ticket_id="TCK-ANOM-02",
+        ticket_id="TKT-2026-000002",
         tracking_number="REQ-2026-9002",
         employee_id="EMP-TEST-01",
         category_id="CAT-007",

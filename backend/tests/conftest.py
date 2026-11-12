@@ -112,7 +112,7 @@ def seed_test_database(db):
 
     # Policy and Versions
     pdoc = PolicyDocument(
-        policy_id="POL-001",
+        policy_id="POL-HR-2026-001",
         doc_code="POL-BEN-01",
         title="Health and Dental Benefits",
         category_id="CAT-001",
@@ -125,8 +125,8 @@ def seed_test_database(db):
 
     # Active version
     pver_active = PolicyVersion(
-        version_id="VER-001-2",
-        policy_id="POL-001",
+        version_id="VER-POL-HR-2026-001-02",
+        policy_id="POL-HR-2026-001",
         version_number="2.0",
         status=PolicyStatusEnum.ACTIVE,
         effective_from=date(2025, 1, 1),
@@ -138,8 +138,8 @@ def seed_test_database(db):
     )
     # Superseded version
     pver_old = PolicyVersion(
-        version_id="VER-001-1",
-        policy_id="POL-001",
+        version_id="VER-POL-HR-2026-001-01",
+        policy_id="POL-HR-2026-001",
         version_number="1.0",
         status=PolicyStatusEnum.SUPERSEDED,
         effective_from=date(2023, 1, 1),
@@ -153,8 +153,8 @@ def seed_test_database(db):
     db.commit()
 
     art1 = KnowledgeArticle(
-        article_id="ART-001",
-        policy_version_id="VER-001-2",
+        article_id="KB-000001",
+        policy_version_id="VER-POL-HR-2026-001-02",
         title="Dental Coverage In-Network Guidelines",
         section_number="Sec 2.1",
         content="Under active policy, in-network preventive and diagnostic dental care is covered at 100%, and basic restorations at 80%.",

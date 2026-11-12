@@ -18,6 +18,7 @@ from app.schemas.resolution import ResolutionCreate, SatisfactionRatingRequest
 from app.services.classification_service import classify_text, detect_ambiguity
 from app.services.sla_service import initialize_ticket_sla, record_first_response, refresh_sla_status
 from app.services.audit_service import log_audit_event
+from app.core.id_conventions import generate_message_id, generate_ticket_id
 import uuid
 
 def generate_tracking_number(db: Session) -> str:
@@ -59,7 +60,7 @@ def create_ticket(db: Session, employee: Employee, ticket_in: TicketCreate) -> T
     # Initial Status
     initial_status = TicketStatusEnum.CLARIFICATION_NEEDED if ambiguity.is_ambiguous else TicketStatusEnum.NEW
 
-    ticket_id = f"TCK-{uuid.uuid4().hex[:10].upper()}"
+    ticket_id = generate_ticket_id(db)
     tracking_num = generate_tracking_number(db)
 
     ticket = Ticket(
@@ -100,7 +101,7 @@ def create_ticket(db: Session, employee: Employee, ticket_in: TicketCreate) -> T
     # 4. If ambiguous, post system clarification message
     if ambiguity.is_ambiguous and ambiguity.clarification_prompt:
         clarification_msg = Message(
-            message_id=f"MSG-{uuid.uuid4().hex[:10].upper()}",
+            message_id=generate_message_id(db, ticket.ticket_id),
             ticket_id=ticket.ticket_id,
             sender_id=employee.emp_id,
             message_type=MessageTypeEnum.CLARIFICATION_PROMPT,
@@ -203,7 +204,7 @@ def escalate_ticket(
 
     # Add audit log and internal message
     system_msg = Message(
-        message_id=f"MSG-{uuid.uuid4().hex[:10].upper()}",
+        message_id=generate_message_id(db, ticket.ticket_id),
         ticket_id=ticket.ticket_id,
         sender_id=actor.emp_id,
         message_type=MessageTypeEnum.SYSTEM_EVENT,
@@ -259,7 +260,7 @@ def resolve_ticket(
 
     # Add resolution message
     close_msg = Message(
-        message_id=f"MSG-{uuid.uuid4().hex[:10].upper()}",
+        message_id=generate_message_id(db, ticket.ticket_id),
         ticket_id=ticket.ticket_id,
         sender_id=actor.emp_id,
         message_type=MessageTypeEnum.AGENT_REPLY,
@@ -298,7 +299,7 @@ def add_message(
     msg_type = MessageTypeEnum[message_type] if message_type in MessageTypeEnum.__members__ else MessageTypeEnum.EMPLOYEE_NOTE
 
     msg = Message(
-        message_id=f"MSG-{uuid.uuid4().hex[:10].upper()}",
+        message_id=generate_message_id(db, ticket.ticket_id),
         ticket_id=ticket.ticket_id,
         sender_id=sender.emp_id,
         message_type=msg_type,
