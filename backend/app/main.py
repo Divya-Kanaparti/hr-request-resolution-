@@ -56,38 +56,10 @@ app.add_middleware(
 # Register API Router
 app.include_router(api_router, prefix=settings.API_V1_PREFIX)
 
-# Frontend Static Serving
-# Check relative paths to mount frontend directory if exists
-current_dir = Path(__file__).resolve().parent
-candidates = [
-    current_dir.parent.parent / "frontend",
-    Path("frontend").resolve(),
-    Path("../frontend").resolve()
-]
+@app.get("/", include_in_schema=False)
+def root_redirect():
+    return RedirectResponse(url="/docs")
 
-frontend_dir = None
-for candidate in candidates:
-    if candidate.exists() and (candidate / "index.html").exists():
-        frontend_dir = candidate
-        break
-
-if frontend_dir:
-    app.mount("/static", StaticFiles(directory=str(frontend_dir)), name="static")
-
-    @app.get("/", include_in_schema=False)
-    def serve_frontend_index():
-        return FileResponse(str(frontend_dir / "index.html"))
-
-    @app.get("/{page_name}.html", include_in_schema=False)
-    def serve_html_page(page_name: str):
-        page_path = frontend_dir / f"{page_name}.html"
-        if page_path.exists():
-            return FileResponse(str(page_path))
-        return FileResponse(str(frontend_dir / "index.html"))
-else:
-    @app.get("/", include_in_schema=False)
-    def root_redirect():
-        return RedirectResponse(url="/docs")
 
 @app.on_event("startup")
 def on_startup():

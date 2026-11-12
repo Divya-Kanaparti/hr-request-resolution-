@@ -26,7 +26,7 @@ try:
         DB_PORT: int = 3306
         DB_USER: str = "root"
         DB_PASSWORD: str = "root"
-        DB_NAME: str = "hr_request_resolution"
+        DB_NAME: str = "hr_request_resolution_demo"
         DATABASE_URL: str = ""
         
         # Business Hours & SLA (24h)
