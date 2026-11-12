@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HR Requests - HR Request Resolution System</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="tickets-view">
+
+  <div class="app-layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="brand-icon">HR</div>
+        <div class="brand-text">
+          <h2>Resolution Hub</h2>
+          <span>Enterprise Portal</span>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <div class="nav-section-title">Navigation</div>
+        <a href="dashboard.html" class="nav-link">
+          <span>Dashboard</span>
+        </a>
+        <a href="tickets.html" class="nav-link active">
+          <span>HR Requests</span>
+        </a>
+        <a href="policies.html" class="nav-link">
+          <span>Policies & AI</span>
+        </a>
+        
+        <div class="nav-section-title hr-only" style="display:none;">Management</div>
+        <a href="analytics.html" class="nav-link hr-only" style="display:none;">
+          <span>Analytics & SLAs</span>
+        </a>
+        <a href="analytics.html#anomalies" class="nav-link compliance-only" style="display:none;">
+          <span>Anomaly Radar</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="user-snippet">
+          <div class="user-avatar current-user-avatar">U</div>
+          <div class="user-details">
+            <div class="user-name current-user-name">User</div>
+            <div class="user-role current-user-role">Role</div>
+          </div>
+        </div>
+        <button class="btn-logout" title="Sign Out">&#x2715;</button>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-wrapper">
+      <header class="topbar">
+        <div class="topbar-title">
+          <h1>HR Inquiries & Case Management</h1>
+        </div>
+        <div class="topbar-actions">
+          <button class="btn btn-primary btn-sm" onclick="openModal('modal-create-ticket')">+ New HR Request</button>
+        </div>
+      </header>
+
+      <div class="content-container">
+        <!-- Filter and Search Bar -->
+        <div class="filter-bar">
+          <div class="search-input-wrap">
+            <input type="text" id="ticket-search" class="form-control" placeholder="Search by tracking number, title, or keywords...">
+          </div>
+          <select id="filter-status" class="form-control" style="width: auto;">
+            <option value="">All Statuses</option>
+            <option value="NEW">New</option>
+            <option value="CLARIFICATION_NEEDED">Clarification Needed</option>
+            <option value="IN_PROGRESS">In Progress</option>
+            <option value="ESCALATED">Escalated</option>
+            <option value="RESOLVED">Resolved</option>
+            <option value="CLOSED">Closed</option>
+          </select>
+          <select id="filter-category" class="form-control" style="width: auto;">
+            <option value="">All Categories</option>
+          </select>
+          <select id="filter-priority" class="form-control" style="width: auto;">
+            <option value="">All Priorities</option>
+            <option value="LOW">Low</option>
+            <option value="MEDIUM">Medium</option>
+            <option value="HIGH">High</option>
+            <option value="URGENT">Urgent</option>
+          </select>
+        </div>
+
+        <!-- Tickets Table Card -->
+        <div class="card">
+          <div class="card-body" style="padding:0;">
+            <div class="table-responsive">
+              <table class="data-table">
+                <thead>
+                  <tr>
+                    <th>Tracking #</th>
+                    <th>Title</th>
+                    <th>Employee</th>
+                    <th>Category</th>
+                    <th>Priority</th>
+                    <th>Status</th>
+                    <th>SLA</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody id="tickets-tbody">
+                  <tr>
+                    <td colspan="8" class="text-center" style="padding:32px; color:var(--gray-500);">Loading tickets...</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Modal: Create New Ticket -->
+  <div id="modal-create-ticket" class="modal-backdrop">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 style="font-size:1.15rem; font-weight:700;">Submit an HR Request</h3>
+        <button class="close-btn" onclick="closeModal('modal-create-ticket')">&times;</button>
+      </div>
+      <form id="create-ticket-form" onsubmit="handleCreateTicket(event)">
+        <div class="modal-body">
+          <div class="form-group">
+            <label class="form-label" for="create-title">Subject / Summary</label>
+            <input type="text" id="create-title" class="form-control" placeholder="Brief description of your question or issue" required>
+            <div id="ai-category-badge" class="badge badge-medium" style="display:none; margin-top:6px;"></div>
+            <div id="ai-sensitive-badge" class="badge badge-sensitive" style="display:none; margin-top:6px;">Confidential Flag Detected</div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="create-category">Category</label>
+              <select id="create-category" class="form-control" required></select>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="create-priority">Priority</label>
+              <select id="create-priority" class="form-control">
+                <option value="MEDIUM">Medium (Standard)</option>
+                <option value="LOW">Low</option>
+                <option value="HIGH">High</option>
+                <option value="URGENT">Urgent</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="create-desc">Detailed Description</label>
+            <textarea id="create-desc" class="form-control" placeholder="Please provide specific details, relevant dates, and background..." required></textarea>
+            <span style="font-size:0.75rem; color:var(--gray-500);">Pro-tip: Include exact dates for leave or specific pay dates for payroll inquiries to avoid clarification delays.</span>
+          </div>
+
+          <div class="form-group" style="display:flex; align-items:center; gap:8px;">
+            <input type="checkbox" id="create-sensitive" style="width:16px; height:16px;">
+            <label for="create-sensitive" style="font-size:0.85rem; font-weight:600; color:var(--gray-700); cursor:pointer;">
+              Mark as Confidential / Sensitive (Routes strictly to authorized HR Leadership)
+            </label>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" onclick="closeModal('modal-create-ticket')">Cancel</button>
+          <button type="submit" class="btn btn-primary">Submit Request</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Modal: Ticket Detail & Conversation View -->
+  <div id="modal-ticket-detail" class="modal-backdrop">
+    <div class="modal-content" style="max-width: 840px;">
+      <div class="modal-header">
+        <div>
+          <div style="display:flex; align-items:center; gap:8px;">
+            <span id="detail-tracking" style="font-weight:700; color:var(--primary);"></span>
+            <span id="detail-status" class="badge"></span>
+            <span id="detail-priority" class="badge"></span>
+            <span id="detail-sensitive-tag" class="badge badge-sensitive" style="display:none;">CONFIDENTIAL</span>
+          </div>
+          <h2 id="detail-title" style="font-size:1.25rem; font-weight:700; color:var(--gray-900); margin-top:4px;"></h2>
+        </div>
+        <button class="close-btn" onclick="closeModal('modal-ticket-detail')">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <!-- Metadata Overview Bar -->
+        <div style="background:var(--gray-50); border:1px solid var(--gray-200); border-radius:var(--radius-sm); padding:14px; display:grid; grid-template-columns:repeat(auto-fit, minmax(160px, 1fr)); gap:12px; margin-bottom:20px; font-size:0.82rem;">
+          <div><span style="color:var(--gray-500);">Category:</span> <strong id="detail-category"></strong></div>
+          <div><span style="color:var(--gray-500);">Employee:</span> <strong id="detail-employee"></strong></div>
+          <div><span style="color:var(--gray-500);">Assigned Partner:</span> <strong id="detail-assigned"></strong></div>
+          <div><span style="color:var(--gray-500);">SLA Due:</span> <strong id="detail-sla-due"></strong></div>
+        </div>
+
+        <!-- Workflow Actions Bar -->
+        <div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom:20px; border-bottom:1px solid var(--gray-200); padding-bottom:16px;">
+          <button id="btn-open-assign" class="btn btn-secondary btn-sm" onclick="openModal('modal-assign-ticket')">&#x1F464; Reassign</button>
+          <button id="btn-open-escalate" class="btn btn-secondary btn-sm" onclick="openModal('modal-escalate-ticket')">&#x2B06; Escalate</button>
+          <button id="btn-open-resolve" class="btn btn-primary btn-sm" onclick="openModal('modal-resolve-ticket')">&#x2714; Resolve Request</button>
+          <button id="btn-open-rate" class="btn btn-secondary btn-sm" onclick="openModal('modal-rate-ticket')">&#x2B50; Rate Resolution</button>
+        </div>
+
+        <!-- Conversation Stream -->
+        <h4 style="font-size:0.95rem; font-weight:700; margin-bottom:8px;">Conversation & History</h4>
+        <div id="conversation-container" class="conversation-thread" style="max-height:320px; overflow-y:auto; padding-right:8px; margin-bottom:20px;"></div>
+
+        <!-- Reply Box -->
+        <form id="reply-form" onsubmit="handlePostMessage(event)">
+          <div class="form-group">
+            <textarea id="message-content" class="form-control" placeholder="Type your reply, update, or clarification..." style="min-height:75px;" required></textarea>
+          </div>
+          <div style="display:flex; justify-content:space-between; align-items:center;">
+            <div class="hr-only" style="display:none;">
+              <label style="font-size:0.8rem; font-weight:600; color:var(--gray-700); cursor:pointer;">
+                <input type="checkbox" id="message-is-internal"> Post as Internal HR Note (Invisible to employee)
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary btn-sm" style="margin-left:auto;">Send Response</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Assign Ticket -->
+  <div id="modal-assign-ticket" class="modal-backdrop">
+    <div class="modal-content" style="max-width: 480px;">
+      <div class="modal-header">
+        <h3 style="font-size:1.1rem; font-weight:700;">Assign Ticket</h3>
+        <button class="close-btn" onclick="closeModal('modal-assign-ticket')">&times;</button>
+      </div>
+      <form onsubmit="handleAssignTicketSubmit(event)">
+        <div class="modal-body">
+          <div class="form-group">
+            <label class="form-label">Select HR Agent</label>
+            <select id="asg-target-agent" class="form-control" required>
+              <option value="EMP-1002">Sarah Agent (HR Agent)</option>
+              <!-- <option value="EMP-0003">Sarah Jenkins (HR Agent)</option>
+              <option value="EMP-0002">Emily Watson (HR Manager)</option>
+              <option value="EMP-0004">Rachel Vance (Compliance Officer)</option> -->
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Support Tier</label>
+            <select id="asg-tier" class="form-control">
+              <option value="TIER_1">Tier 1 - General HR</option>
+              <option value="TIER_2">Tier 2 - Specialist</option>
+              <option value="TIER_3">Tier 3 - Strategic Leadership</option>
+            </select>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" onclick="closeModal('modal-assign-ticket')">Cancel</button>
+          <button type="submit" class="btn btn-primary">Confirm Assignment</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Modal: Escalate Ticket -->
+  <div id="modal-escalate-ticket" class="modal-backdrop">
+    <div class="modal-content" style="max-width: 480px;">
+      <div class="modal-header">
+        <h3 style="font-size:1.1rem; font-weight:700;">Escalate HR Request</h3>
+        <button class="close-btn" onclick="closeModal('modal-escalate-ticket')">&times;</button>
+      </div>
+      <form onsubmit="handleEscalateTicket(event)">
+        <div class="modal-body">
+          <div class="form-group">
+            <label class="form-label">Escalate To</label>
+            <select id="escalate-tier" class="form-control">
+              <option value="TIER_2">Tier 2 - Subject Specialist</option>
+              <option value="TIER_3">Tier 3 - Department Director / Legal</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Reason for Escalation</label>
+            <textarea id="escalate-reason" class="form-control" placeholder="Specify why higher authorization or legal review is necessary..." required></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" onclick="closeModal('modal-escalate-ticket')">Cancel</button>
+          <button type="submit" class="btn btn-danger">Escalate Ticket</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Modal: Resolve Ticket -->
+  <div id="modal-resolve-ticket" class="modal-backdrop">
+    <div class="modal-content" style="max-width: 540px;">
+      <div class="modal-header">
+        <h3 style="font-size:1.1rem; font-weight:700;">Resolve HR Request</h3>
+        <button class="close-btn" onclick="closeModal('modal-resolve-ticket')">&times;</button>
+      </div>
+      <form onsubmit="handleResolveTicket(event)">
+        <div class="modal-body">
+          <div class="form-group">
+            <label class="form-label">Resolution Classification</label>
+            <select id="resolve-type" class="form-control">
+              <option value="POLICY_EXPLANATION">Policy Explanation & Guidance</option>
+              <option value="MANUAL_CORRECTION">Manual Adjustment / Payroll Correction</option>
+              <option value="POLICY_EXCEPTION">Approved Policy Exception</option>
+              <option value="ESCALATION_RESOLVED">Management Escalation Completed</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Cited Policy Version</label>
+            <input type="text" id="resolve-policy-version" class="form-control" placeholder="e.g. PVER-PAY-1" value="PVER-PAY-1">
+            <span style="font-size:0.75rem; color:var(--gray-500);">Ensures audit traceability and avoids obsolete version citations.</span>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Root Cause</label>
+            <input type="text" id="resolve-root-cause" class="form-control" placeholder="e.g. Employee inquiry regarding enrollment deadline">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Resolution Summary & Explanation</label>
+            <textarea id="resolve-notes" class="form-control" placeholder="Detailed notes explaining resolution to employee..." required></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" onclick="closeModal('modal-resolve-ticket')">Cancel</button>
+          <button type="submit" class="btn btn-primary">Complete & Close Request</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Modal: Rate Resolution -->
+  <div id="modal-rate-ticket" class="modal-backdrop">
+    <div class="modal-content" style="max-width: 440px;">
+      <div class="modal-header">
+        <h3 style="font-size:1.1rem; font-weight:700;">Rate HR Service</h3>
+        <button class="close-btn" onclick="closeModal('modal-rate-ticket')">&times;</button>
+      </div>
+      <form onsubmit="handleRateTicket(event)">
+        <div class="modal-body">
+          <div class="form-group">
+            <label class="form-label">Satisfaction Score (1 - 5 Stars)</label>
+            <select id="rate-stars" class="form-control">
+              <option value="5">&#9733;&#9733;&#9733;&#9733;&#9733; (5 - Exceptional)</option>
+              <option value="4">&#9733;&#9733;&#9733;&#9733; (4 - Good)</option>
+              <option value="3">&#9733;&#9733;&#9733; (3 - Satisfactory)</option>
+              <option value="2">&#9733;&#9733; (2 - Needs Improvement)</option>
+              <option value="1">&#9733; (1 - Unsatisfactory)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Feedback Comments</label>
+            <textarea id="rate-feedback" class="form-control" placeholder="How was your resolution experience?"></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" onclick="closeModal('modal-rate-ticket')">Cancel</button>
+          <button type="submit" class="btn btn-primary">Submit Rating</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/api.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/tickets.js"></script>
+  <script>
+    async function handleAssignTicketSubmit(event) {
+      event.preventDefault();
+      const agentId = document.getElementById('asg-target-agent').value;
+      const tier = document.getElementById('asg-tier').value;
+      try {
+        await api.post(`/tickets/${activeTicketId}/assign`, {
+          assigned_to_id: agentId,
+          tier: tier,
+          reason: "Manual agent assignment"
+        });
+        closeModal('modal-assign-ticket');
+        api.showToast("Ticket reassigned successfully!");
+        await openTicketDetail(activeTicketId);
+        await loadTickets();
+      } catch (err) {
+        console.error(err);
+      }
+    }
+  </script>
+</body>
+</html>
+

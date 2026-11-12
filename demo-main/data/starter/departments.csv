@@ -1,0 +1,7 @@
+dept_id,name,code,manager_id,location,created_at
+DEP-001,Human Resources,HR,,Corporate Tower A,2023-01-01T00:00:00
+DEP-002,Engineering,ENG,,"Building 4, Tech Campus",2023-01-01T00:00:00
+DEP-003,Sales & Marketing,MKT,,Corporate Tower B,2023-01-01T00:00:00
+DEP-004,Finance & Accounting,FIN,,Corporate Tower A,2023-01-01T00:00:00
+DEP-005,Legal & Compliance,LGL,,Corporate Tower A,2023-01-01T00:00:00
+DEP-006,Operations & IT,OPS,,"Building 2, Tech Campus",2023-01-01T00:00:00

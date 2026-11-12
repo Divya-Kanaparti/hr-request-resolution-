@@ -1,0 +1,45 @@
+{
+  "baseline_volume": true,
+  "checksums_sha256": {
+    "anomalies.csv": "0a1f14f7c9f67601c3ba7fdd534d2d0e09e77f910a862e4cbbf7cc8abbcccc10",
+    "assignments.csv": "eccb1564aa27fa8aa5375a9b9e2d38deae7d67eb29fe507a7436b7112b0caee6",
+    "audit_logs.csv": "174b43bb1c64ca289b82a2588d122c891fb05f50962cca97e2af70ed4012ef0c",
+    "categories.csv": "1e547fe10e9069ee5012ef407ed72b113ad4ab594e5f4b15cd881e833f02b2b0",
+    "departments.csv": "4923a55fc921bc7f29d72ce5232b0cc0adffc408bb9d596b923103128f5e04d2",
+    "employees.csv": "d5ac2ec308a073bd01c856ba073f9ba697d669b980da9633d9d52a05b3ac72e2",
+    "knowledge_articles.csv": "385d5d05867c056ed670eddf2f55e5844040816fefc4c30fda5d0feaeb88b615",
+    "messages.csv": "96f2bad03ac191b2de7274be514d41bf94863bba6d13da89db35a99253da6a87",
+    "policy_documents.csv": "bda8ef7467e0dbf5a029ee46e5ab07a3859eb41398036f8bd4208b1a918985d6",
+    "policy_versions.csv": "c3941afdff416f34a046aa2db6d3500f20c240410095e20cacbf3d1124e26820",
+    "resolutions.csv": "33c274dbb15c7e9d29a076f55199a0bd93e9928a35459037be5156ff22f8c90b",
+    "seed.sql": "fe9a69aee6980349c49d34c325d52dce916c9ad68effe4b3ae617afbeb3ee7a9",
+    "slas.csv": "f1099b46291c6da8002f420c9ffcd6088b26e579d6c5b6112a1701dea31bd2ba",
+    "tickets.csv": "43083e3948abe96676deda81a2d5244bf7e019b74f0b1ea8c628d184fb02ddee"
+  },
+  "external_sources": [],
+  "generator": "generator/generate_data.py",
+  "ground_truth": {
+    "csv_sha256": "5ba6d158c66cf045dfb245cd9b839d4692a5acd8a41c0512062fbc2631bd3524",
+    "json_sha256": "1dded6281cb237bf1f308686d1394f1d40b264d6944b4de1b7a581f009a8b01e",
+    "record_count": 250
+  },
+  "profile": "starter",
+  "provenance": "Generated in-repository; no real employee or external source data used.",
+  "record_counts": {
+    "anomalies": 27,
+    "assignments": 250,
+    "audit_logs": 939,
+    "categories": 7,
+    "departments": 6,
+    "employees": 50,
+    "knowledge_articles": 150,
+    "messages": 1000,
+    "policy_documents": 30,
+    "policy_versions": 60,
+    "resolutions": 164,
+    "slas": 250,
+    "tickets": 250
+  },
+  "seed": 20261022,
+  "synthetic_only": true
+}

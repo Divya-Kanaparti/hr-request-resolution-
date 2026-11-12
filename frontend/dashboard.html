@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - HR Request Resolution System</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="dashboard-view">
+
+  <div class="app-layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="brand-icon">HR</div>
+        <div class="brand-text">
+          <h2>Resolution Hub</h2>
+          <span>Enterprise Portal</span>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <div class="nav-section-title">Navigation</div>
+        <a href="dashboard.html" class="nav-link active">
+          <span>Dashboard</span>
+        </a>
+        <a href="tickets.html" class="nav-link">
+          <span>HR Requests</span>
+        </a>
+        <a href="policies.html" class="nav-link">
+          <span>Policies & AI</span>
+        </a>
+        
+        <div class="nav-section-title hr-only" style="display:none;">Management</div>
+        <a href="analytics.html" class="nav-link hr-only" style="display:none;">
+          <span>Analytics & SLAs</span>
+        </a>
+        <a href="analytics.html#anomalies" class="nav-link compliance-only" style="display:none;">
+          <span>Anomaly Radar</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="user-snippet">
+          <div class="user-avatar current-user-avatar">U</div>
+          <div class="user-details">
+            <div class="user-name current-user-name">User</div>
+            <div class="user-role current-user-role">Role</div>
+          </div>
+        </div>
+        <button class="btn-logout" title="Sign Out">&#x2715;</button>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-wrapper">
+      <header class="topbar">
+        <div class="topbar-title">
+          <h1>Enterprise HR Dashboard</h1>
+        </div>
+        <div class="topbar-actions">
+          <span class="status-pill online">
+            <span class="status-dot"></span> System Live (FastAPI)
+          </span>
+          <a href="tickets.html?action=new" class="btn btn-primary btn-sm">+ Submit HR Request</a>
+          <a href="policies.html" class="btn btn-secondary btn-sm">&#x1F916; Ask AI Policy</a>
+        </div>
+      </header>
+
+      <div class="content-container">
+        <!-- Stats Cards Grid -->
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-header">
+              <span class="stat-title">Total Requests</span>
+              <div class="stat-icon" style="background:#eff6ff; color:#1d4ed8;">&#x1F4CB;</div>
+            </div>
+            <div class="stat-value" id="stat-total-tickets">--</div>
+            <div class="stat-footer">Tracked in database</div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-header">
+              <span class="stat-title">Open & In Progress</span>
+              <div class="stat-icon" style="background:#fef3c7; color:#b45309;">&#x23F3;</div>
+            </div>
+            <div class="stat-value" id="stat-open-tickets">--</div>
+            <div class="stat-footer">Awaiting resolution or triage</div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-header">
+              <span class="stat-title">SLA Compliance</span>
+              <div class="stat-icon" style="background:#ecfdf5; color:#047857;">&#x2705;</div>
+            </div>
+            <div class="stat-value" id="stat-sla-rate">--%</div>
+            <div class="stat-footer">Business-hours metric</div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-header">
+              <span class="stat-title">Avg Resolution Time</span>
+              <div class="stat-icon" style="background:#f3e8ff; color:#7e22ce;">&#x23F1;</div>
+            </div>
+            <div class="stat-value" id="stat-avg-hours">--</div>
+            <div class="stat-footer">Calculated business hours</div>
+          </div>
+
+          <div class="stat-card compliance-only" style="display:none;">
+            <div class="stat-header">
+              <span class="stat-title">Flagged Anomalies</span>
+              <div class="stat-icon" style="background:#fee2e2; color:#b91c1c;">&#x26A0;</div>
+            </div>
+            <div class="stat-value" id="stat-anomalies" style="color:var(--danger);">--</div>
+            <div class="stat-footer">Compliance radar</div>
+          </div>
+        </div>
+
+        <!-- Recent Tickets Card -->
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Recent HR Inquiries & Requests</h2>
+            <a href="tickets.html" class="btn btn-secondary btn-sm">View All Tickets &rarr;</a>
+          </div>
+          <div class="card-body" style="padding:0;">
+            <div class="table-responsive">
+              <table class="data-table">
+                <thead>
+                  <tr>
+                    <th>Tracking #</th>
+                    <th>Request Title</th>
+                    <th>Category</th>
+                    <th>Priority</th>
+                    <th>Status</th>
+                    <th>SLA Health</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody id="recent-tickets-tbody">
+                  <tr>
+                    <td colspan="7" class="text-center" style="padding:32px; color:var(--gray-500);">
+                      Loading dashboard tickets...
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Help Card -->
+        <div class="card" style="background: linear-gradient(135deg, #eff6ff 0%, #ffffff 100%); border-color: #bfdbfe;">
+          <div class="card-body" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px;">
+            <div>
+              <h3 style="font-size:1.1rem; color:var(--primary); font-weight:700;">Need an Instant Policy Answer?</h3>
+              <p style="color:var(--gray-600); font-size:0.9rem; margin-top:4px;">
+                Ask our AI Policy Assistant questions regarding PTO rollover, benefits, direct deposit, or parental leave with exact version citations.
+              </p>
+            </div>
+            <a href="policies.html" class="btn btn-primary">&#x1F916; Launch Policy Assistant</a>
+          </div>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <script src="js/api.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
+

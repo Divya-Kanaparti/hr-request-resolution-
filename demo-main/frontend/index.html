@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enterprise HR Request Resolution System</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .hero-container {
+      max-width: 1080px;
+      margin: 80px auto;
+      padding: 0 24px;
+      text-align: center;
+    }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 16px;
+      background: var(--primary-light);
+      color: var(--primary);
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      margin-bottom: 24px;
+    }
+    .hero-title {
+      font-size: 2.8rem;
+      font-weight: 800;
+      color: var(--gray-900);
+      line-height: 1.15;
+      letter-spacing: -0.03em;
+      margin-bottom: 20px;
+    }
+    .hero-subtitle {
+      font-size: 1.15rem;
+      color: var(--gray-600);
+      max-width: 720px;
+      margin: 0 auto 36px auto;
+      line-height: 1.6;
+    }
+    .hero-actions {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 56px;
+    }
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+      text-align: left;
+    }
+    .feature-card {
+      background: var(--white);
+      padding: 28px;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--gray-200);
+      box-shadow: var(--shadow-sm);
+    }
+    .feature-card h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--gray-900);
+      margin-bottom: 8px;
+    }
+    .feature-card p {
+      color: var(--gray-600);
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body style="background:var(--gray-50);">
+
+  <header style="background:var(--white); border-bottom:1px solid var(--gray-200); padding:16px 32px; display:flex; justify-content:space-between; align-items:center;">
+    <div style="display:flex; align-items:center; gap:12px;">
+      <div class="brand-icon">HR</div>
+      <div style="font-weight:800; font-size:1.1rem; color:var(--gray-900);">HR Resolution Hub</div>
+    </div>
+    <div>
+      <a href="login.html" class="btn btn-secondary btn-sm" style="margin-right:8px;">Sign In</a>
+      <a href="http://localhost:8000/docs" target="_blank" class="btn btn-primary btn-sm">Swagger API (/docs)</a>
+    </div>
+  </header>
+
+  <div class="hero-container">
+    <div class="hero-badge">&#x2728; Powered by FastAPI &bull; Deterministic Business-Hours SLA &bull; RAG</div>
+    <h1 class="hero-title">Intelligent HR Request Resolution & Policy Intelligence</h1>
+    <p class="hero-subtitle">
+      Automated request triage, policy retrieval with verbatim citations, ambiguity detection, confidential case routing, and comprehensive compliance anomaly tracking.
+    </p>
+
+    <div class="hero-actions">
+      <a href="login.html" class="btn btn-primary" style="padding:14px 28px; font-size:1rem;">Access HR Portal &rarr;</a>
+      <a href="http://localhost:8000/docs" target="_blank" class="btn btn-secondary" style="padding:14px 28px; font-size:1rem;">Interactive Swagger UI</a>
+    </div>
+
+    <div class="feature-grid">
+      <div class="feature-card">
+        <div style="font-size:2rem; margin-bottom:12px;">&#x23F0;</div>
+        <h3>Business-Hours SLA Engine</h3>
+        <p>Deterministic 09:00 - 17:00 calculation excluding weekends and corporate holidays for accurate response and resolution deadlines.</p>
+      </div>
+
+      <div class="feature-card">
+        <div style="font-size:2rem; margin-bottom:12px;">&#x1F916;</div>
+        <h3>Policy RAG with Exact Citations</h3>
+        <p>Queries verified against active policy versions with document codes, section numbers, and exact quotations to eliminate hallucinations.</p>
+      </div>
+
+      <div class="feature-card">
+        <div style="font-size:2rem; margin-bottom:12px;">&#x1F512;</div>
+        <h3>Confidential & Sensitive Routing</h3>
+        <p>Automated trigger detection for harassment, whistleblowing, and grievances strictly isolating cases to authorized HR directors.</p>
+      </div>
+
+      <div class="feature-card">
+        <div style="font-size:2rem; margin-bottom:12px;">&#x26A0;</div>
+        <h3>Anomaly Radar & Audit Trail</h3>
+        <p>Detects obsolete policy citations, SLA miscalculations, unsupported benefits claims, and records immutable event logs.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/api.js"></script>
+  <script>
+    // If user is already authenticated, redirect straight to dashboard
+    if (api.getToken()) {
+      window.location.href = "dashboard.html";
+    }
+  </script>
+</body>
+</html>
+

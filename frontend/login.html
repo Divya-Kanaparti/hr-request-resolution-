@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - HR Request Resolution System</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+      padding: 20px;
+    }
+    .auth-card {
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+      max-width: 460px;
+      width: 100%;
+      overflow: hidden;
+    }
+    .auth-header {
+      background: var(--gray-900);
+      color: var(--white);
+      padding: 32px 28px;
+      text-align: center;
+    }
+    .auth-header h1 {
+      font-size: 1.4rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+    .auth-header p {
+      color: var(--gray-400);
+      font-size: 0.85rem;
+      margin-top: 6px;
+    }
+    .auth-body {
+      padding: 32px 28px;
+    }
+    .demo-accounts {
+      margin-top: 24px;
+      padding-top: 20px;
+      border-top: 1px solid var(--gray-200);
+    }
+    .demo-accounts h4 {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--gray-500);
+      margin-bottom: 12px;
+      text-align: center;
+    }
+    .demo-btn-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+    .demo-btn {
+      padding: 7px 10px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      border: 1px solid var(--gray-300);
+      border-radius: var(--radius-sm);
+      background: var(--gray-50);
+      cursor: pointer;
+      text-align: left;
+      transition: var(--transition);
+    }
+    .demo-btn:hover {
+      background: var(--primary-light);
+      border-color: var(--accent);
+      color: var(--primary);
+    }
+    .auth-tabs {
+      display: flex;
+      border-bottom: 1px solid var(--gray-200);
+      margin-bottom: 24px;
+    }
+    .auth-tab {
+      flex: 1;
+      padding: 10px;
+      text-align: center;
+      font-weight: 600;
+      font-size: 0.9rem;
+      cursor: pointer;
+      color: var(--gray-500);
+      border-bottom: 2px solid transparent;
+    }
+    .auth-tab.active {
+      color: var(--primary);
+      border-color: var(--primary);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="auth-card">
+    <div class="auth-header">
+      <div class="brand-icon" style="margin: 0 auto 14px auto;">HR</div>
+      <h1>HR Resolution System</h1>
+      <p>Secure Enterprise Employee Portal & Triage System</p>
+    </div>
+
+    <div class="auth-body">
+      <div class="auth-tabs">
+        <div class="auth-tab active" id="tab-login" onclick="switchAuthTab('login')">Sign In</div>
+        <div class="auth-tab" id="tab-register" onclick="switchAuthTab('register')">Register</div>
+      </div>
+
+      <!-- Login Form -->
+      <form id="login-form">
+        <div class="form-group">
+          <label class="form-label" for="login-email">Corporate Email</label>
+          <input type="email" id="login-email" class="form-control" placeholder="name@company.com" required value="john.doe@company.com">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="login-password">Password</label>
+          <input type="password" id="login-password" class="form-control" placeholder="••••••••" required value="Password123!">
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 100%; padding: 12px;">Sign In</button>
+      </form>
+
+      <!-- Register Form -->
+      <form id="register-form" style="display: none;">
+        <div class="form-group">
+          <label class="form-label" for="reg-name">Full Name</label>
+          <input type="text" id="reg-name" class="form-control" placeholder="Jane Doe" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="reg-email">Email Address</label>
+          <input type="email" id="reg-email" class="form-control" placeholder="jane.doe@company.com" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="reg-password">Password</label>
+          <input type="password" id="reg-password" class="form-control" placeholder="Password123!" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="reg-dept">Department</label>
+          <select id="reg-dept" class="form-control" required>
+            <option value="DEP-002">Engineering (ENG)</option>
+            <option value="DEP-001">Human Resources (HR)</option>
+            <option value="DEP-003">Sales & Marketing (MKT)</option>
+            <option value="DEP-004">Finance & Accounting (FIN)</option>
+            <option value="DEP-005">Legal & Compliance (LGL)</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 100%; padding: 12px;">Create Account</button>
+      </form>
+
+      <!-- 1-Click Demo Accounts Quick Fill -->
+      <div class="demo-accounts">
+        <h4>1-Click Demo Credentials</h4>
+        <div class="demo-btn-grid">
+          <button type="button" class="demo-btn" onclick="fillDemoCredentials('john.doe@company.com', 'Employee')">
+            <div><strong>Employee</strong></div>
+            <div style="font-size:0.7rem; color:var(--gray-500)">John Doe</div>
+          </button>
+          <button type="button" class="demo-btn" onclick="fillDemoCredentials('sarah.agent@company.com', 'HR Agent')">
+            <div><strong>HR Agent</strong></div>
+            <div style="font-size:0.7rem; color:var(--gray-500)">Sarah Jenkins</div>
+          </button>
+          <button type="button" class="demo-btn" onclick="fillDemoCredentials('emily.manager@company.com', 'HR Manager')">
+            <div><strong>HR Manager</strong></div>
+            <div style="font-size:0.7rem; color:var(--gray-500)">Emily Watson</div>
+          </button>
+          <button type="button" class="demo-btn" onclick="fillDemoCredentials('rachel.compliance@company.com', 'Compliance')">
+            <div><strong>Compliance</strong></div>
+            <div style="font-size:0.7rem; color:var(--gray-500)">Rachel Vance</div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/api.js"></script>
+  <script src="js/auth.js"></script>
+  <script>
+    function switchAuthTab(tab) {
+      document.getElementById('tab-login').classList.toggle('active', tab === 'login');
+      document.getElementById('tab-register').classList.toggle('active', tab === 'register');
+      document.getElementById('login-form').style.display = tab === 'login' ? 'block' : 'none';
+      document.getElementById('register-form').style.display = tab === 'register' ? 'block' : 'none';
+    }
+
+    document.getElementById('login-form').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const email = document.getElementById('login-email').value;
+      const password = document.getElementById('login-password').value;
+      try {
+        const res = await api.post('/auth/login', { email, password });
+        api.setToken(res.access_token);
+        api.setCurrentUser(res.user);
+        api.showToast(`Welcome back, ${res.user.full_name}!`);
+        setTimeout(() => window.location.href = 'dashboard.html', 400);
+      } catch (err) {
+        // Handled in api client
+      }
+    });
+
+    document.getElementById('register-form').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const full_name = document.getElementById('reg-name').value;
+      const email = document.getElementById('reg-email').value;
+      const password = document.getElementById('reg-password').value;
+      const department_id = document.getElementById('reg-dept').value;
+      try {
+        const res = await api.post('/auth/register', { full_name, email, password, department_id, role: 'EMPLOYEE' });
+        api.setToken(res.access_token);
+        api.setCurrentUser(res.user);
+        api.showToast('Account created successfully!');
+        setTimeout(() => window.location.href = 'dashboard.html', 400);
+      } catch (err) {
+        // Handled in api client
+      }
+    });
+  </script>
+</body>
+</html>
+

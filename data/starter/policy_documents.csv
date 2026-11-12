@@ -1,0 +1,31 @@
+policy_id,doc_code,title,category_id,department_id,audience,owner_id,created_at
+POL-001,POL-BEN-01,Corporate Policy on How do I enroll in dental insurance for my spouse?,CAT-001,DEP-001,ALL_EMPLOYEES,EMP-0002,2023-01-01T00:00:00
+POL-002,POL-LEV-02,Corporate Policy on Parental leave request for upcoming child birth,CAT-002,DEP-001,ALL_EMPLOYEES,EMP-0002,2023-01-01T00:00:00
+POL-003,POL-PAY-03,Corporate Policy on W-2 tax form copy request,CAT-003,DEP-001,ALL_EMPLOYEES,EMP-0002,2023-01-01T00:00:00
+POL-004,POL-ONB-04,Corporate Policy on Office ergonomic chair request,CAT-004,DEP-001,ALL_EMPLOYEES,EMP-0002,2023-01-01T00:00:00
+POL-005,POL-REL-05,Corporate Policy on Performance improvement plan timeline clarification,CAT-005,DEP-001,ALL_EMPLOYEES,EMP-0002,2023-01-01T00:00:00
+POL-006,POL-SAF-06,Corporate Policy on First aid kit restocking in Engineering wing,CAT-006,DEP-001,ALL_EMPLOYEES,EMP-0002,2023-01-01T00:00:00
+POL-007,POL-CMP-07,Corporate Policy on Report of retaliatory treatment after reporting misconduct,CAT-007,DEP-001,ALL_EMPLOYEES,EMP-0002,2023-01-01T00:00:00
+POL-008,POL-BEN-08,Corporate Policy on 401(k) company match contribution percentage,CAT-001,DEP-001,ALL_EMPLOYEES,EMP-0002,2023-01-01T00:00:00
+POL-009,POL-LEV-09,Corporate Policy on Bereavement leave policy clarification,CAT-002,DEP-001,ALL_EMPLOYEES,EMP-0002,2023-01-01T00:00:00
+POL-010,POL-PAY-10,Corporate Policy on Federal tax withholding adjustment W-4,CAT-003,DEP-001,ALL_EMPLOYEES,EMP-0002,2023-01-01T00:00:00
+POL-011,POL-ONB-11,Corporate Policy on New hire laptop and monitor delivery status,CAT-004,DEP-001,ALL_EMPLOYEES,EMP-0002,2023-01-01T00:00:00
+POL-012,POL-REL-12,Corporate Policy on Departmental transfer request to DevOps team,CAT-005,DEP-001,ALL_EMPLOYEES,EMP-0002,2023-01-01T00:00:00
+POL-013,POL-SAF-13,Corporate Policy on Ergonomic desk assessment request,CAT-006,DEP-001,ALL_EMPLOYEES,EMP-0002,2023-01-01T00:00:00
+POL-014,POL-CMP-14,Corporate Policy on Whistleblower report regarding billing compliance,CAT-007,DEP-001,ALL_EMPLOYEES,EMP-0002,2023-01-01T00:00:00
+POL-015,POL-BEN-15,Corporate Policy on HSA contribution limits for this calendar year,CAT-001,DEP-001,ALL_EMPLOYEES,EMP-0002,2023-01-01T00:00:00
+POL-016,POL-LEV-16,Corporate Policy on Jury duty summons wage continuation,CAT-002,DEP-001,ALL_EMPLOYEES,EMP-0002,2023-01-01T00:00:00
+POL-017,POL-PAY-17,Corporate Policy on Performance bonus payout timing,CAT-003,DEP-001,ALL_EMPLOYEES,EMP-0002,2023-01-01T00:00:00
+POL-018,POL-ONB-18,Corporate Policy on I-9 form verification appointment,CAT-004,DEP-001,ALL_EMPLOYEES,EMP-0002,2023-01-01T00:00:00
+POL-019,POL-REL-19,Corporate Policy on Conflict resolution guidance with team lead,CAT-005,DEP-001,ALL_EMPLOYEES,EMP-0002,2023-01-01T00:00:00
+POL-020,POL-SAF-20,Corporate Policy on Spill hazard in 2nd floor breakroom,CAT-006,DEP-001,ALL_EMPLOYEES,EMP-0002,2023-01-01T00:00:00
+POL-021,POL-CMP-21,Corporate Policy on Confidential report of workplace harassment,CAT-007,DEP-001,ALL_EMPLOYEES,EMP-0002,2023-01-01T00:00:00
+POL-022,POL-BEN-22,Corporate Policy on Wellness gym reimbursement claim submission,CAT-001,DEP-001,ALL_EMPLOYEES,EMP-0002,2023-01-01T00:00:00
+POL-023,POL-LEV-23,Corporate Policy on Unused PTO rollover into next calendar year,CAT-002,DEP-001,ALL_EMPLOYEES,EMP-0002,2023-01-01T00:00:00
+POL-024,POL-PAY-24,Corporate Policy on Commuter pre-tax transit deduction,CAT-003,DEP-001,ALL_EMPLOYEES,EMP-0002,2023-01-01T00:00:00
+POL-025,POL-ONB-25,Corporate Policy on Offboarding process and asset return checklist,CAT-004,DEP-001,ALL_EMPLOYEES,EMP-0002,2023-01-01T00:00:00
+POL-026,POL-REL-26,Corporate Policy on Performance improvement plan timeline clarification,CAT-005,DEP-001,ALL_EMPLOYEES,EMP-0002,2023-01-01T00:00:00
+POL-027,POL-SAF-27,Corporate Policy on First aid kit restocking in Engineering wing,CAT-006,DEP-001,ALL_EMPLOYEES,EMP-0002,2023-01-01T00:00:00
+POL-028,POL-CMP-28,Corporate Policy on Discrimination in promotional opportunities,CAT-007,DEP-001,ALL_EMPLOYEES,EMP-0002,2023-01-01T00:00:00
+POL-029,POL-BEN-29,Corporate Policy on Vision eyewear allowance details,CAT-001,DEP-001,ALL_EMPLOYEES,EMP-0002,2023-01-01T00:00:00
+POL-030,POL-LEV-30,Corporate Policy on Sick leave documentation requirement,CAT-002,DEP-001,ALL_EMPLOYEES,EMP-0002,2023-01-01T00:00:00

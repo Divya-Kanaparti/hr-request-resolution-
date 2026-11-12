@@ -1,0 +1,1001 @@
+message_id,ticket_id,sender_id,message_type,content,citations_json,is_internal,created_at
+MSG-000001,TCK-00001,EMP-0010,EMPLOYEE_NOTE,My latest payslip shows 12 days accrued PTO instead of 15 days according to my tenure.,[],False,2026-01-05T09:25:00
+MSG-000002,TCK-00001,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T10:10:00
+MSG-000003,TCK-00002,EMP-0046,EMPLOYEE_NOTE,The wall-mounted first aid kit in Building 4 needs restocking of antiseptic supplies.,[],False,2026-01-05T09:50:00
+MSG-000004,TCK-00002,EMP-0034,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T10:35:00
+MSG-000005,TCK-00003,EMP-0023,EMPLOYEE_NOTE,Submitting confidential documentation regarding unauthorized accounting practices.,[],False,2026-01-05T10:15:00
+MSG-000006,TCK-00003,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T11:00:00
+MSG-000007,TCK-00004,EMP-0008,EMPLOYEE_NOTE,I would like to initiate an internal transfer request to the Cloud Infrastructure team.,[],False,2026-01-05T10:40:00
+MSG-000008,TCK-00004,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T11:25:00
+MSG-000009,TCK-00005,EMP-0029,EMPLOYEE_NOTE,How do I increase my monthly pre-tax transit pass deduction to $200?,[],False,2026-01-05T11:05:00
+MSG-000010,TCK-00005,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T11:50:00
+MSG-000011,TCK-00006,EMP-0014,EMPLOYEE_NOTE,I have submitted my 2-week notice and need the equipment return shipping label.,[],False,2026-01-05T11:30:00
+MSG-000012,TCK-00006,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T12:15:00
+MSG-000013,TCK-00007,EMP-0032,EMPLOYEE_NOTE,How many hours of unused PTO can I carry over into next year before they expire?,[],False,2026-01-05T11:55:00
+MSG-000014,TCK-00007,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T12:40:00
+MSG-000015,TCK-00008,EMP-0018,EMPLOYEE_NOTE,Requesting an ergonomic evaluation due to persistent wrist and neck strain.,[],False,2026-01-05T12:20:00
+MSG-000016,TCK-00008,EMP-0022,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T13:05:00
+MSG-000017,TCK-00009,EMP-0029,EMPLOYEE_NOTE,Requesting an ergonomic evaluation due to persistent wrist and neck strain.,[],False,2026-01-05T12:45:00
+MSG-000018,TCK-00009,EMP-0022,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T13:30:00
+MSG-000019,TCK-00010,EMP-0010,EMPLOYEE_NOTE,What benefits do I get here?,[],False,2026-01-05T13:10:00
+MSG-000020,TCK-00011,EMP-0050,EMPLOYEE_NOTE,Raising a confidential grievance regarding discriminatory comments during review.,[],False,2026-01-05T13:35:00
+MSG-000021,TCK-00011,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T14:20:00
+MSG-000022,TCK-00012,EMP-0025,EMPLOYEE_NOTE,Facing exclusionary behavior and project removal after raising safety concerns.,[],False,2026-01-05T14:00:00
+MSG-000023,TCK-00012,EMP-0034,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T14:45:00
+MSG-000024,TCK-00013,EMP-0005,EMPLOYEE_NOTE,Requesting an ergonomic chair and monitor arm evaluation for my designated desk.,[],False,2026-01-05T14:25:00
+MSG-000025,TCK-00013,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T15:10:00
+MSG-000026,TCK-00014,EMP-0044,EMPLOYEE_NOTE,I would like to initiate an internal transfer request to the Cloud Infrastructure team.,[],False,2026-01-05T14:50:00
+MSG-000027,TCK-00015,EMP-0014,EMPLOYEE_NOTE,I got married last week and would like to add my spouse to our dental and vision plan.,[],False,2026-01-05T15:15:00
+MSG-000028,TCK-00015,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T16:00:00
+MSG-000029,TCK-00016,EMP-0025,EMPLOYEE_NOTE,The wall-mounted first aid kit in Building 4 needs restocking of antiseptic supplies.,[],False,2026-01-05T15:40:00
+MSG-000030,TCK-00016,EMP-0034,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T16:25:00
+MSG-000031,TCK-00017,EMP-0032,EMPLOYEE_NOTE,Reporting repeated offensive remarks and hostile comments made by a senior colleague.,[],False,2026-01-05T16:05:00
+MSG-000032,TCK-00017,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T16:50:00
+MSG-000033,TCK-00018,EMP-0039,EMPLOYEE_NOTE,I need to update my bank account for direct deposit before the upcoming cutoff.,[],False,2026-01-05T16:30:00
+MSG-000034,TCK-00018,EMP-0034,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T17:15:00
+MSG-000035,TCK-00019,EMP-0028,EMPLOYEE_NOTE,Facing exclusionary behavior and project removal after raising safety concerns.,[],False,2026-01-05T16:55:00
+MSG-000036,TCK-00019,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T17:40:00
+MSG-000037,TCK-00020,EMP-0011,EMPLOYEE_NOTE,"My recent paycheck is missing money, please fix.",[],False,2026-01-05T17:20:00
+MSG-000038,TCK-00020,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T18:05:00
+MSG-000039,TCK-00021,EMP-0031,EMPLOYEE_NOTE,"If I am out sick for 3 consecutive days, do I need to attach a physician note?",[],False,2026-01-05T17:45:00
+MSG-000040,TCK-00021,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T18:30:00
+MSG-000041,TCK-00022,EMP-0049,EMPLOYEE_NOTE,Facing exclusionary behavior and project removal after raising safety concerns.,[],False,2026-01-05T18:10:00
+MSG-000042,TCK-00022,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T18:55:00
+MSG-000043,TCK-00023,EMP-0026,EMPLOYEE_NOTE,Experiencing ongoing communication friction regarding sprint deliverables.,[],False,2026-01-05T18:35:00
+MSG-000044,TCK-00023,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T19:20:00
+MSG-000045,TCK-00024,EMP-0016,EMPLOYEE_NOTE,Reporting repeated offensive remarks and hostile comments made by a senior colleague.,[],False,2026-01-05T19:00:00
+MSG-000046,TCK-00024,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T19:45:00
+MSG-000047,TCK-00025,EMP-0039,EMPLOYEE_NOTE,"Starting on Monday, haven't received tracking information for my workstation equipment.",[],False,2026-01-05T19:25:00
+MSG-000048,TCK-00025,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T20:10:00
+MSG-000049,TCK-00026,EMP-0027,EMPLOYEE_NOTE,I submitted a new W-4 form two weeks ago but my tax withholdings remain unchanged.,[],False,2026-01-05T19:50:00
+MSG-000050,TCK-00026,EMP-0022,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T20:35:00
+MSG-000051,TCK-00027,EMP-0020,EMPLOYEE_NOTE,I submitted a new W-4 form two weeks ago but my tax withholdings remain unchanged.,[],False,2026-01-05T20:15:00
+MSG-000052,TCK-00027,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T21:00:00
+MSG-000053,TCK-00028,EMP-0045,EMPLOYEE_NOTE,I need to update my bank account for direct deposit before the upcoming cutoff.,[],False,2026-01-05T20:40:00
+MSG-000054,TCK-00028,EMP-0030,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T21:25:00
+MSG-000055,TCK-00029,EMP-0012,EMPLOYEE_NOTE,Can you confirm what the company 401(k) matching percentage is and when it vests?,[],False,2026-01-05T21:05:00
+MSG-000056,TCK-00029,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T21:50:00
+MSG-000057,TCK-00030,EMP-0012,EMPLOYEE_NOTE,Can I take some days off soon?,[],False,2026-01-05T21:30:00
+MSG-000058,TCK-00030,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T22:15:00
+MSG-000059,TCK-00031,EMP-0026,EMPLOYEE_NOTE,Water leak noticed near the electrical panel on the second floor breakroom.,[],False,2026-01-05T21:55:00
+MSG-000060,TCK-00031,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T22:40:00
+MSG-000061,TCK-00032,EMP-0023,EMPLOYEE_NOTE,I would like to know if short-term disability coverage is automatically enrolled.,[],False,2026-01-05T22:20:00
+MSG-000062,TCK-00032,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T23:05:00
+MSG-000063,TCK-00033,EMP-0017,EMPLOYEE_NOTE,Requesting clarification on the evaluation milestones outlined in my 60-day PIP.,[],False,2026-01-05T22:45:00
+MSG-000064,TCK-00033,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T23:30:00
+MSG-000065,TCK-00034,EMP-0027,EMPLOYEE_NOTE,The wall-mounted first aid kit in Building 4 needs restocking of antiseptic supplies.,[],False,2026-01-05T23:10:00
+MSG-000066,TCK-00034,EMP-0034,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-05T23:55:00
+MSG-000067,TCK-00035,EMP-0014,EMPLOYEE_NOTE,Requesting an ergonomic evaluation due to persistent wrist and neck strain.,[],False,2026-01-05T23:35:00
+MSG-000068,TCK-00035,EMP-0030,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T00:20:00
+MSG-000069,TCK-00036,EMP-0007,EMPLOYEE_NOTE,Facing exclusionary behavior and project removal after raising safety concerns.,[],False,2026-01-06T00:00:00
+MSG-000070,TCK-00036,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T00:45:00
+MSG-000071,TCK-00037,EMP-0016,EMPLOYEE_NOTE,My latest payslip shows 12 days accrued PTO instead of 15 days according to my tenure.,[],False,2026-01-06T00:25:00
+MSG-000072,TCK-00037,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T01:10:00
+MSG-000073,TCK-00038,EMP-0031,EMPLOYEE_NOTE,Raising a confidential grievance regarding discriminatory comments during review.,[],False,2026-01-06T00:50:00
+MSG-000074,TCK-00038,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T01:35:00
+MSG-000075,TCK-00039,EMP-0023,EMPLOYEE_NOTE,I would like to initiate an internal transfer request to the Cloud Infrastructure team.,[],False,2026-01-06T01:15:00
+MSG-000076,TCK-00039,EMP-0034,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T02:00:00
+MSG-000077,TCK-00040,EMP-0047,EMPLOYEE_NOTE,"My recent paycheck is missing money, please fix.",[],False,2026-01-06T01:40:00
+MSG-000078,TCK-00041,EMP-0005,EMPLOYEE_NOTE,I would like to know if short-term disability coverage is automatically enrolled.,[],False,2026-01-06T02:05:00
+MSG-000079,TCK-00042,EMP-0024,EMPLOYEE_NOTE,Submitting confidential documentation regarding unauthorized accounting practices.,[],False,2026-01-06T02:30:00
+MSG-000080,TCK-00042,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T03:15:00
+MSG-000081,TCK-00043,EMP-0025,EMPLOYEE_NOTE,I need to update my bank account for direct deposit before the upcoming cutoff.,[],False,2026-01-06T02:55:00
+MSG-000082,TCK-00043,EMP-0034,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T03:40:00
+MSG-000083,TCK-00044,EMP-0023,EMPLOYEE_NOTE,How many hours of unused PTO can I carry over into next year before they expire?,[],False,2026-01-06T03:20:00
+MSG-000084,TCK-00044,EMP-0030,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T04:05:00
+MSG-000085,TCK-00045,EMP-0040,EMPLOYEE_NOTE,Need to take bereavement leave following the passing of my grandfather.,[],False,2026-01-06T03:45:00
+MSG-000086,TCK-00045,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T04:30:00
+MSG-000087,TCK-00046,EMP-0040,EMPLOYEE_NOTE,How do I increase my monthly pre-tax transit pass deduction to $200?,[],False,2026-01-06T04:10:00
+MSG-000088,TCK-00046,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T04:55:00
+MSG-000089,TCK-00047,EMP-0028,EMPLOYEE_NOTE,Can you confirm what the company 401(k) matching percentage is and when it vests?,[],False,2026-01-06T04:35:00
+MSG-000090,TCK-00047,EMP-0034,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T05:20:00
+MSG-000091,TCK-00048,EMP-0036,EMPLOYEE_NOTE,Raising a confidential grievance regarding discriminatory comments during review.,[],False,2026-01-06T05:00:00
+MSG-000092,TCK-00048,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T05:45:00
+MSG-000093,TCK-00049,EMP-0027,EMPLOYEE_NOTE,I would like to initiate an internal transfer request to the Cloud Infrastructure team.,[],False,2026-01-06T05:25:00
+MSG-000094,TCK-00050,EMP-0024,EMPLOYEE_NOTE,"My recent paycheck is missing money, please fix.",[],False,2026-01-06T05:50:00
+MSG-000095,TCK-00051,EMP-0014,EMPLOYEE_NOTE,When will the Q3 departmental performance bonus be disbursed to eligible staff?,[],False,2026-01-06T06:15:00
+MSG-000096,TCK-00051,EMP-0022,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T07:00:00
+MSG-000097,TCK-00052,EMP-0021,EMPLOYEE_NOTE,I need to schedule an in-person appointment to verify Section 2 of my I-9 documentation.,[],False,2026-01-06T06:40:00
+MSG-000098,TCK-00052,EMP-0030,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T07:25:00
+MSG-000099,TCK-00053,EMP-0006,EMPLOYEE_NOTE,The wall-mounted first aid kit in Building 4 needs restocking of antiseptic supplies.,[],False,2026-01-06T07:05:00
+MSG-000100,TCK-00053,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T07:50:00
+MSG-000101,TCK-00054,EMP-0020,EMPLOYEE_NOTE,Water leak noticed near the electrical panel on the second floor breakroom.,[],False,2026-01-06T07:30:00
+MSG-000102,TCK-00054,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T08:15:00
+MSG-000103,TCK-00055,EMP-0021,EMPLOYEE_NOTE,Raising a confidential grievance regarding discriminatory comments during review.,[],False,2026-01-06T07:55:00
+MSG-000104,TCK-00056,EMP-0005,EMPLOYEE_NOTE,How many hours of unused PTO can I carry over into next year before they expire?,[],False,2026-01-06T08:20:00
+MSG-000105,TCK-00056,EMP-0030,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T09:05:00
+MSG-000106,TCK-00057,EMP-0048,EMPLOYEE_NOTE,Where do I submit my annual $500 fitness and wellness gym membership receipts?,[],False,2026-01-06T08:45:00
+MSG-000107,TCK-00057,EMP-0030,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T09:30:00
+MSG-000108,TCK-00058,EMP-0039,EMPLOYEE_NOTE,My building badge fails to open the 4th floor engineering laboratory doors.,[],False,2026-01-06T09:10:00
+MSG-000109,TCK-00058,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T09:55:00
+MSG-000110,TCK-00059,EMP-0037,EMPLOYEE_NOTE,Can you confirm what the company 401(k) matching percentage is and when it vests?,[],False,2026-01-06T09:35:00
+MSG-000111,TCK-00059,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T10:20:00
+MSG-000112,TCK-00060,EMP-0009,EMPLOYEE_NOTE,Facing exclusionary behavior and project removal after raising safety concerns.,[],False,2026-01-06T10:00:00
+MSG-000113,TCK-00061,EMP-0018,EMPLOYEE_NOTE,Requesting clarification on the evaluation milestones outlined in my 60-day PIP.,[],False,2026-01-06T10:25:00
+MSG-000114,TCK-00061,EMP-0022,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T11:10:00
+MSG-000115,TCK-00062,EMP-0049,EMPLOYEE_NOTE,Facing exclusionary behavior and project removal after raising safety concerns.,[],False,2026-01-06T10:50:00
+MSG-000116,TCK-00062,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T11:35:00
+MSG-000117,TCK-00063,EMP-0039,EMPLOYEE_NOTE,Raising a confidential grievance regarding discriminatory comments during review.,[],False,2026-01-06T11:15:00
+MSG-000118,TCK-00063,EMP-0030,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T12:00:00
+MSG-000119,TCK-00064,EMP-0025,EMPLOYEE_NOTE,Requesting an ergonomic evaluation due to persistent wrist and neck strain.,[],False,2026-01-06T11:40:00
+MSG-000120,TCK-00065,EMP-0017,EMPLOYEE_NOTE,The wall-mounted first aid kit in Building 4 needs restocking of antiseptic supplies.,[],False,2026-01-06T12:05:00
+MSG-000121,TCK-00065,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T12:50:00
+MSG-000122,TCK-00066,EMP-0047,EMPLOYEE_NOTE,I need to schedule an in-person appointment to verify Section 2 of my I-9 documentation.,[],False,2026-01-06T12:30:00
+MSG-000123,TCK-00066,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T13:15:00
+MSG-000124,TCK-00067,EMP-0011,EMPLOYEE_NOTE,Where do I submit my annual $500 fitness and wellness gym membership receipts?,[],False,2026-01-06T12:55:00
+MSG-000125,TCK-00067,EMP-0022,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T13:40:00
+MSG-000126,TCK-00068,EMP-0010,EMPLOYEE_NOTE,I would like to know if short-term disability coverage is automatically enrolled.,[],False,2026-01-06T13:20:00
+MSG-000127,TCK-00068,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T14:05:00
+MSG-000128,TCK-00069,EMP-0026,EMPLOYEE_NOTE,Submitting confidential documentation regarding unauthorized accounting practices.,[],False,2026-01-06T13:45:00
+MSG-000129,TCK-00069,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T14:30:00
+MSG-000130,TCK-00070,EMP-0021,EMPLOYEE_NOTE,Can I take some days off soon?,[],False,2026-01-06T14:10:00
+MSG-000131,TCK-00070,EMP-0022,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T14:55:00
+MSG-000132,TCK-00071,EMP-0010,EMPLOYEE_NOTE,I would like to initiate an internal transfer request to the Cloud Infrastructure team.,[],False,2026-01-06T14:35:00
+MSG-000133,TCK-00071,EMP-0034,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T15:20:00
+MSG-000134,TCK-00072,EMP-0032,EMPLOYEE_NOTE,Reporting repeated offensive remarks and hostile comments made by a senior colleague.,[],False,2026-01-06T15:00:00
+MSG-000135,TCK-00072,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T15:45:00
+MSG-000136,TCK-00073,EMP-0007,EMPLOYEE_NOTE,Submitting confidential documentation regarding unauthorized accounting practices.,[],False,2026-01-06T15:25:00
+MSG-000137,TCK-00073,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T16:10:00
+MSG-000138,TCK-00074,EMP-0008,EMPLOYEE_NOTE,Where do I submit my annual $500 fitness and wellness gym membership receipts?,[],False,2026-01-06T15:50:00
+MSG-000139,TCK-00074,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T16:35:00
+MSG-000140,TCK-00075,EMP-0048,EMPLOYEE_NOTE,"Starting on Monday, haven't received tracking information for my workstation equipment.",[],False,2026-01-06T16:15:00
+MSG-000141,TCK-00075,EMP-0030,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T17:00:00
+MSG-000142,TCK-00076,EMP-0037,EMPLOYEE_NOTE,"Starting on Monday, haven't received tracking information for my workstation equipment.",[],False,2026-01-06T16:40:00
+MSG-000143,TCK-00076,EMP-0030,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T17:25:00
+MSG-000144,TCK-00077,EMP-0014,EMPLOYEE_NOTE,Need to take bereavement leave following the passing of my grandfather.,[],False,2026-01-06T17:05:00
+MSG-000145,TCK-00078,EMP-0026,EMPLOYEE_NOTE,Can you confirm what the company 401(k) matching percentage is and when it vests?,[],False,2026-01-06T17:30:00
+MSG-000146,TCK-00078,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T18:15:00
+MSG-000147,TCK-00079,EMP-0048,EMPLOYEE_NOTE,Reporting repeated offensive remarks and hostile comments made by a senior colleague.,[],False,2026-01-06T17:55:00
+MSG-000148,TCK-00079,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T18:40:00
+MSG-000149,TCK-00080,EMP-0020,EMPLOYEE_NOTE,Can I take some days off soon?,[],False,2026-01-06T18:20:00
+MSG-000150,TCK-00081,EMP-0040,EMPLOYEE_NOTE,"Expecting our second child in June, requesting 16 weeks of paid parental leave.",[],False,2026-01-06T18:45:00
+MSG-000151,TCK-00081,EMP-0022,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T19:30:00
+MSG-000152,TCK-00082,EMP-0050,EMPLOYEE_NOTE,The wall-mounted first aid kit in Building 4 needs restocking of antiseptic supplies.,[],False,2026-01-06T19:10:00
+MSG-000153,TCK-00082,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T19:55:00
+MSG-000154,TCK-00083,EMP-0019,EMPLOYEE_NOTE,Experiencing ongoing communication friction regarding sprint deliverables.,[],False,2026-01-06T19:35:00
+MSG-000155,TCK-00083,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T20:20:00
+MSG-000156,TCK-00084,EMP-0016,EMPLOYEE_NOTE,Reporting repeated offensive remarks and hostile comments made by a senior colleague.,[],False,2026-01-06T20:00:00
+MSG-000157,TCK-00084,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T20:45:00
+MSG-000158,TCK-00085,EMP-0033,EMPLOYEE_NOTE,What is the maximum HSA payroll deduction allowed for an individual HDHP plan?,[],False,2026-01-06T20:25:00
+MSG-000159,TCK-00085,EMP-0022,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T21:10:00
+MSG-000160,TCK-00086,EMP-0045,EMPLOYEE_NOTE,The wall-mounted first aid kit in Building 4 needs restocking of antiseptic supplies.,[],False,2026-01-06T20:50:00
+MSG-000161,TCK-00086,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T21:35:00
+MSG-000162,TCK-00087,EMP-0045,EMPLOYEE_NOTE,"Starting on Monday, haven't received tracking information for my workstation equipment.",[],False,2026-01-06T21:15:00
+MSG-000163,TCK-00087,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T22:00:00
+MSG-000164,TCK-00088,EMP-0010,EMPLOYEE_NOTE,Requesting clarification on the evaluation milestones outlined in my 60-day PIP.,[],False,2026-01-06T21:40:00
+MSG-000165,TCK-00088,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T22:25:00
+MSG-000166,TCK-00089,EMP-0050,EMPLOYEE_NOTE,Experiencing ongoing communication friction regarding sprint deliverables.,[],False,2026-01-06T22:05:00
+MSG-000167,TCK-00089,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T22:50:00
+MSG-000168,TCK-00090,EMP-0028,EMPLOYEE_NOTE,Can I take some days off soon?,[],False,2026-01-06T22:30:00
+MSG-000169,TCK-00091,EMP-0039,EMPLOYEE_NOTE,Reporting repeated offensive remarks and hostile comments made by a senior colleague.,[],False,2026-01-06T22:55:00
+MSG-000170,TCK-00091,EMP-0030,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-06T23:40:00
+MSG-000171,TCK-00092,EMP-0007,EMPLOYEE_NOTE,I need to schedule an in-person appointment to verify Section 2 of my I-9 documentation.,[],False,2026-01-06T23:20:00
+MSG-000172,TCK-00092,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T00:05:00
+MSG-000173,TCK-00093,EMP-0037,EMPLOYEE_NOTE,I need to update my bank account for direct deposit before the upcoming cutoff.,[],False,2026-01-06T23:45:00
+MSG-000174,TCK-00093,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T00:30:00
+MSG-000175,TCK-00094,EMP-0006,EMPLOYEE_NOTE,Need to take bereavement leave following the passing of my grandfather.,[],False,2026-01-07T00:10:00
+MSG-000176,TCK-00094,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T00:55:00
+MSG-000177,TCK-00095,EMP-0009,EMPLOYEE_NOTE,Can you confirm what the company 401(k) matching percentage is and when it vests?,[],False,2026-01-07T00:35:00
+MSG-000178,TCK-00096,EMP-0032,EMPLOYEE_NOTE,Submitting confidential documentation regarding unauthorized accounting practices.,[],False,2026-01-07T01:00:00
+MSG-000179,TCK-00096,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T01:45:00
+MSG-000180,TCK-00097,EMP-0050,EMPLOYEE_NOTE,I submitted a new W-4 form two weeks ago but my tax withholdings remain unchanged.,[],False,2026-01-07T01:25:00
+MSG-000181,TCK-00097,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T02:10:00
+MSG-000182,TCK-00098,EMP-0027,EMPLOYEE_NOTE,Can you confirm what the company 401(k) matching percentage is and when it vests?,[],False,2026-01-07T01:50:00
+MSG-000183,TCK-00098,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T02:35:00
+MSG-000184,TCK-00099,EMP-0013,EMPLOYEE_NOTE,I would like to initiate an internal transfer request to the Cloud Infrastructure team.,[],False,2026-01-07T02:15:00
+MSG-000185,TCK-00099,EMP-0022,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T03:00:00
+MSG-000186,TCK-00100,EMP-0014,EMPLOYEE_NOTE,"My recent paycheck is missing money, please fix.",[],False,2026-01-07T02:40:00
+MSG-000187,TCK-00100,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T03:25:00
+MSG-000188,TCK-00101,EMP-0023,EMPLOYEE_NOTE,Requesting an ergonomic evaluation due to persistent wrist and neck strain.,[],False,2026-01-07T03:05:00
+MSG-000189,TCK-00101,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T03:50:00
+MSG-000190,TCK-00102,EMP-0014,EMPLOYEE_NOTE,The wall-mounted first aid kit in Building 4 needs restocking of antiseptic supplies.,[],False,2026-01-07T03:30:00
+MSG-000191,TCK-00102,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T04:15:00
+MSG-000192,TCK-00103,EMP-0009,EMPLOYEE_NOTE,My building badge fails to open the 4th floor engineering laboratory doors.,[],False,2026-01-07T03:55:00
+MSG-000193,TCK-00103,EMP-0034,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T04:40:00
+MSG-000194,TCK-00104,EMP-0019,EMPLOYEE_NOTE,Experiencing ongoing communication friction regarding sprint deliverables.,[],False,2026-01-07T04:20:00
+MSG-000195,TCK-00104,EMP-0034,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T05:05:00
+MSG-000196,TCK-00105,EMP-0014,EMPLOYEE_NOTE,My building badge fails to open the 4th floor engineering laboratory doors.,[],False,2026-01-07T04:45:00
+MSG-000197,TCK-00105,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T05:30:00
+MSG-000198,TCK-00106,EMP-0039,EMPLOYEE_NOTE,"Starting on Monday, haven't received tracking information for my workstation equipment.",[],False,2026-01-07T05:10:00
+MSG-000199,TCK-00106,EMP-0022,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T05:55:00
+MSG-000200,TCK-00107,EMP-0037,EMPLOYEE_NOTE,How do I increase my monthly pre-tax transit pass deduction to $200?,[],False,2026-01-07T05:35:00
+MSG-000201,TCK-00107,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T06:20:00
+MSG-000202,TCK-00108,EMP-0005,EMPLOYEE_NOTE,Raising a confidential grievance regarding discriminatory comments during review.,[],False,2026-01-07T06:00:00
+MSG-000203,TCK-00108,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T06:45:00
+MSG-000204,TCK-00109,EMP-0044,EMPLOYEE_NOTE,Requesting an ergonomic chair and monitor arm evaluation for my designated desk.,[],False,2026-01-07T06:25:00
+MSG-000205,TCK-00110,EMP-0029,EMPLOYEE_NOTE,What benefits do I get here?,[],False,2026-01-07T06:50:00
+MSG-000206,TCK-00111,EMP-0043,EMPLOYEE_NOTE,My latest payslip shows 12 days accrued PTO instead of 15 days according to my tenure.,[],False,2026-01-07T07:15:00
+MSG-000207,TCK-00111,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T08:00:00
+MSG-000208,TCK-00112,EMP-0050,EMPLOYEE_NOTE,"Starting on Monday, haven't received tracking information for my workstation equipment.",[],False,2026-01-07T07:40:00
+MSG-000209,TCK-00112,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T08:25:00
+MSG-000210,TCK-00113,EMP-0044,EMPLOYEE_NOTE,Reporting repeated offensive remarks and hostile comments made by a senior colleague.,[],False,2026-01-07T08:05:00
+MSG-000211,TCK-00113,EMP-0022,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T08:50:00
+MSG-000212,TCK-00114,EMP-0036,EMPLOYEE_NOTE,"If I am out sick for 3 consecutive days, do I need to attach a physician note?",[],False,2026-01-07T08:30:00
+MSG-000213,TCK-00114,EMP-0022,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T09:15:00
+MSG-000214,TCK-00115,EMP-0010,EMPLOYEE_NOTE,Does our vision insurance cover prescription sunglasses or contact lenses?,[],False,2026-01-07T08:55:00
+MSG-000215,TCK-00115,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T09:40:00
+MSG-000216,TCK-00116,EMP-0009,EMPLOYEE_NOTE,I have received a court summons for jury service starting next Monday.,[],False,2026-01-07T09:20:00
+MSG-000217,TCK-00116,EMP-0030,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T10:05:00
+MSG-000218,TCK-00117,EMP-0036,EMPLOYEE_NOTE,Experiencing ongoing communication friction regarding sprint deliverables.,[],False,2026-01-07T09:45:00
+MSG-000219,TCK-00117,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T10:30:00
+MSG-000220,TCK-00118,EMP-0049,EMPLOYEE_NOTE,How many hours of unused PTO can I carry over into next year before they expire?,[],False,2026-01-07T10:10:00
+MSG-000221,TCK-00119,EMP-0009,EMPLOYEE_NOTE,I would like to initiate an internal transfer request to the Cloud Infrastructure team.,[],False,2026-01-07T10:35:00
+MSG-000222,TCK-00119,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T11:20:00
+MSG-000223,TCK-00120,EMP-0037,EMPLOYEE_NOTE,Raising a confidential grievance regarding discriminatory comments during review.,[],False,2026-01-07T11:00:00
+MSG-000224,TCK-00120,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T11:45:00
+MSG-000225,TCK-00121,EMP-0027,EMPLOYEE_NOTE,Can you confirm what the company 401(k) matching percentage is and when it vests?,[],False,2026-01-07T11:25:00
+MSG-000226,TCK-00121,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T12:10:00
+MSG-000227,TCK-00122,EMP-0018,EMPLOYEE_NOTE,I need to schedule an in-person appointment to verify Section 2 of my I-9 documentation.,[],False,2026-01-07T11:50:00
+MSG-000228,TCK-00122,EMP-0030,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T12:35:00
+MSG-000229,TCK-00123,EMP-0023,EMPLOYEE_NOTE,Requesting clarification on the evaluation milestones outlined in my 60-day PIP.,[],False,2026-01-07T12:15:00
+MSG-000230,TCK-00123,EMP-0034,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T13:00:00
+MSG-000231,TCK-00124,EMP-0013,EMPLOYEE_NOTE,My paycheck dated March 15 did not include the 12 overtime hours approved by my supervisor.,[],False,2026-01-07T12:40:00
+MSG-000232,TCK-00124,EMP-0034,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T13:25:00
+MSG-000233,TCK-00125,EMP-0048,EMPLOYEE_NOTE,The wall-mounted first aid kit in Building 4 needs restocking of antiseptic supplies.,[],False,2026-01-07T13:05:00
+MSG-000234,TCK-00125,EMP-0034,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T13:50:00
+MSG-000235,TCK-00126,EMP-0009,EMPLOYEE_NOTE,How many hours of unused PTO can I carry over into next year before they expire?,[],False,2026-01-07T13:30:00
+MSG-000236,TCK-00127,EMP-0026,EMPLOYEE_NOTE,I got married last week and would like to add my spouse to our dental and vision plan.,[],False,2026-01-07T13:55:00
+MSG-000237,TCK-00127,EMP-0034,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T14:40:00
+MSG-000238,TCK-00128,EMP-0046,EMPLOYEE_NOTE,Could you provide an electronic copy of my previous year W-2 for tax filing?,[],False,2026-01-07T14:20:00
+MSG-000239,TCK-00129,EMP-0049,EMPLOYEE_NOTE,Requesting clarification on the evaluation milestones outlined in my 60-day PIP.,[],False,2026-01-07T14:45:00
+MSG-000240,TCK-00129,EMP-0030,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T15:30:00
+MSG-000241,TCK-00130,EMP-0043,EMPLOYEE_NOTE,My stuff is broken.,[],False,2026-01-07T15:10:00
+MSG-000242,TCK-00131,EMP-0009,EMPLOYEE_NOTE,Can you confirm what the company 401(k) matching percentage is and when it vests?,[],False,2026-01-07T15:35:00
+MSG-000243,TCK-00131,EMP-0030,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T16:20:00
+MSG-000244,TCK-00132,EMP-0010,EMPLOYEE_NOTE,Facing exclusionary behavior and project removal after raising safety concerns.,[],False,2026-01-07T16:00:00
+MSG-000245,TCK-00132,EMP-0034,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T16:45:00
+MSG-000246,TCK-00133,EMP-0006,EMPLOYEE_NOTE,I would like to initiate an internal transfer request to the Cloud Infrastructure team.,[],False,2026-01-07T16:25:00
+MSG-000247,TCK-00133,EMP-0022,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T17:10:00
+MSG-000248,TCK-00134,EMP-0017,EMPLOYEE_NOTE,Requesting an ergonomic evaluation due to persistent wrist and neck strain.,[],False,2026-01-07T16:50:00
+MSG-000249,TCK-00134,EMP-0030,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T17:35:00
+MSG-000250,TCK-00135,EMP-0020,EMPLOYEE_NOTE,My building badge fails to open the 4th floor engineering laboratory doors.,[],False,2026-01-07T17:15:00
+MSG-000251,TCK-00135,EMP-0030,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T18:00:00
+MSG-000252,TCK-00136,EMP-0014,EMPLOYEE_NOTE,Experiencing ongoing communication friction regarding sprint deliverables.,[],False,2026-01-07T17:40:00
+MSG-000253,TCK-00136,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T18:25:00
+MSG-000254,TCK-00137,EMP-0028,EMPLOYEE_NOTE,Requesting clarification on the evaluation milestones outlined in my 60-day PIP.,[],False,2026-01-07T18:05:00
+MSG-000255,TCK-00137,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T18:50:00
+MSG-000256,TCK-00138,EMP-0023,EMPLOYEE_NOTE,Water leak noticed near the electrical panel on the second floor breakroom.,[],False,2026-01-07T18:30:00
+MSG-000257,TCK-00138,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T19:15:00
+MSG-000258,TCK-00139,EMP-0007,EMPLOYEE_NOTE,Reporting repeated offensive remarks and hostile comments made by a senior colleague.,[],False,2026-01-07T18:55:00
+MSG-000259,TCK-00139,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T19:40:00
+MSG-000260,TCK-00140,EMP-0011,EMPLOYEE_NOTE,Can I take some days off soon?,[],False,2026-01-07T19:20:00
+MSG-000261,TCK-00140,EMP-0034,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T20:05:00
+MSG-000262,TCK-00141,EMP-0014,EMPLOYEE_NOTE,Raising a confidential grievance regarding discriminatory comments during review.,[],False,2026-01-07T19:45:00
+MSG-000263,TCK-00141,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T20:30:00
+MSG-000264,TCK-00142,EMP-0046,EMPLOYEE_NOTE,I would like to initiate an internal transfer request to the Cloud Infrastructure team.,[],False,2026-01-07T20:10:00
+MSG-000265,TCK-00142,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T20:55:00
+MSG-000266,TCK-00143,EMP-0014,EMPLOYEE_NOTE,My building badge fails to open the 4th floor engineering laboratory doors.,[],False,2026-01-07T20:35:00
+MSG-000267,TCK-00143,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T21:20:00
+MSG-000268,TCK-00144,EMP-0006,EMPLOYEE_NOTE,Reporting repeated offensive remarks and hostile comments made by a senior colleague.,[],False,2026-01-07T21:00:00
+MSG-000269,TCK-00144,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T21:45:00
+MSG-000270,TCK-00145,EMP-0018,EMPLOYEE_NOTE,Facing exclusionary behavior and project removal after raising safety concerns.,[],False,2026-01-07T21:25:00
+MSG-000271,TCK-00145,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T22:10:00
+MSG-000272,TCK-00146,EMP-0007,EMPLOYEE_NOTE,Requesting an ergonomic chair and monitor arm evaluation for my designated desk.,[],False,2026-01-07T21:50:00
+MSG-000273,TCK-00146,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T22:35:00
+MSG-000274,TCK-00147,EMP-0040,EMPLOYEE_NOTE,Submitting confidential documentation regarding unauthorized accounting practices.,[],False,2026-01-07T22:15:00
+MSG-000275,TCK-00147,EMP-0022,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T23:00:00
+MSG-000276,TCK-00148,EMP-0020,EMPLOYEE_NOTE,I need to update my bank account for direct deposit before the upcoming cutoff.,[],False,2026-01-07T22:40:00
+MSG-000277,TCK-00148,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T23:25:00
+MSG-000278,TCK-00149,EMP-0028,EMPLOYEE_NOTE,Raising a confidential grievance regarding discriminatory comments during review.,[],False,2026-01-07T23:05:00
+MSG-000279,TCK-00149,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-07T23:50:00
+MSG-000280,TCK-00150,EMP-0018,EMPLOYEE_NOTE,Can I take some days off soon?,[],False,2026-01-07T23:30:00
+MSG-000281,TCK-00151,EMP-0021,EMPLOYEE_NOTE,My building badge fails to open the 4th floor engineering laboratory doors.,[],False,2026-01-07T23:55:00
+MSG-000282,TCK-00151,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T00:40:00
+MSG-000283,TCK-00152,EMP-0027,EMPLOYEE_NOTE,"Expecting our second child in June, requesting 16 weeks of paid parental leave.",[],False,2026-01-08T00:20:00
+MSG-000284,TCK-00152,EMP-0030,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T01:05:00
+MSG-000285,TCK-00153,EMP-0014,EMPLOYEE_NOTE,The wall-mounted first aid kit in Building 4 needs restocking of antiseptic supplies.,[],False,2026-01-08T00:45:00
+MSG-000286,TCK-00153,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T01:30:00
+MSG-000287,TCK-00154,EMP-0031,EMPLOYEE_NOTE,"Expecting our second child in June, requesting 16 weeks of paid parental leave.",[],False,2026-01-08T01:10:00
+MSG-000288,TCK-00154,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T01:55:00
+MSG-000289,TCK-00155,EMP-0008,EMPLOYEE_NOTE,Need to take bereavement leave following the passing of my grandfather.,[],False,2026-01-08T01:35:00
+MSG-000290,TCK-00155,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T02:20:00
+MSG-000291,TCK-00156,EMP-0028,EMPLOYEE_NOTE,Submitting confidential documentation regarding unauthorized accounting practices.,[],False,2026-01-08T02:00:00
+MSG-000292,TCK-00156,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T02:45:00
+MSG-000293,TCK-00157,EMP-0008,EMPLOYEE_NOTE,Water leak noticed near the electrical panel on the second floor breakroom.,[],False,2026-01-08T02:25:00
+MSG-000294,TCK-00157,EMP-0034,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T03:10:00
+MSG-000295,TCK-00158,EMP-0016,EMPLOYEE_NOTE,Requesting clarification on the evaluation milestones outlined in my 60-day PIP.,[],False,2026-01-08T02:50:00
+MSG-000296,TCK-00158,EMP-0030,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T03:35:00
+MSG-000297,TCK-00159,EMP-0048,EMPLOYEE_NOTE,How do I increase my monthly pre-tax transit pass deduction to $200?,[],False,2026-01-08T03:15:00
+MSG-000298,TCK-00159,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T04:00:00
+MSG-000299,TCK-00160,EMP-0036,EMPLOYEE_NOTE,Can I take some days off soon?,[],False,2026-01-08T03:40:00
+MSG-000300,TCK-00160,EMP-0030,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T04:25:00
+MSG-000301,TCK-00161,EMP-0026,EMPLOYEE_NOTE,My paycheck dated March 15 did not include the 12 overtime hours approved by my supervisor.,[],False,2026-01-08T04:05:00
+MSG-000302,TCK-00162,EMP-0037,EMPLOYEE_NOTE,My paycheck dated March 15 did not include the 12 overtime hours approved by my supervisor.,[],False,2026-01-08T04:30:00
+MSG-000303,TCK-00162,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T05:15:00
+MSG-000304,TCK-00163,EMP-0010,EMPLOYEE_NOTE,Water leak noticed near the electrical panel on the second floor breakroom.,[],False,2026-01-08T04:55:00
+MSG-000305,TCK-00163,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T05:40:00
+MSG-000306,TCK-00164,EMP-0013,EMPLOYEE_NOTE,When will the Q3 departmental performance bonus be disbursed to eligible staff?,[],False,2026-01-08T05:20:00
+MSG-000307,TCK-00164,EMP-0022,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T06:05:00
+MSG-000308,TCK-00165,EMP-0032,EMPLOYEE_NOTE,I submitted a new W-4 form two weeks ago but my tax withholdings remain unchanged.,[],False,2026-01-08T05:45:00
+MSG-000309,TCK-00165,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T06:30:00
+MSG-000310,TCK-00166,EMP-0018,EMPLOYEE_NOTE,I need to update my bank account for direct deposit before the upcoming cutoff.,[],False,2026-01-08T06:10:00
+MSG-000311,TCK-00166,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T06:55:00
+MSG-000312,TCK-00167,EMP-0019,EMPLOYEE_NOTE,Facing exclusionary behavior and project removal after raising safety concerns.,[],False,2026-01-08T06:35:00
+MSG-000313,TCK-00168,EMP-0018,EMPLOYEE_NOTE,Raising a confidential grievance regarding discriminatory comments during review.,[],False,2026-01-08T07:00:00
+MSG-000314,TCK-00168,EMP-0034,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T07:45:00
+MSG-000315,TCK-00169,EMP-0040,EMPLOYEE_NOTE,My building badge fails to open the 4th floor engineering laboratory doors.,[],False,2026-01-08T07:25:00
+MSG-000316,TCK-00169,EMP-0030,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T08:10:00
+MSG-000317,TCK-00170,EMP-0024,EMPLOYEE_NOTE,Can I take some days off soon?,[],False,2026-01-08T07:50:00
+MSG-000318,TCK-00171,EMP-0009,EMPLOYEE_NOTE,Can you confirm what the company 401(k) matching percentage is and when it vests?,[],False,2026-01-08T08:15:00
+MSG-000319,TCK-00171,EMP-0034,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T09:00:00
+MSG-000320,TCK-00172,EMP-0050,EMPLOYEE_NOTE,I need to update my bank account for direct deposit before the upcoming cutoff.,[],False,2026-01-08T08:40:00
+MSG-000321,TCK-00172,EMP-0030,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T09:25:00
+MSG-000322,TCK-00173,EMP-0035,EMPLOYEE_NOTE,Requesting an ergonomic evaluation due to persistent wrist and neck strain.,[],False,2026-01-08T09:05:00
+MSG-000323,TCK-00173,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T09:50:00
+MSG-000324,TCK-00174,EMP-0007,EMPLOYEE_NOTE,"Expecting our second child in June, requesting 16 weeks of paid parental leave.",[],False,2026-01-08T09:30:00
+MSG-000325,TCK-00174,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T10:15:00
+MSG-000326,TCK-00175,EMP-0013,EMPLOYEE_NOTE,"Expecting our second child in June, requesting 16 weeks of paid parental leave.",[],False,2026-01-08T09:55:00
+MSG-000327,TCK-00175,EMP-0022,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T10:40:00
+MSG-000328,TCK-00176,EMP-0040,EMPLOYEE_NOTE,I would like to know if short-term disability coverage is automatically enrolled.,[],False,2026-01-08T10:20:00
+MSG-000329,TCK-00176,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T11:05:00
+MSG-000330,TCK-00177,EMP-0020,EMPLOYEE_NOTE,I got married last week and would like to add my spouse to our dental and vision plan.,[],False,2026-01-08T10:45:00
+MSG-000331,TCK-00177,EMP-0022,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T11:30:00
+MSG-000332,TCK-00178,EMP-0048,EMPLOYEE_NOTE,"Expecting our second child in June, requesting 16 weeks of paid parental leave.",[],False,2026-01-08T11:10:00
+MSG-000333,TCK-00178,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T11:55:00
+MSG-000334,TCK-00179,EMP-0044,EMPLOYEE_NOTE,I would like to initiate an internal transfer request to the Cloud Infrastructure team.,[],False,2026-01-08T11:35:00
+MSG-000335,TCK-00179,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T12:20:00
+MSG-000336,TCK-00180,EMP-0035,EMPLOYEE_NOTE,Reporting repeated offensive remarks and hostile comments made by a senior colleague.,[],False,2026-01-08T12:00:00
+MSG-000337,TCK-00180,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T12:45:00
+MSG-000338,TCK-00181,EMP-0009,EMPLOYEE_NOTE,Requesting clarification on the evaluation milestones outlined in my 60-day PIP.,[],False,2026-01-08T12:25:00
+MSG-000339,TCK-00181,EMP-0030,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T13:10:00
+MSG-000340,TCK-00182,EMP-0025,EMPLOYEE_NOTE,Water leak noticed near the electrical panel on the second floor breakroom.,[],False,2026-01-08T12:50:00
+MSG-000341,TCK-00183,EMP-0039,EMPLOYEE_NOTE,I would like to initiate an internal transfer request to the Cloud Infrastructure team.,[],False,2026-01-08T13:15:00
+MSG-000342,TCK-00183,EMP-0022,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T14:00:00
+MSG-000343,TCK-00184,EMP-0043,EMPLOYEE_NOTE,Facing exclusionary behavior and project removal after raising safety concerns.,[],False,2026-01-08T13:40:00
+MSG-000344,TCK-00184,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T14:25:00
+MSG-000345,TCK-00185,EMP-0009,EMPLOYEE_NOTE,"If I am out sick for 3 consecutive days, do I need to attach a physician note?",[],False,2026-01-08T14:05:00
+MSG-000346,TCK-00186,EMP-0033,EMPLOYEE_NOTE,Water leak noticed near the electrical panel on the second floor breakroom.,[],False,2026-01-08T14:30:00
+MSG-000347,TCK-00186,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T15:15:00
+MSG-000348,TCK-00187,EMP-0035,EMPLOYEE_NOTE,When will the Q3 departmental performance bonus be disbursed to eligible staff?,[],False,2026-01-08T14:55:00
+MSG-000349,TCK-00187,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T15:40:00
+MSG-000350,TCK-00188,EMP-0010,EMPLOYEE_NOTE,"Starting on Monday, haven't received tracking information for my workstation equipment.",[],False,2026-01-08T15:20:00
+MSG-000351,TCK-00188,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T16:05:00
+MSG-000352,TCK-00189,EMP-0050,EMPLOYEE_NOTE,When will the Q3 departmental performance bonus be disbursed to eligible staff?,[],False,2026-01-08T15:45:00
+MSG-000353,TCK-00189,EMP-0030,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T16:30:00
+MSG-000354,TCK-00190,EMP-0042,EMPLOYEE_NOTE,"My recent paycheck is missing money, please fix.",[],False,2026-01-08T16:10:00
+MSG-000355,TCK-00190,EMP-0030,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T16:55:00
+MSG-000356,TCK-00191,EMP-0036,EMPLOYEE_NOTE,Submitting confidential documentation regarding unauthorized accounting practices.,[],False,2026-01-08T16:35:00
+MSG-000357,TCK-00191,EMP-0034,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T17:20:00
+MSG-000358,TCK-00192,EMP-0028,EMPLOYEE_NOTE,Facing exclusionary behavior and project removal after raising safety concerns.,[],False,2026-01-08T17:00:00
+MSG-000359,TCK-00192,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T17:45:00
+MSG-000360,TCK-00193,EMP-0005,EMPLOYEE_NOTE,When will the Q3 departmental performance bonus be disbursed to eligible staff?,[],False,2026-01-08T17:25:00
+MSG-000361,TCK-00193,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T18:10:00
+MSG-000362,TCK-00194,EMP-0037,EMPLOYEE_NOTE,How many hours of unused PTO can I carry over into next year before they expire?,[],False,2026-01-08T17:50:00
+MSG-000363,TCK-00194,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T18:35:00
+MSG-000364,TCK-00195,EMP-0006,EMPLOYEE_NOTE,Need to take bereavement leave following the passing of my grandfather.,[],False,2026-01-08T18:15:00
+MSG-000365,TCK-00195,EMP-0022,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T19:00:00
+MSG-000366,TCK-00196,EMP-0019,EMPLOYEE_NOTE,Facing exclusionary behavior and project removal after raising safety concerns.,[],False,2026-01-08T18:40:00
+MSG-000367,TCK-00197,EMP-0020,EMPLOYEE_NOTE,How do I increase my monthly pre-tax transit pass deduction to $200?,[],False,2026-01-08T19:05:00
+MSG-000368,TCK-00197,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T19:50:00
+MSG-000369,TCK-00198,EMP-0047,EMPLOYEE_NOTE,The wall-mounted first aid kit in Building 4 needs restocking of antiseptic supplies.,[],False,2026-01-08T19:30:00
+MSG-000370,TCK-00199,EMP-0013,EMPLOYEE_NOTE,Requesting clarification on the evaluation milestones outlined in my 60-day PIP.,[],False,2026-01-08T19:55:00
+MSG-000371,TCK-00199,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T20:40:00
+MSG-000372,TCK-00200,EMP-0014,EMPLOYEE_NOTE,"My recent paycheck is missing money, please fix.",[],False,2026-01-08T20:20:00
+MSG-000373,TCK-00200,EMP-0034,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T21:05:00
+MSG-000374,TCK-00201,EMP-0018,EMPLOYEE_NOTE,I got married last week and would like to add my spouse to our dental and vision plan.,[],False,2026-01-08T20:45:00
+MSG-000375,TCK-00201,EMP-0022,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T21:30:00
+MSG-000376,TCK-00202,EMP-0050,EMPLOYEE_NOTE,Submitting confidential documentation regarding unauthorized accounting practices.,[],False,2026-01-08T21:10:00
+MSG-000377,TCK-00202,EMP-0034,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T21:55:00
+MSG-000378,TCK-00203,EMP-0024,EMPLOYEE_NOTE,I would like to initiate an internal transfer request to the Cloud Infrastructure team.,[],False,2026-01-08T21:35:00
+MSG-000379,TCK-00204,EMP-0016,EMPLOYEE_NOTE,Facing exclusionary behavior and project removal after raising safety concerns.,[],False,2026-01-08T22:00:00
+MSG-000380,TCK-00204,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T22:45:00
+MSG-000381,TCK-00205,EMP-0039,EMPLOYEE_NOTE,Requesting an ergonomic evaluation due to persistent wrist and neck strain.,[],False,2026-01-08T22:25:00
+MSG-000382,TCK-00206,EMP-0031,EMPLOYEE_NOTE,My paycheck dated March 15 did not include the 12 overtime hours approved by my supervisor.,[],False,2026-01-08T22:50:00
+MSG-000383,TCK-00206,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-08T23:35:00
+MSG-000384,TCK-00207,EMP-0021,EMPLOYEE_NOTE,Facing exclusionary behavior and project removal after raising safety concerns.,[],False,2026-01-08T23:15:00
+MSG-000385,TCK-00207,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T00:00:00
+MSG-000386,TCK-00208,EMP-0044,EMPLOYEE_NOTE,Requesting clarification on the evaluation milestones outlined in my 60-day PIP.,[],False,2026-01-08T23:40:00
+MSG-000387,TCK-00208,EMP-0034,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T00:25:00
+MSG-000388,TCK-00209,EMP-0050,EMPLOYEE_NOTE,Requesting clarification on the evaluation milestones outlined in my 60-day PIP.,[],False,2026-01-09T00:05:00
+MSG-000389,TCK-00209,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T00:50:00
+MSG-000390,TCK-00210,EMP-0045,EMPLOYEE_NOTE,Can I take some days off soon?,[],False,2026-01-09T00:30:00
+MSG-000391,TCK-00210,EMP-0022,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T01:15:00
+MSG-000392,TCK-00211,EMP-0040,EMPLOYEE_NOTE,How do I increase my monthly pre-tax transit pass deduction to $200?,[],False,2026-01-09T00:55:00
+MSG-000393,TCK-00211,EMP-0022,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T01:40:00
+MSG-000394,TCK-00212,EMP-0035,EMPLOYEE_NOTE,I need to update my bank account for direct deposit before the upcoming cutoff.,[],False,2026-01-09T01:20:00
+MSG-000395,TCK-00212,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T02:05:00
+MSG-000396,TCK-00213,EMP-0050,EMPLOYEE_NOTE,I have received a court summons for jury service starting next Monday.,[],False,2026-01-09T01:45:00
+MSG-000397,TCK-00213,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T02:30:00
+MSG-000398,TCK-00214,EMP-0023,EMPLOYEE_NOTE,I got married last week and would like to add my spouse to our dental and vision plan.,[],False,2026-01-09T02:10:00
+MSG-000399,TCK-00214,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T02:55:00
+MSG-000400,TCK-00215,EMP-0029,EMPLOYEE_NOTE,I would like to initiate an internal transfer request to the Cloud Infrastructure team.,[],False,2026-01-09T02:35:00
+MSG-000401,TCK-00215,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T03:20:00
+MSG-000402,TCK-00216,EMP-0046,EMPLOYEE_NOTE,Facing exclusionary behavior and project removal after raising safety concerns.,[],False,2026-01-09T03:00:00
+MSG-000403,TCK-00216,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T03:45:00
+MSG-000404,TCK-00217,EMP-0013,EMPLOYEE_NOTE,Facing exclusionary behavior and project removal after raising safety concerns.,[],False,2026-01-09T03:25:00
+MSG-000405,TCK-00217,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T04:10:00
+MSG-000406,TCK-00218,EMP-0005,EMPLOYEE_NOTE,I got married last week and would like to add my spouse to our dental and vision plan.,[],False,2026-01-09T03:50:00
+MSG-000407,TCK-00219,EMP-0007,EMPLOYEE_NOTE,Requesting an ergonomic evaluation due to persistent wrist and neck strain.,[],False,2026-01-09T04:15:00
+MSG-000408,TCK-00220,EMP-0017,EMPLOYEE_NOTE,My stuff is broken.,[],False,2026-01-09T04:40:00
+MSG-000409,TCK-00220,EMP-0030,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T05:25:00
+MSG-000410,TCK-00221,EMP-0035,EMPLOYEE_NOTE,Experiencing ongoing communication friction regarding sprint deliverables.,[],False,2026-01-09T05:05:00
+MSG-000411,TCK-00221,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T05:50:00
+MSG-000412,TCK-00222,EMP-0031,EMPLOYEE_NOTE,I need to update my bank account for direct deposit before the upcoming cutoff.,[],False,2026-01-09T05:30:00
+MSG-000413,TCK-00222,EMP-0030,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T06:15:00
+MSG-000414,TCK-00223,EMP-0024,EMPLOYEE_NOTE,Facing exclusionary behavior and project removal after raising safety concerns.,[],False,2026-01-09T05:55:00
+MSG-000415,TCK-00223,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T06:40:00
+MSG-000416,TCK-00224,EMP-0028,EMPLOYEE_NOTE,My paycheck dated March 15 did not include the 12 overtime hours approved by my supervisor.,[],False,2026-01-09T06:20:00
+MSG-000417,TCK-00224,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T07:05:00
+MSG-000418,TCK-00225,EMP-0036,EMPLOYEE_NOTE,Where do I submit my annual $500 fitness and wellness gym membership receipts?,[],False,2026-01-09T06:45:00
+MSG-000419,TCK-00225,EMP-0034,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T07:30:00
+MSG-000420,TCK-00226,EMP-0020,EMPLOYEE_NOTE,I submitted a new W-4 form two weeks ago but my tax withholdings remain unchanged.,[],False,2026-01-09T07:10:00
+MSG-000421,TCK-00226,EMP-0022,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T07:55:00
+MSG-000422,TCK-00227,EMP-0036,EMPLOYEE_NOTE,Facing exclusionary behavior and project removal after raising safety concerns.,[],False,2026-01-09T07:35:00
+MSG-000423,TCK-00228,EMP-0007,EMPLOYEE_NOTE,Raising a confidential grievance regarding discriminatory comments during review.,[],False,2026-01-09T08:00:00
+MSG-000424,TCK-00228,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T08:45:00
+MSG-000425,TCK-00229,EMP-0021,EMPLOYEE_NOTE,I need to schedule an in-person appointment to verify Section 2 of my I-9 documentation.,[],False,2026-01-09T08:25:00
+MSG-000426,TCK-00229,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T09:10:00
+MSG-000427,TCK-00230,EMP-0044,EMPLOYEE_NOTE,My stuff is broken.,[],False,2026-01-09T08:50:00
+MSG-000428,TCK-00231,EMP-0010,EMPLOYEE_NOTE,Raising a confidential grievance regarding discriminatory comments during review.,[],False,2026-01-09T09:15:00
+MSG-000429,TCK-00231,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T10:00:00
+MSG-000430,TCK-00232,EMP-0012,EMPLOYEE_NOTE,Water leak noticed near the electrical panel on the second floor breakroom.,[],False,2026-01-09T09:40:00
+MSG-000431,TCK-00232,EMP-0041,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T10:25:00
+MSG-000432,TCK-00233,EMP-0032,EMPLOYEE_NOTE,Need to take bereavement leave following the passing of my grandfather.,[],False,2026-01-09T10:05:00
+MSG-000433,TCK-00233,EMP-0030,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T10:50:00
+MSG-000434,TCK-00234,EMP-0046,EMPLOYEE_NOTE,Facing exclusionary behavior and project removal after raising safety concerns.,[],False,2026-01-09T10:30:00
+MSG-000435,TCK-00234,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T11:15:00
+MSG-000436,TCK-00235,EMP-0008,EMPLOYEE_NOTE,"Expecting our second child in June, requesting 16 weeks of paid parental leave.",[],False,2026-01-09T10:55:00
+MSG-000437,TCK-00235,EMP-0030,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T11:40:00
+MSG-000438,TCK-00236,EMP-0036,EMPLOYEE_NOTE,I would like to know if short-term disability coverage is automatically enrolled.,[],False,2026-01-09T11:20:00
+MSG-000439,TCK-00236,EMP-0030,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T12:05:00
+MSG-000440,TCK-00237,EMP-0042,EMPLOYEE_NOTE,My building badge fails to open the 4th floor engineering laboratory doors.,[],False,2026-01-09T11:45:00
+MSG-000441,TCK-00237,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T12:30:00
+MSG-000442,TCK-00238,EMP-0044,EMPLOYEE_NOTE,When will the Q3 departmental performance bonus be disbursed to eligible staff?,[],False,2026-01-09T12:10:00
+MSG-000443,TCK-00239,EMP-0046,EMPLOYEE_NOTE,Requesting clarification on the evaluation milestones outlined in my 60-day PIP.,[],False,2026-01-09T12:35:00
+MSG-000444,TCK-00239,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T13:20:00
+MSG-000445,TCK-00240,EMP-0042,EMPLOYEE_NOTE,Raising a confidential grievance regarding discriminatory comments during review.,[],False,2026-01-09T13:00:00
+MSG-000446,TCK-00240,EMP-0030,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T13:45:00
+MSG-000447,TCK-00241,EMP-0013,EMPLOYEE_NOTE,Could you provide an electronic copy of my previous year W-2 for tax filing?,[],False,2026-01-09T13:25:00
+MSG-000448,TCK-00241,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T14:10:00
+MSG-000449,TCK-00242,EMP-0044,EMPLOYEE_NOTE,Need to take bereavement leave following the passing of my grandfather.,[],False,2026-01-09T13:50:00
+MSG-000450,TCK-00242,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T14:35:00
+MSG-000451,TCK-00243,EMP-0027,EMPLOYEE_NOTE,Reporting repeated offensive remarks and hostile comments made by a senior colleague.,[],False,2026-01-09T14:15:00
+MSG-000452,TCK-00243,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T15:00:00
+MSG-000453,TCK-00244,EMP-0016,EMPLOYEE_NOTE,My latest payslip shows 12 days accrued PTO instead of 15 days according to my tenure.,[],False,2026-01-09T14:40:00
+MSG-000454,TCK-00244,EMP-0022,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T15:25:00
+MSG-000455,TCK-00245,EMP-0014,EMPLOYEE_NOTE,When will the Q3 departmental performance bonus be disbursed to eligible staff?,[],False,2026-01-09T15:05:00
+MSG-000456,TCK-00246,EMP-0025,EMPLOYEE_NOTE,I need to schedule an in-person appointment to verify Section 2 of my I-9 documentation.,[],False,2026-01-09T15:30:00
+MSG-000457,TCK-00246,EMP-0002,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T16:15:00
+MSG-000458,TCK-00247,EMP-0046,EMPLOYEE_NOTE,Raising a confidential grievance regarding discriminatory comments during review.,[],False,2026-01-09T15:55:00
+MSG-000459,TCK-00247,EMP-0003,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T16:40:00
+MSG-000460,TCK-00248,EMP-0027,EMPLOYEE_NOTE,I have submitted my 2-week notice and need the equipment return shipping label.,[],False,2026-01-09T16:20:00
+MSG-000461,TCK-00248,EMP-0022,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T17:05:00
+MSG-000462,TCK-00249,EMP-0042,EMPLOYEE_NOTE,When will the Q3 departmental performance bonus be disbursed to eligible staff?,[],False,2026-01-09T16:45:00
+MSG-000463,TCK-00249,EMP-0038,AGENT_REPLY,Thank you for reaching out to HR. Your request is being reviewed under company policy standards.,[],False,2026-01-09T17:30:00
+MSG-000464,TCK-00250,EMP-0014,EMPLOYEE_NOTE,"My recent paycheck is missing money, please fix.",[],False,2026-01-09T17:10:00
+MSG-000465,TCK-00215,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00215: Follow-up verification details recorded.,[],True,2026-01-09T02:35:00
+MSG-000466,TCK-00216,EMP-0046,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00216: Follow-up verification details recorded.,[],False,2026-01-09T03:00:00
+MSG-000467,TCK-00217,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00217: Follow-up verification details recorded.,[],False,2026-01-09T03:25:00
+MSG-000468,TCK-00218,EMP-0005,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00218: Follow-up verification details recorded.,[],False,2026-01-09T03:50:00
+MSG-000469,TCK-00219,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00219: Follow-up verification details recorded.,[],False,2026-01-09T04:15:00
+MSG-000470,TCK-00220,EMP-0017,INTERNAL_NOTE,Update message on ticket REQ-2026-00220: Follow-up verification details recorded.,[],True,2026-01-09T04:40:00
+MSG-000471,TCK-00221,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00221: Follow-up verification details recorded.,[],False,2026-01-09T05:05:00
+MSG-000472,TCK-00222,EMP-0031,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00222: Follow-up verification details recorded.,[],False,2026-01-09T05:30:00
+MSG-000473,TCK-00223,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00223: Follow-up verification details recorded.,[],False,2026-01-09T05:55:00
+MSG-000474,TCK-00224,EMP-0028,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00224: Follow-up verification details recorded.,[],False,2026-01-09T06:20:00
+MSG-000475,TCK-00225,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00225: Follow-up verification details recorded.,[],True,2026-01-09T06:45:00
+MSG-000476,TCK-00226,EMP-0020,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00226: Follow-up verification details recorded.,[],False,2026-01-09T07:10:00
+MSG-000477,TCK-00227,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00227: Follow-up verification details recorded.,[],False,2026-01-09T07:35:00
+MSG-000478,TCK-00228,EMP-0007,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00228: Follow-up verification details recorded.,[],False,2026-01-09T08:00:00
+MSG-000479,TCK-00229,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00229: Follow-up verification details recorded.,[],False,2026-01-09T08:25:00
+MSG-000480,TCK-00230,EMP-0044,INTERNAL_NOTE,Update message on ticket REQ-2026-00230: Follow-up verification details recorded.,[],True,2026-01-09T08:50:00
+MSG-000481,TCK-00231,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00231: Follow-up verification details recorded.,[],False,2026-01-09T09:15:00
+MSG-000482,TCK-00232,EMP-0012,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00232: Follow-up verification details recorded.,[],False,2026-01-09T09:40:00
+MSG-000483,TCK-00233,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00233: Follow-up verification details recorded.,[],False,2026-01-09T10:05:00
+MSG-000484,TCK-00234,EMP-0046,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00234: Follow-up verification details recorded.,[],False,2026-01-09T10:30:00
+MSG-000485,TCK-00235,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00235: Follow-up verification details recorded.,[],True,2026-01-09T10:55:00
+MSG-000486,TCK-00236,EMP-0036,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00236: Follow-up verification details recorded.,[],False,2026-01-09T11:20:00
+MSG-000487,TCK-00237,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00237: Follow-up verification details recorded.,[],False,2026-01-09T11:45:00
+MSG-000488,TCK-00238,EMP-0044,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00238: Follow-up verification details recorded.,[],False,2026-01-09T12:10:00
+MSG-000489,TCK-00239,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00239: Follow-up verification details recorded.,[],False,2026-01-09T12:35:00
+MSG-000490,TCK-00240,EMP-0042,INTERNAL_NOTE,Update message on ticket REQ-2026-00240: Follow-up verification details recorded.,[],True,2026-01-09T13:00:00
+MSG-000491,TCK-00241,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00241: Follow-up verification details recorded.,[],False,2026-01-09T13:25:00
+MSG-000492,TCK-00242,EMP-0044,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00242: Follow-up verification details recorded.,[],False,2026-01-09T13:50:00
+MSG-000493,TCK-00243,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00243: Follow-up verification details recorded.,[],False,2026-01-09T14:15:00
+MSG-000494,TCK-00244,EMP-0016,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00244: Follow-up verification details recorded.,[],False,2026-01-09T14:40:00
+MSG-000495,TCK-00245,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00245: Follow-up verification details recorded.,[],True,2026-01-09T15:05:00
+MSG-000496,TCK-00246,EMP-0025,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00246: Follow-up verification details recorded.,[],False,2026-01-09T15:30:00
+MSG-000497,TCK-00247,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00247: Follow-up verification details recorded.,[],False,2026-01-09T15:55:00
+MSG-000498,TCK-00248,EMP-0027,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00248: Follow-up verification details recorded.,[],False,2026-01-09T16:20:00
+MSG-000499,TCK-00249,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00249: Follow-up verification details recorded.,[],False,2026-01-09T16:45:00
+MSG-000500,TCK-00250,EMP-0014,INTERNAL_NOTE,Update message on ticket REQ-2026-00250: Follow-up verification details recorded.,[],True,2026-01-09T17:10:00
+MSG-000501,TCK-00001,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00001: Follow-up verification details recorded.,[],False,2026-01-05T09:25:00
+MSG-000502,TCK-00002,EMP-0046,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00002: Follow-up verification details recorded.,[],False,2026-01-05T09:50:00
+MSG-000503,TCK-00003,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00003: Follow-up verification details recorded.,[],False,2026-01-05T10:15:00
+MSG-000504,TCK-00004,EMP-0008,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00004: Follow-up verification details recorded.,[],False,2026-01-05T10:40:00
+MSG-000505,TCK-00005,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00005: Follow-up verification details recorded.,[],True,2026-01-05T11:05:00
+MSG-000506,TCK-00006,EMP-0014,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00006: Follow-up verification details recorded.,[],False,2026-01-05T11:30:00
+MSG-000507,TCK-00007,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00007: Follow-up verification details recorded.,[],False,2026-01-05T11:55:00
+MSG-000508,TCK-00008,EMP-0018,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00008: Follow-up verification details recorded.,[],False,2026-01-05T12:20:00
+MSG-000509,TCK-00009,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00009: Follow-up verification details recorded.,[],False,2026-01-05T12:45:00
+MSG-000510,TCK-00010,EMP-0010,INTERNAL_NOTE,Update message on ticket REQ-2026-00010: Follow-up verification details recorded.,[],True,2026-01-05T13:10:00
+MSG-000511,TCK-00011,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00011: Follow-up verification details recorded.,[],False,2026-01-05T13:35:00
+MSG-000512,TCK-00012,EMP-0025,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00012: Follow-up verification details recorded.,[],False,2026-01-05T14:00:00
+MSG-000513,TCK-00013,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00013: Follow-up verification details recorded.,[],False,2026-01-05T14:25:00
+MSG-000514,TCK-00014,EMP-0044,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00014: Follow-up verification details recorded.,[],False,2026-01-05T14:50:00
+MSG-000515,TCK-00015,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00015: Follow-up verification details recorded.,[],True,2026-01-05T15:15:00
+MSG-000516,TCK-00016,EMP-0025,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00016: Follow-up verification details recorded.,[],False,2026-01-05T15:40:00
+MSG-000517,TCK-00017,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00017: Follow-up verification details recorded.,[],False,2026-01-05T16:05:00
+MSG-000518,TCK-00018,EMP-0039,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00018: Follow-up verification details recorded.,[],False,2026-01-05T16:30:00
+MSG-000519,TCK-00019,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00019: Follow-up verification details recorded.,[],False,2026-01-05T16:55:00
+MSG-000520,TCK-00020,EMP-0011,INTERNAL_NOTE,Update message on ticket REQ-2026-00020: Follow-up verification details recorded.,[],True,2026-01-05T17:20:00
+MSG-000521,TCK-00021,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00021: Follow-up verification details recorded.,[],False,2026-01-05T17:45:00
+MSG-000522,TCK-00022,EMP-0049,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00022: Follow-up verification details recorded.,[],False,2026-01-05T18:10:00
+MSG-000523,TCK-00023,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00023: Follow-up verification details recorded.,[],False,2026-01-05T18:35:00
+MSG-000524,TCK-00024,EMP-0016,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00024: Follow-up verification details recorded.,[],False,2026-01-05T19:00:00
+MSG-000525,TCK-00025,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00025: Follow-up verification details recorded.,[],True,2026-01-05T19:25:00
+MSG-000526,TCK-00026,EMP-0027,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00026: Follow-up verification details recorded.,[],False,2026-01-05T19:50:00
+MSG-000527,TCK-00027,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00027: Follow-up verification details recorded.,[],False,2026-01-05T20:15:00
+MSG-000528,TCK-00028,EMP-0045,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00028: Follow-up verification details recorded.,[],False,2026-01-05T20:40:00
+MSG-000529,TCK-00029,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00029: Follow-up verification details recorded.,[],False,2026-01-05T21:05:00
+MSG-000530,TCK-00030,EMP-0012,INTERNAL_NOTE,Update message on ticket REQ-2026-00030: Follow-up verification details recorded.,[],True,2026-01-05T21:30:00
+MSG-000531,TCK-00031,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00031: Follow-up verification details recorded.,[],False,2026-01-05T21:55:00
+MSG-000532,TCK-00032,EMP-0023,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00032: Follow-up verification details recorded.,[],False,2026-01-05T22:20:00
+MSG-000533,TCK-00033,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00033: Follow-up verification details recorded.,[],False,2026-01-05T22:45:00
+MSG-000534,TCK-00034,EMP-0027,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00034: Follow-up verification details recorded.,[],False,2026-01-05T23:10:00
+MSG-000535,TCK-00035,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00035: Follow-up verification details recorded.,[],True,2026-01-05T23:35:00
+MSG-000536,TCK-00036,EMP-0007,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00036: Follow-up verification details recorded.,[],False,2026-01-06T00:00:00
+MSG-000537,TCK-00037,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00037: Follow-up verification details recorded.,[],False,2026-01-06T00:25:00
+MSG-000538,TCK-00038,EMP-0031,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00038: Follow-up verification details recorded.,[],False,2026-01-06T00:50:00
+MSG-000539,TCK-00039,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00039: Follow-up verification details recorded.,[],False,2026-01-06T01:15:00
+MSG-000540,TCK-00040,EMP-0047,INTERNAL_NOTE,Update message on ticket REQ-2026-00040: Follow-up verification details recorded.,[],True,2026-01-06T01:40:00
+MSG-000541,TCK-00041,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00041: Follow-up verification details recorded.,[],False,2026-01-06T02:05:00
+MSG-000542,TCK-00042,EMP-0024,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00042: Follow-up verification details recorded.,[],False,2026-01-06T02:30:00
+MSG-000543,TCK-00043,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00043: Follow-up verification details recorded.,[],False,2026-01-06T02:55:00
+MSG-000544,TCK-00044,EMP-0023,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00044: Follow-up verification details recorded.,[],False,2026-01-06T03:20:00
+MSG-000545,TCK-00045,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00045: Follow-up verification details recorded.,[],True,2026-01-06T03:45:00
+MSG-000546,TCK-00046,EMP-0040,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00046: Follow-up verification details recorded.,[],False,2026-01-06T04:10:00
+MSG-000547,TCK-00047,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00047: Follow-up verification details recorded.,[],False,2026-01-06T04:35:00
+MSG-000548,TCK-00048,EMP-0036,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00048: Follow-up verification details recorded.,[],False,2026-01-06T05:00:00
+MSG-000549,TCK-00049,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00049: Follow-up verification details recorded.,[],False,2026-01-06T05:25:00
+MSG-000550,TCK-00050,EMP-0024,INTERNAL_NOTE,Update message on ticket REQ-2026-00050: Follow-up verification details recorded.,[],True,2026-01-06T05:50:00
+MSG-000551,TCK-00051,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00051: Follow-up verification details recorded.,[],False,2026-01-06T06:15:00
+MSG-000552,TCK-00052,EMP-0021,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00052: Follow-up verification details recorded.,[],False,2026-01-06T06:40:00
+MSG-000553,TCK-00053,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00053: Follow-up verification details recorded.,[],False,2026-01-06T07:05:00
+MSG-000554,TCK-00054,EMP-0020,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00054: Follow-up verification details recorded.,[],False,2026-01-06T07:30:00
+MSG-000555,TCK-00055,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00055: Follow-up verification details recorded.,[],True,2026-01-06T07:55:00
+MSG-000556,TCK-00056,EMP-0005,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00056: Follow-up verification details recorded.,[],False,2026-01-06T08:20:00
+MSG-000557,TCK-00057,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00057: Follow-up verification details recorded.,[],False,2026-01-06T08:45:00
+MSG-000558,TCK-00058,EMP-0039,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00058: Follow-up verification details recorded.,[],False,2026-01-06T09:10:00
+MSG-000559,TCK-00059,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00059: Follow-up verification details recorded.,[],False,2026-01-06T09:35:00
+MSG-000560,TCK-00060,EMP-0009,INTERNAL_NOTE,Update message on ticket REQ-2026-00060: Follow-up verification details recorded.,[],True,2026-01-06T10:00:00
+MSG-000561,TCK-00061,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00061: Follow-up verification details recorded.,[],False,2026-01-06T10:25:00
+MSG-000562,TCK-00062,EMP-0049,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00062: Follow-up verification details recorded.,[],False,2026-01-06T10:50:00
+MSG-000563,TCK-00063,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00063: Follow-up verification details recorded.,[],False,2026-01-06T11:15:00
+MSG-000564,TCK-00064,EMP-0025,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00064: Follow-up verification details recorded.,[],False,2026-01-06T11:40:00
+MSG-000565,TCK-00065,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00065: Follow-up verification details recorded.,[],True,2026-01-06T12:05:00
+MSG-000566,TCK-00066,EMP-0047,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00066: Follow-up verification details recorded.,[],False,2026-01-06T12:30:00
+MSG-000567,TCK-00067,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00067: Follow-up verification details recorded.,[],False,2026-01-06T12:55:00
+MSG-000568,TCK-00068,EMP-0010,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00068: Follow-up verification details recorded.,[],False,2026-01-06T13:20:00
+MSG-000569,TCK-00069,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00069: Follow-up verification details recorded.,[],False,2026-01-06T13:45:00
+MSG-000570,TCK-00070,EMP-0021,INTERNAL_NOTE,Update message on ticket REQ-2026-00070: Follow-up verification details recorded.,[],True,2026-01-06T14:10:00
+MSG-000571,TCK-00071,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00071: Follow-up verification details recorded.,[],False,2026-01-06T14:35:00
+MSG-000572,TCK-00072,EMP-0032,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00072: Follow-up verification details recorded.,[],False,2026-01-06T15:00:00
+MSG-000573,TCK-00073,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00073: Follow-up verification details recorded.,[],False,2026-01-06T15:25:00
+MSG-000574,TCK-00074,EMP-0008,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00074: Follow-up verification details recorded.,[],False,2026-01-06T15:50:00
+MSG-000575,TCK-00075,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00075: Follow-up verification details recorded.,[],True,2026-01-06T16:15:00
+MSG-000576,TCK-00076,EMP-0037,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00076: Follow-up verification details recorded.,[],False,2026-01-06T16:40:00
+MSG-000577,TCK-00077,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00077: Follow-up verification details recorded.,[],False,2026-01-06T17:05:00
+MSG-000578,TCK-00078,EMP-0026,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00078: Follow-up verification details recorded.,[],False,2026-01-06T17:30:00
+MSG-000579,TCK-00079,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00079: Follow-up verification details recorded.,[],False,2026-01-06T17:55:00
+MSG-000580,TCK-00080,EMP-0020,INTERNAL_NOTE,Update message on ticket REQ-2026-00080: Follow-up verification details recorded.,[],True,2026-01-06T18:20:00
+MSG-000581,TCK-00081,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00081: Follow-up verification details recorded.,[],False,2026-01-06T18:45:00
+MSG-000582,TCK-00082,EMP-0050,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00082: Follow-up verification details recorded.,[],False,2026-01-06T19:10:00
+MSG-000583,TCK-00083,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00083: Follow-up verification details recorded.,[],False,2026-01-06T19:35:00
+MSG-000584,TCK-00084,EMP-0016,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00084: Follow-up verification details recorded.,[],False,2026-01-06T20:00:00
+MSG-000585,TCK-00085,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00085: Follow-up verification details recorded.,[],True,2026-01-06T20:25:00
+MSG-000586,TCK-00086,EMP-0045,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00086: Follow-up verification details recorded.,[],False,2026-01-06T20:50:00
+MSG-000587,TCK-00087,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00087: Follow-up verification details recorded.,[],False,2026-01-06T21:15:00
+MSG-000588,TCK-00088,EMP-0010,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00088: Follow-up verification details recorded.,[],False,2026-01-06T21:40:00
+MSG-000589,TCK-00089,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00089: Follow-up verification details recorded.,[],False,2026-01-06T22:05:00
+MSG-000590,TCK-00090,EMP-0028,INTERNAL_NOTE,Update message on ticket REQ-2026-00090: Follow-up verification details recorded.,[],True,2026-01-06T22:30:00
+MSG-000591,TCK-00091,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00091: Follow-up verification details recorded.,[],False,2026-01-06T22:55:00
+MSG-000592,TCK-00092,EMP-0007,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00092: Follow-up verification details recorded.,[],False,2026-01-06T23:20:00
+MSG-000593,TCK-00093,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00093: Follow-up verification details recorded.,[],False,2026-01-06T23:45:00
+MSG-000594,TCK-00094,EMP-0006,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00094: Follow-up verification details recorded.,[],False,2026-01-07T00:10:00
+MSG-000595,TCK-00095,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00095: Follow-up verification details recorded.,[],True,2026-01-07T00:35:00
+MSG-000596,TCK-00096,EMP-0032,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00096: Follow-up verification details recorded.,[],False,2026-01-07T01:00:00
+MSG-000597,TCK-00097,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00097: Follow-up verification details recorded.,[],False,2026-01-07T01:25:00
+MSG-000598,TCK-00098,EMP-0027,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00098: Follow-up verification details recorded.,[],False,2026-01-07T01:50:00
+MSG-000599,TCK-00099,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00099: Follow-up verification details recorded.,[],False,2026-01-07T02:15:00
+MSG-000600,TCK-00100,EMP-0014,INTERNAL_NOTE,Update message on ticket REQ-2026-00100: Follow-up verification details recorded.,[],True,2026-01-07T02:40:00
+MSG-000601,TCK-00101,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00101: Follow-up verification details recorded.,[],False,2026-01-07T03:05:00
+MSG-000602,TCK-00102,EMP-0014,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00102: Follow-up verification details recorded.,[],False,2026-01-07T03:30:00
+MSG-000603,TCK-00103,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00103: Follow-up verification details recorded.,[],False,2026-01-07T03:55:00
+MSG-000604,TCK-00104,EMP-0019,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00104: Follow-up verification details recorded.,[],False,2026-01-07T04:20:00
+MSG-000605,TCK-00105,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00105: Follow-up verification details recorded.,[],True,2026-01-07T04:45:00
+MSG-000606,TCK-00106,EMP-0039,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00106: Follow-up verification details recorded.,[],False,2026-01-07T05:10:00
+MSG-000607,TCK-00107,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00107: Follow-up verification details recorded.,[],False,2026-01-07T05:35:00
+MSG-000608,TCK-00108,EMP-0005,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00108: Follow-up verification details recorded.,[],False,2026-01-07T06:00:00
+MSG-000609,TCK-00109,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00109: Follow-up verification details recorded.,[],False,2026-01-07T06:25:00
+MSG-000610,TCK-00110,EMP-0029,INTERNAL_NOTE,Update message on ticket REQ-2026-00110: Follow-up verification details recorded.,[],True,2026-01-07T06:50:00
+MSG-000611,TCK-00111,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00111: Follow-up verification details recorded.,[],False,2026-01-07T07:15:00
+MSG-000612,TCK-00112,EMP-0050,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00112: Follow-up verification details recorded.,[],False,2026-01-07T07:40:00
+MSG-000613,TCK-00113,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00113: Follow-up verification details recorded.,[],False,2026-01-07T08:05:00
+MSG-000614,TCK-00114,EMP-0036,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00114: Follow-up verification details recorded.,[],False,2026-01-07T08:30:00
+MSG-000615,TCK-00115,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00115: Follow-up verification details recorded.,[],True,2026-01-07T08:55:00
+MSG-000616,TCK-00116,EMP-0009,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00116: Follow-up verification details recorded.,[],False,2026-01-07T09:20:00
+MSG-000617,TCK-00117,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00117: Follow-up verification details recorded.,[],False,2026-01-07T09:45:00
+MSG-000618,TCK-00118,EMP-0049,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00118: Follow-up verification details recorded.,[],False,2026-01-07T10:10:00
+MSG-000619,TCK-00119,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00119: Follow-up verification details recorded.,[],False,2026-01-07T10:35:00
+MSG-000620,TCK-00120,EMP-0037,INTERNAL_NOTE,Update message on ticket REQ-2026-00120: Follow-up verification details recorded.,[],True,2026-01-07T11:00:00
+MSG-000621,TCK-00121,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00121: Follow-up verification details recorded.,[],False,2026-01-07T11:25:00
+MSG-000622,TCK-00122,EMP-0018,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00122: Follow-up verification details recorded.,[],False,2026-01-07T11:50:00
+MSG-000623,TCK-00123,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00123: Follow-up verification details recorded.,[],False,2026-01-07T12:15:00
+MSG-000624,TCK-00124,EMP-0013,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00124: Follow-up verification details recorded.,[],False,2026-01-07T12:40:00
+MSG-000625,TCK-00125,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00125: Follow-up verification details recorded.,[],True,2026-01-07T13:05:00
+MSG-000626,TCK-00126,EMP-0009,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00126: Follow-up verification details recorded.,[],False,2026-01-07T13:30:00
+MSG-000627,TCK-00127,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00127: Follow-up verification details recorded.,[],False,2026-01-07T13:55:00
+MSG-000628,TCK-00128,EMP-0046,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00128: Follow-up verification details recorded.,[],False,2026-01-07T14:20:00
+MSG-000629,TCK-00129,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00129: Follow-up verification details recorded.,[],False,2026-01-07T14:45:00
+MSG-000630,TCK-00130,EMP-0043,INTERNAL_NOTE,Update message on ticket REQ-2026-00130: Follow-up verification details recorded.,[],True,2026-01-07T15:10:00
+MSG-000631,TCK-00131,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00131: Follow-up verification details recorded.,[],False,2026-01-07T15:35:00
+MSG-000632,TCK-00132,EMP-0010,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00132: Follow-up verification details recorded.,[],False,2026-01-07T16:00:00
+MSG-000633,TCK-00133,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00133: Follow-up verification details recorded.,[],False,2026-01-07T16:25:00
+MSG-000634,TCK-00134,EMP-0017,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00134: Follow-up verification details recorded.,[],False,2026-01-07T16:50:00
+MSG-000635,TCK-00135,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00135: Follow-up verification details recorded.,[],True,2026-01-07T17:15:00
+MSG-000636,TCK-00136,EMP-0014,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00136: Follow-up verification details recorded.,[],False,2026-01-07T17:40:00
+MSG-000637,TCK-00137,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00137: Follow-up verification details recorded.,[],False,2026-01-07T18:05:00
+MSG-000638,TCK-00138,EMP-0023,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00138: Follow-up verification details recorded.,[],False,2026-01-07T18:30:00
+MSG-000639,TCK-00139,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00139: Follow-up verification details recorded.,[],False,2026-01-07T18:55:00
+MSG-000640,TCK-00140,EMP-0011,INTERNAL_NOTE,Update message on ticket REQ-2026-00140: Follow-up verification details recorded.,[],True,2026-01-07T19:20:00
+MSG-000641,TCK-00141,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00141: Follow-up verification details recorded.,[],False,2026-01-07T19:45:00
+MSG-000642,TCK-00142,EMP-0046,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00142: Follow-up verification details recorded.,[],False,2026-01-07T20:10:00
+MSG-000643,TCK-00143,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00143: Follow-up verification details recorded.,[],False,2026-01-07T20:35:00
+MSG-000644,TCK-00144,EMP-0006,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00144: Follow-up verification details recorded.,[],False,2026-01-07T21:00:00
+MSG-000645,TCK-00145,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00145: Follow-up verification details recorded.,[],True,2026-01-07T21:25:00
+MSG-000646,TCK-00146,EMP-0007,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00146: Follow-up verification details recorded.,[],False,2026-01-07T21:50:00
+MSG-000647,TCK-00147,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00147: Follow-up verification details recorded.,[],False,2026-01-07T22:15:00
+MSG-000648,TCK-00148,EMP-0020,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00148: Follow-up verification details recorded.,[],False,2026-01-07T22:40:00
+MSG-000649,TCK-00149,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00149: Follow-up verification details recorded.,[],False,2026-01-07T23:05:00
+MSG-000650,TCK-00150,EMP-0018,INTERNAL_NOTE,Update message on ticket REQ-2026-00150: Follow-up verification details recorded.,[],True,2026-01-07T23:30:00
+MSG-000651,TCK-00151,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00151: Follow-up verification details recorded.,[],False,2026-01-07T23:55:00
+MSG-000652,TCK-00152,EMP-0027,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00152: Follow-up verification details recorded.,[],False,2026-01-08T00:20:00
+MSG-000653,TCK-00153,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00153: Follow-up verification details recorded.,[],False,2026-01-08T00:45:00
+MSG-000654,TCK-00154,EMP-0031,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00154: Follow-up verification details recorded.,[],False,2026-01-08T01:10:00
+MSG-000655,TCK-00155,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00155: Follow-up verification details recorded.,[],True,2026-01-08T01:35:00
+MSG-000656,TCK-00156,EMP-0028,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00156: Follow-up verification details recorded.,[],False,2026-01-08T02:00:00
+MSG-000657,TCK-00157,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00157: Follow-up verification details recorded.,[],False,2026-01-08T02:25:00
+MSG-000658,TCK-00158,EMP-0016,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00158: Follow-up verification details recorded.,[],False,2026-01-08T02:50:00
+MSG-000659,TCK-00159,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00159: Follow-up verification details recorded.,[],False,2026-01-08T03:15:00
+MSG-000660,TCK-00160,EMP-0036,INTERNAL_NOTE,Update message on ticket REQ-2026-00160: Follow-up verification details recorded.,[],True,2026-01-08T03:40:00
+MSG-000661,TCK-00161,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00161: Follow-up verification details recorded.,[],False,2026-01-08T04:05:00
+MSG-000662,TCK-00162,EMP-0037,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00162: Follow-up verification details recorded.,[],False,2026-01-08T04:30:00
+MSG-000663,TCK-00163,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00163: Follow-up verification details recorded.,[],False,2026-01-08T04:55:00
+MSG-000664,TCK-00164,EMP-0013,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00164: Follow-up verification details recorded.,[],False,2026-01-08T05:20:00
+MSG-000665,TCK-00165,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00165: Follow-up verification details recorded.,[],True,2026-01-08T05:45:00
+MSG-000666,TCK-00166,EMP-0018,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00166: Follow-up verification details recorded.,[],False,2026-01-08T06:10:00
+MSG-000667,TCK-00167,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00167: Follow-up verification details recorded.,[],False,2026-01-08T06:35:00
+MSG-000668,TCK-00168,EMP-0018,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00168: Follow-up verification details recorded.,[],False,2026-01-08T07:00:00
+MSG-000669,TCK-00169,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00169: Follow-up verification details recorded.,[],False,2026-01-08T07:25:00
+MSG-000670,TCK-00170,EMP-0024,INTERNAL_NOTE,Update message on ticket REQ-2026-00170: Follow-up verification details recorded.,[],True,2026-01-08T07:50:00
+MSG-000671,TCK-00171,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00171: Follow-up verification details recorded.,[],False,2026-01-08T08:15:00
+MSG-000672,TCK-00172,EMP-0050,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00172: Follow-up verification details recorded.,[],False,2026-01-08T08:40:00
+MSG-000673,TCK-00173,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00173: Follow-up verification details recorded.,[],False,2026-01-08T09:05:00
+MSG-000674,TCK-00174,EMP-0007,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00174: Follow-up verification details recorded.,[],False,2026-01-08T09:30:00
+MSG-000675,TCK-00175,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00175: Follow-up verification details recorded.,[],True,2026-01-08T09:55:00
+MSG-000676,TCK-00176,EMP-0040,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00176: Follow-up verification details recorded.,[],False,2026-01-08T10:20:00
+MSG-000677,TCK-00177,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00177: Follow-up verification details recorded.,[],False,2026-01-08T10:45:00
+MSG-000678,TCK-00178,EMP-0048,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00178: Follow-up verification details recorded.,[],False,2026-01-08T11:10:00
+MSG-000679,TCK-00179,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00179: Follow-up verification details recorded.,[],False,2026-01-08T11:35:00
+MSG-000680,TCK-00180,EMP-0035,INTERNAL_NOTE,Update message on ticket REQ-2026-00180: Follow-up verification details recorded.,[],True,2026-01-08T12:00:00
+MSG-000681,TCK-00181,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00181: Follow-up verification details recorded.,[],False,2026-01-08T12:25:00
+MSG-000682,TCK-00182,EMP-0025,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00182: Follow-up verification details recorded.,[],False,2026-01-08T12:50:00
+MSG-000683,TCK-00183,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00183: Follow-up verification details recorded.,[],False,2026-01-08T13:15:00
+MSG-000684,TCK-00184,EMP-0043,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00184: Follow-up verification details recorded.,[],False,2026-01-08T13:40:00
+MSG-000685,TCK-00185,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00185: Follow-up verification details recorded.,[],True,2026-01-08T14:05:00
+MSG-000686,TCK-00186,EMP-0033,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00186: Follow-up verification details recorded.,[],False,2026-01-08T14:30:00
+MSG-000687,TCK-00187,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00187: Follow-up verification details recorded.,[],False,2026-01-08T14:55:00
+MSG-000688,TCK-00188,EMP-0010,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00188: Follow-up verification details recorded.,[],False,2026-01-08T15:20:00
+MSG-000689,TCK-00189,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00189: Follow-up verification details recorded.,[],False,2026-01-08T15:45:00
+MSG-000690,TCK-00190,EMP-0042,INTERNAL_NOTE,Update message on ticket REQ-2026-00190: Follow-up verification details recorded.,[],True,2026-01-08T16:10:00
+MSG-000691,TCK-00191,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00191: Follow-up verification details recorded.,[],False,2026-01-08T16:35:00
+MSG-000692,TCK-00192,EMP-0028,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00192: Follow-up verification details recorded.,[],False,2026-01-08T17:00:00
+MSG-000693,TCK-00193,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00193: Follow-up verification details recorded.,[],False,2026-01-08T17:25:00
+MSG-000694,TCK-00194,EMP-0037,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00194: Follow-up verification details recorded.,[],False,2026-01-08T17:50:00
+MSG-000695,TCK-00195,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00195: Follow-up verification details recorded.,[],True,2026-01-08T18:15:00
+MSG-000696,TCK-00196,EMP-0019,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00196: Follow-up verification details recorded.,[],False,2026-01-08T18:40:00
+MSG-000697,TCK-00197,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00197: Follow-up verification details recorded.,[],False,2026-01-08T19:05:00
+MSG-000698,TCK-00198,EMP-0047,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00198: Follow-up verification details recorded.,[],False,2026-01-08T19:30:00
+MSG-000699,TCK-00199,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00199: Follow-up verification details recorded.,[],False,2026-01-08T19:55:00
+MSG-000700,TCK-00200,EMP-0014,INTERNAL_NOTE,Update message on ticket REQ-2026-00200: Follow-up verification details recorded.,[],True,2026-01-08T20:20:00
+MSG-000701,TCK-00201,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00201: Follow-up verification details recorded.,[],False,2026-01-08T20:45:00
+MSG-000702,TCK-00202,EMP-0050,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00202: Follow-up verification details recorded.,[],False,2026-01-08T21:10:00
+MSG-000703,TCK-00203,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00203: Follow-up verification details recorded.,[],False,2026-01-08T21:35:00
+MSG-000704,TCK-00204,EMP-0016,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00204: Follow-up verification details recorded.,[],False,2026-01-08T22:00:00
+MSG-000705,TCK-00205,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00205: Follow-up verification details recorded.,[],True,2026-01-08T22:25:00
+MSG-000706,TCK-00206,EMP-0031,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00206: Follow-up verification details recorded.,[],False,2026-01-08T22:50:00
+MSG-000707,TCK-00207,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00207: Follow-up verification details recorded.,[],False,2026-01-08T23:15:00
+MSG-000708,TCK-00208,EMP-0044,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00208: Follow-up verification details recorded.,[],False,2026-01-08T23:40:00
+MSG-000709,TCK-00209,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00209: Follow-up verification details recorded.,[],False,2026-01-09T00:05:00
+MSG-000710,TCK-00210,EMP-0045,INTERNAL_NOTE,Update message on ticket REQ-2026-00210: Follow-up verification details recorded.,[],True,2026-01-09T00:30:00
+MSG-000711,TCK-00211,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00211: Follow-up verification details recorded.,[],False,2026-01-09T00:55:00
+MSG-000712,TCK-00212,EMP-0035,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00212: Follow-up verification details recorded.,[],False,2026-01-09T01:20:00
+MSG-000713,TCK-00213,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00213: Follow-up verification details recorded.,[],False,2026-01-09T01:45:00
+MSG-000714,TCK-00214,EMP-0023,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00214: Follow-up verification details recorded.,[],False,2026-01-09T02:10:00
+MSG-000715,TCK-00215,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00215: Follow-up verification details recorded.,[],True,2026-01-09T02:35:00
+MSG-000716,TCK-00216,EMP-0046,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00216: Follow-up verification details recorded.,[],False,2026-01-09T03:00:00
+MSG-000717,TCK-00217,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00217: Follow-up verification details recorded.,[],False,2026-01-09T03:25:00
+MSG-000718,TCK-00218,EMP-0005,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00218: Follow-up verification details recorded.,[],False,2026-01-09T03:50:00
+MSG-000719,TCK-00219,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00219: Follow-up verification details recorded.,[],False,2026-01-09T04:15:00
+MSG-000720,TCK-00220,EMP-0017,INTERNAL_NOTE,Update message on ticket REQ-2026-00220: Follow-up verification details recorded.,[],True,2026-01-09T04:40:00
+MSG-000721,TCK-00221,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00221: Follow-up verification details recorded.,[],False,2026-01-09T05:05:00
+MSG-000722,TCK-00222,EMP-0031,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00222: Follow-up verification details recorded.,[],False,2026-01-09T05:30:00
+MSG-000723,TCK-00223,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00223: Follow-up verification details recorded.,[],False,2026-01-09T05:55:00
+MSG-000724,TCK-00224,EMP-0028,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00224: Follow-up verification details recorded.,[],False,2026-01-09T06:20:00
+MSG-000725,TCK-00225,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00225: Follow-up verification details recorded.,[],True,2026-01-09T06:45:00
+MSG-000726,TCK-00226,EMP-0020,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00226: Follow-up verification details recorded.,[],False,2026-01-09T07:10:00
+MSG-000727,TCK-00227,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00227: Follow-up verification details recorded.,[],False,2026-01-09T07:35:00
+MSG-000728,TCK-00228,EMP-0007,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00228: Follow-up verification details recorded.,[],False,2026-01-09T08:00:00
+MSG-000729,TCK-00229,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00229: Follow-up verification details recorded.,[],False,2026-01-09T08:25:00
+MSG-000730,TCK-00230,EMP-0044,INTERNAL_NOTE,Update message on ticket REQ-2026-00230: Follow-up verification details recorded.,[],True,2026-01-09T08:50:00
+MSG-000731,TCK-00231,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00231: Follow-up verification details recorded.,[],False,2026-01-09T09:15:00
+MSG-000732,TCK-00232,EMP-0012,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00232: Follow-up verification details recorded.,[],False,2026-01-09T09:40:00
+MSG-000733,TCK-00233,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00233: Follow-up verification details recorded.,[],False,2026-01-09T10:05:00
+MSG-000734,TCK-00234,EMP-0046,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00234: Follow-up verification details recorded.,[],False,2026-01-09T10:30:00
+MSG-000735,TCK-00235,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00235: Follow-up verification details recorded.,[],True,2026-01-09T10:55:00
+MSG-000736,TCK-00236,EMP-0036,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00236: Follow-up verification details recorded.,[],False,2026-01-09T11:20:00
+MSG-000737,TCK-00237,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00237: Follow-up verification details recorded.,[],False,2026-01-09T11:45:00
+MSG-000738,TCK-00238,EMP-0044,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00238: Follow-up verification details recorded.,[],False,2026-01-09T12:10:00
+MSG-000739,TCK-00239,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00239: Follow-up verification details recorded.,[],False,2026-01-09T12:35:00
+MSG-000740,TCK-00240,EMP-0042,INTERNAL_NOTE,Update message on ticket REQ-2026-00240: Follow-up verification details recorded.,[],True,2026-01-09T13:00:00
+MSG-000741,TCK-00241,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00241: Follow-up verification details recorded.,[],False,2026-01-09T13:25:00
+MSG-000742,TCK-00242,EMP-0044,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00242: Follow-up verification details recorded.,[],False,2026-01-09T13:50:00
+MSG-000743,TCK-00243,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00243: Follow-up verification details recorded.,[],False,2026-01-09T14:15:00
+MSG-000744,TCK-00244,EMP-0016,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00244: Follow-up verification details recorded.,[],False,2026-01-09T14:40:00
+MSG-000745,TCK-00245,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00245: Follow-up verification details recorded.,[],True,2026-01-09T15:05:00
+MSG-000746,TCK-00246,EMP-0025,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00246: Follow-up verification details recorded.,[],False,2026-01-09T15:30:00
+MSG-000747,TCK-00247,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00247: Follow-up verification details recorded.,[],False,2026-01-09T15:55:00
+MSG-000748,TCK-00248,EMP-0027,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00248: Follow-up verification details recorded.,[],False,2026-01-09T16:20:00
+MSG-000749,TCK-00249,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00249: Follow-up verification details recorded.,[],False,2026-01-09T16:45:00
+MSG-000750,TCK-00250,EMP-0014,INTERNAL_NOTE,Update message on ticket REQ-2026-00250: Follow-up verification details recorded.,[],True,2026-01-09T17:10:00
+MSG-000751,TCK-00001,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00001: Follow-up verification details recorded.,[],False,2026-01-05T09:25:00
+MSG-000752,TCK-00002,EMP-0046,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00002: Follow-up verification details recorded.,[],False,2026-01-05T09:50:00
+MSG-000753,TCK-00003,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00003: Follow-up verification details recorded.,[],False,2026-01-05T10:15:00
+MSG-000754,TCK-00004,EMP-0008,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00004: Follow-up verification details recorded.,[],False,2026-01-05T10:40:00
+MSG-000755,TCK-00005,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00005: Follow-up verification details recorded.,[],True,2026-01-05T11:05:00
+MSG-000756,TCK-00006,EMP-0014,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00006: Follow-up verification details recorded.,[],False,2026-01-05T11:30:00
+MSG-000757,TCK-00007,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00007: Follow-up verification details recorded.,[],False,2026-01-05T11:55:00
+MSG-000758,TCK-00008,EMP-0018,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00008: Follow-up verification details recorded.,[],False,2026-01-05T12:20:00
+MSG-000759,TCK-00009,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00009: Follow-up verification details recorded.,[],False,2026-01-05T12:45:00
+MSG-000760,TCK-00010,EMP-0010,INTERNAL_NOTE,Update message on ticket REQ-2026-00010: Follow-up verification details recorded.,[],True,2026-01-05T13:10:00
+MSG-000761,TCK-00011,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00011: Follow-up verification details recorded.,[],False,2026-01-05T13:35:00
+MSG-000762,TCK-00012,EMP-0025,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00012: Follow-up verification details recorded.,[],False,2026-01-05T14:00:00
+MSG-000763,TCK-00013,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00013: Follow-up verification details recorded.,[],False,2026-01-05T14:25:00
+MSG-000764,TCK-00014,EMP-0044,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00014: Follow-up verification details recorded.,[],False,2026-01-05T14:50:00
+MSG-000765,TCK-00015,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00015: Follow-up verification details recorded.,[],True,2026-01-05T15:15:00
+MSG-000766,TCK-00016,EMP-0025,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00016: Follow-up verification details recorded.,[],False,2026-01-05T15:40:00
+MSG-000767,TCK-00017,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00017: Follow-up verification details recorded.,[],False,2026-01-05T16:05:00
+MSG-000768,TCK-00018,EMP-0039,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00018: Follow-up verification details recorded.,[],False,2026-01-05T16:30:00
+MSG-000769,TCK-00019,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00019: Follow-up verification details recorded.,[],False,2026-01-05T16:55:00
+MSG-000770,TCK-00020,EMP-0011,INTERNAL_NOTE,Update message on ticket REQ-2026-00020: Follow-up verification details recorded.,[],True,2026-01-05T17:20:00
+MSG-000771,TCK-00021,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00021: Follow-up verification details recorded.,[],False,2026-01-05T17:45:00
+MSG-000772,TCK-00022,EMP-0049,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00022: Follow-up verification details recorded.,[],False,2026-01-05T18:10:00
+MSG-000773,TCK-00023,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00023: Follow-up verification details recorded.,[],False,2026-01-05T18:35:00
+MSG-000774,TCK-00024,EMP-0016,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00024: Follow-up verification details recorded.,[],False,2026-01-05T19:00:00
+MSG-000775,TCK-00025,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00025: Follow-up verification details recorded.,[],True,2026-01-05T19:25:00
+MSG-000776,TCK-00026,EMP-0027,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00026: Follow-up verification details recorded.,[],False,2026-01-05T19:50:00
+MSG-000777,TCK-00027,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00027: Follow-up verification details recorded.,[],False,2026-01-05T20:15:00
+MSG-000778,TCK-00028,EMP-0045,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00028: Follow-up verification details recorded.,[],False,2026-01-05T20:40:00
+MSG-000779,TCK-00029,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00029: Follow-up verification details recorded.,[],False,2026-01-05T21:05:00
+MSG-000780,TCK-00030,EMP-0012,INTERNAL_NOTE,Update message on ticket REQ-2026-00030: Follow-up verification details recorded.,[],True,2026-01-05T21:30:00
+MSG-000781,TCK-00031,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00031: Follow-up verification details recorded.,[],False,2026-01-05T21:55:00
+MSG-000782,TCK-00032,EMP-0023,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00032: Follow-up verification details recorded.,[],False,2026-01-05T22:20:00
+MSG-000783,TCK-00033,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00033: Follow-up verification details recorded.,[],False,2026-01-05T22:45:00
+MSG-000784,TCK-00034,EMP-0027,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00034: Follow-up verification details recorded.,[],False,2026-01-05T23:10:00
+MSG-000785,TCK-00035,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00035: Follow-up verification details recorded.,[],True,2026-01-05T23:35:00
+MSG-000786,TCK-00036,EMP-0007,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00036: Follow-up verification details recorded.,[],False,2026-01-06T00:00:00
+MSG-000787,TCK-00037,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00037: Follow-up verification details recorded.,[],False,2026-01-06T00:25:00
+MSG-000788,TCK-00038,EMP-0031,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00038: Follow-up verification details recorded.,[],False,2026-01-06T00:50:00
+MSG-000789,TCK-00039,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00039: Follow-up verification details recorded.,[],False,2026-01-06T01:15:00
+MSG-000790,TCK-00040,EMP-0047,INTERNAL_NOTE,Update message on ticket REQ-2026-00040: Follow-up verification details recorded.,[],True,2026-01-06T01:40:00
+MSG-000791,TCK-00041,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00041: Follow-up verification details recorded.,[],False,2026-01-06T02:05:00
+MSG-000792,TCK-00042,EMP-0024,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00042: Follow-up verification details recorded.,[],False,2026-01-06T02:30:00
+MSG-000793,TCK-00043,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00043: Follow-up verification details recorded.,[],False,2026-01-06T02:55:00
+MSG-000794,TCK-00044,EMP-0023,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00044: Follow-up verification details recorded.,[],False,2026-01-06T03:20:00
+MSG-000795,TCK-00045,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00045: Follow-up verification details recorded.,[],True,2026-01-06T03:45:00
+MSG-000796,TCK-00046,EMP-0040,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00046: Follow-up verification details recorded.,[],False,2026-01-06T04:10:00
+MSG-000797,TCK-00047,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00047: Follow-up verification details recorded.,[],False,2026-01-06T04:35:00
+MSG-000798,TCK-00048,EMP-0036,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00048: Follow-up verification details recorded.,[],False,2026-01-06T05:00:00
+MSG-000799,TCK-00049,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00049: Follow-up verification details recorded.,[],False,2026-01-06T05:25:00
+MSG-000800,TCK-00050,EMP-0024,INTERNAL_NOTE,Update message on ticket REQ-2026-00050: Follow-up verification details recorded.,[],True,2026-01-06T05:50:00
+MSG-000801,TCK-00051,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00051: Follow-up verification details recorded.,[],False,2026-01-06T06:15:00
+MSG-000802,TCK-00052,EMP-0021,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00052: Follow-up verification details recorded.,[],False,2026-01-06T06:40:00
+MSG-000803,TCK-00053,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00053: Follow-up verification details recorded.,[],False,2026-01-06T07:05:00
+MSG-000804,TCK-00054,EMP-0020,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00054: Follow-up verification details recorded.,[],False,2026-01-06T07:30:00
+MSG-000805,TCK-00055,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00055: Follow-up verification details recorded.,[],True,2026-01-06T07:55:00
+MSG-000806,TCK-00056,EMP-0005,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00056: Follow-up verification details recorded.,[],False,2026-01-06T08:20:00
+MSG-000807,TCK-00057,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00057: Follow-up verification details recorded.,[],False,2026-01-06T08:45:00
+MSG-000808,TCK-00058,EMP-0039,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00058: Follow-up verification details recorded.,[],False,2026-01-06T09:10:00
+MSG-000809,TCK-00059,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00059: Follow-up verification details recorded.,[],False,2026-01-06T09:35:00
+MSG-000810,TCK-00060,EMP-0009,INTERNAL_NOTE,Update message on ticket REQ-2026-00060: Follow-up verification details recorded.,[],True,2026-01-06T10:00:00
+MSG-000811,TCK-00061,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00061: Follow-up verification details recorded.,[],False,2026-01-06T10:25:00
+MSG-000812,TCK-00062,EMP-0049,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00062: Follow-up verification details recorded.,[],False,2026-01-06T10:50:00
+MSG-000813,TCK-00063,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00063: Follow-up verification details recorded.,[],False,2026-01-06T11:15:00
+MSG-000814,TCK-00064,EMP-0025,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00064: Follow-up verification details recorded.,[],False,2026-01-06T11:40:00
+MSG-000815,TCK-00065,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00065: Follow-up verification details recorded.,[],True,2026-01-06T12:05:00
+MSG-000816,TCK-00066,EMP-0047,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00066: Follow-up verification details recorded.,[],False,2026-01-06T12:30:00
+MSG-000817,TCK-00067,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00067: Follow-up verification details recorded.,[],False,2026-01-06T12:55:00
+MSG-000818,TCK-00068,EMP-0010,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00068: Follow-up verification details recorded.,[],False,2026-01-06T13:20:00
+MSG-000819,TCK-00069,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00069: Follow-up verification details recorded.,[],False,2026-01-06T13:45:00
+MSG-000820,TCK-00070,EMP-0021,INTERNAL_NOTE,Update message on ticket REQ-2026-00070: Follow-up verification details recorded.,[],True,2026-01-06T14:10:00
+MSG-000821,TCK-00071,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00071: Follow-up verification details recorded.,[],False,2026-01-06T14:35:00
+MSG-000822,TCK-00072,EMP-0032,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00072: Follow-up verification details recorded.,[],False,2026-01-06T15:00:00
+MSG-000823,TCK-00073,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00073: Follow-up verification details recorded.,[],False,2026-01-06T15:25:00
+MSG-000824,TCK-00074,EMP-0008,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00074: Follow-up verification details recorded.,[],False,2026-01-06T15:50:00
+MSG-000825,TCK-00075,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00075: Follow-up verification details recorded.,[],True,2026-01-06T16:15:00
+MSG-000826,TCK-00076,EMP-0037,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00076: Follow-up verification details recorded.,[],False,2026-01-06T16:40:00
+MSG-000827,TCK-00077,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00077: Follow-up verification details recorded.,[],False,2026-01-06T17:05:00
+MSG-000828,TCK-00078,EMP-0026,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00078: Follow-up verification details recorded.,[],False,2026-01-06T17:30:00
+MSG-000829,TCK-00079,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00079: Follow-up verification details recorded.,[],False,2026-01-06T17:55:00
+MSG-000830,TCK-00080,EMP-0020,INTERNAL_NOTE,Update message on ticket REQ-2026-00080: Follow-up verification details recorded.,[],True,2026-01-06T18:20:00
+MSG-000831,TCK-00081,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00081: Follow-up verification details recorded.,[],False,2026-01-06T18:45:00
+MSG-000832,TCK-00082,EMP-0050,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00082: Follow-up verification details recorded.,[],False,2026-01-06T19:10:00
+MSG-000833,TCK-00083,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00083: Follow-up verification details recorded.,[],False,2026-01-06T19:35:00
+MSG-000834,TCK-00084,EMP-0016,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00084: Follow-up verification details recorded.,[],False,2026-01-06T20:00:00
+MSG-000835,TCK-00085,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00085: Follow-up verification details recorded.,[],True,2026-01-06T20:25:00
+MSG-000836,TCK-00086,EMP-0045,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00086: Follow-up verification details recorded.,[],False,2026-01-06T20:50:00
+MSG-000837,TCK-00087,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00087: Follow-up verification details recorded.,[],False,2026-01-06T21:15:00
+MSG-000838,TCK-00088,EMP-0010,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00088: Follow-up verification details recorded.,[],False,2026-01-06T21:40:00
+MSG-000839,TCK-00089,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00089: Follow-up verification details recorded.,[],False,2026-01-06T22:05:00
+MSG-000840,TCK-00090,EMP-0028,INTERNAL_NOTE,Update message on ticket REQ-2026-00090: Follow-up verification details recorded.,[],True,2026-01-06T22:30:00
+MSG-000841,TCK-00091,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00091: Follow-up verification details recorded.,[],False,2026-01-06T22:55:00
+MSG-000842,TCK-00092,EMP-0007,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00092: Follow-up verification details recorded.,[],False,2026-01-06T23:20:00
+MSG-000843,TCK-00093,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00093: Follow-up verification details recorded.,[],False,2026-01-06T23:45:00
+MSG-000844,TCK-00094,EMP-0006,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00094: Follow-up verification details recorded.,[],False,2026-01-07T00:10:00
+MSG-000845,TCK-00095,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00095: Follow-up verification details recorded.,[],True,2026-01-07T00:35:00
+MSG-000846,TCK-00096,EMP-0032,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00096: Follow-up verification details recorded.,[],False,2026-01-07T01:00:00
+MSG-000847,TCK-00097,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00097: Follow-up verification details recorded.,[],False,2026-01-07T01:25:00
+MSG-000848,TCK-00098,EMP-0027,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00098: Follow-up verification details recorded.,[],False,2026-01-07T01:50:00
+MSG-000849,TCK-00099,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00099: Follow-up verification details recorded.,[],False,2026-01-07T02:15:00
+MSG-000850,TCK-00100,EMP-0014,INTERNAL_NOTE,Update message on ticket REQ-2026-00100: Follow-up verification details recorded.,[],True,2026-01-07T02:40:00
+MSG-000851,TCK-00101,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00101: Follow-up verification details recorded.,[],False,2026-01-07T03:05:00
+MSG-000852,TCK-00102,EMP-0014,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00102: Follow-up verification details recorded.,[],False,2026-01-07T03:30:00
+MSG-000853,TCK-00103,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00103: Follow-up verification details recorded.,[],False,2026-01-07T03:55:00
+MSG-000854,TCK-00104,EMP-0019,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00104: Follow-up verification details recorded.,[],False,2026-01-07T04:20:00
+MSG-000855,TCK-00105,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00105: Follow-up verification details recorded.,[],True,2026-01-07T04:45:00
+MSG-000856,TCK-00106,EMP-0039,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00106: Follow-up verification details recorded.,[],False,2026-01-07T05:10:00
+MSG-000857,TCK-00107,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00107: Follow-up verification details recorded.,[],False,2026-01-07T05:35:00
+MSG-000858,TCK-00108,EMP-0005,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00108: Follow-up verification details recorded.,[],False,2026-01-07T06:00:00
+MSG-000859,TCK-00109,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00109: Follow-up verification details recorded.,[],False,2026-01-07T06:25:00
+MSG-000860,TCK-00110,EMP-0029,INTERNAL_NOTE,Update message on ticket REQ-2026-00110: Follow-up verification details recorded.,[],True,2026-01-07T06:50:00
+MSG-000861,TCK-00111,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00111: Follow-up verification details recorded.,[],False,2026-01-07T07:15:00
+MSG-000862,TCK-00112,EMP-0050,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00112: Follow-up verification details recorded.,[],False,2026-01-07T07:40:00
+MSG-000863,TCK-00113,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00113: Follow-up verification details recorded.,[],False,2026-01-07T08:05:00
+MSG-000864,TCK-00114,EMP-0036,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00114: Follow-up verification details recorded.,[],False,2026-01-07T08:30:00
+MSG-000865,TCK-00115,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00115: Follow-up verification details recorded.,[],True,2026-01-07T08:55:00
+MSG-000866,TCK-00116,EMP-0009,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00116: Follow-up verification details recorded.,[],False,2026-01-07T09:20:00
+MSG-000867,TCK-00117,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00117: Follow-up verification details recorded.,[],False,2026-01-07T09:45:00
+MSG-000868,TCK-00118,EMP-0049,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00118: Follow-up verification details recorded.,[],False,2026-01-07T10:10:00
+MSG-000869,TCK-00119,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00119: Follow-up verification details recorded.,[],False,2026-01-07T10:35:00
+MSG-000870,TCK-00120,EMP-0037,INTERNAL_NOTE,Update message on ticket REQ-2026-00120: Follow-up verification details recorded.,[],True,2026-01-07T11:00:00
+MSG-000871,TCK-00121,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00121: Follow-up verification details recorded.,[],False,2026-01-07T11:25:00
+MSG-000872,TCK-00122,EMP-0018,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00122: Follow-up verification details recorded.,[],False,2026-01-07T11:50:00
+MSG-000873,TCK-00123,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00123: Follow-up verification details recorded.,[],False,2026-01-07T12:15:00
+MSG-000874,TCK-00124,EMP-0013,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00124: Follow-up verification details recorded.,[],False,2026-01-07T12:40:00
+MSG-000875,TCK-00125,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00125: Follow-up verification details recorded.,[],True,2026-01-07T13:05:00
+MSG-000876,TCK-00126,EMP-0009,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00126: Follow-up verification details recorded.,[],False,2026-01-07T13:30:00
+MSG-000877,TCK-00127,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00127: Follow-up verification details recorded.,[],False,2026-01-07T13:55:00
+MSG-000878,TCK-00128,EMP-0046,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00128: Follow-up verification details recorded.,[],False,2026-01-07T14:20:00
+MSG-000879,TCK-00129,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00129: Follow-up verification details recorded.,[],False,2026-01-07T14:45:00
+MSG-000880,TCK-00130,EMP-0043,INTERNAL_NOTE,Update message on ticket REQ-2026-00130: Follow-up verification details recorded.,[],True,2026-01-07T15:10:00
+MSG-000881,TCK-00131,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00131: Follow-up verification details recorded.,[],False,2026-01-07T15:35:00
+MSG-000882,TCK-00132,EMP-0010,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00132: Follow-up verification details recorded.,[],False,2026-01-07T16:00:00
+MSG-000883,TCK-00133,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00133: Follow-up verification details recorded.,[],False,2026-01-07T16:25:00
+MSG-000884,TCK-00134,EMP-0017,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00134: Follow-up verification details recorded.,[],False,2026-01-07T16:50:00
+MSG-000885,TCK-00135,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00135: Follow-up verification details recorded.,[],True,2026-01-07T17:15:00
+MSG-000886,TCK-00136,EMP-0014,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00136: Follow-up verification details recorded.,[],False,2026-01-07T17:40:00
+MSG-000887,TCK-00137,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00137: Follow-up verification details recorded.,[],False,2026-01-07T18:05:00
+MSG-000888,TCK-00138,EMP-0023,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00138: Follow-up verification details recorded.,[],False,2026-01-07T18:30:00
+MSG-000889,TCK-00139,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00139: Follow-up verification details recorded.,[],False,2026-01-07T18:55:00
+MSG-000890,TCK-00140,EMP-0011,INTERNAL_NOTE,Update message on ticket REQ-2026-00140: Follow-up verification details recorded.,[],True,2026-01-07T19:20:00
+MSG-000891,TCK-00141,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00141: Follow-up verification details recorded.,[],False,2026-01-07T19:45:00
+MSG-000892,TCK-00142,EMP-0046,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00142: Follow-up verification details recorded.,[],False,2026-01-07T20:10:00
+MSG-000893,TCK-00143,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00143: Follow-up verification details recorded.,[],False,2026-01-07T20:35:00
+MSG-000894,TCK-00144,EMP-0006,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00144: Follow-up verification details recorded.,[],False,2026-01-07T21:00:00
+MSG-000895,TCK-00145,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00145: Follow-up verification details recorded.,[],True,2026-01-07T21:25:00
+MSG-000896,TCK-00146,EMP-0007,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00146: Follow-up verification details recorded.,[],False,2026-01-07T21:50:00
+MSG-000897,TCK-00147,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00147: Follow-up verification details recorded.,[],False,2026-01-07T22:15:00
+MSG-000898,TCK-00148,EMP-0020,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00148: Follow-up verification details recorded.,[],False,2026-01-07T22:40:00
+MSG-000899,TCK-00149,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00149: Follow-up verification details recorded.,[],False,2026-01-07T23:05:00
+MSG-000900,TCK-00150,EMP-0018,INTERNAL_NOTE,Update message on ticket REQ-2026-00150: Follow-up verification details recorded.,[],True,2026-01-07T23:30:00
+MSG-000901,TCK-00151,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00151: Follow-up verification details recorded.,[],False,2026-01-07T23:55:00
+MSG-000902,TCK-00152,EMP-0027,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00152: Follow-up verification details recorded.,[],False,2026-01-08T00:20:00
+MSG-000903,TCK-00153,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00153: Follow-up verification details recorded.,[],False,2026-01-08T00:45:00
+MSG-000904,TCK-00154,EMP-0031,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00154: Follow-up verification details recorded.,[],False,2026-01-08T01:10:00
+MSG-000905,TCK-00155,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00155: Follow-up verification details recorded.,[],True,2026-01-08T01:35:00
+MSG-000906,TCK-00156,EMP-0028,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00156: Follow-up verification details recorded.,[],False,2026-01-08T02:00:00
+MSG-000907,TCK-00157,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00157: Follow-up verification details recorded.,[],False,2026-01-08T02:25:00
+MSG-000908,TCK-00158,EMP-0016,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00158: Follow-up verification details recorded.,[],False,2026-01-08T02:50:00
+MSG-000909,TCK-00159,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00159: Follow-up verification details recorded.,[],False,2026-01-08T03:15:00
+MSG-000910,TCK-00160,EMP-0036,INTERNAL_NOTE,Update message on ticket REQ-2026-00160: Follow-up verification details recorded.,[],True,2026-01-08T03:40:00
+MSG-000911,TCK-00161,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00161: Follow-up verification details recorded.,[],False,2026-01-08T04:05:00
+MSG-000912,TCK-00162,EMP-0037,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00162: Follow-up verification details recorded.,[],False,2026-01-08T04:30:00
+MSG-000913,TCK-00163,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00163: Follow-up verification details recorded.,[],False,2026-01-08T04:55:00
+MSG-000914,TCK-00164,EMP-0013,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00164: Follow-up verification details recorded.,[],False,2026-01-08T05:20:00
+MSG-000915,TCK-00165,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00165: Follow-up verification details recorded.,[],True,2026-01-08T05:45:00
+MSG-000916,TCK-00166,EMP-0018,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00166: Follow-up verification details recorded.,[],False,2026-01-08T06:10:00
+MSG-000917,TCK-00167,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00167: Follow-up verification details recorded.,[],False,2026-01-08T06:35:00
+MSG-000918,TCK-00168,EMP-0018,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00168: Follow-up verification details recorded.,[],False,2026-01-08T07:00:00
+MSG-000919,TCK-00169,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00169: Follow-up verification details recorded.,[],False,2026-01-08T07:25:00
+MSG-000920,TCK-00170,EMP-0024,INTERNAL_NOTE,Update message on ticket REQ-2026-00170: Follow-up verification details recorded.,[],True,2026-01-08T07:50:00
+MSG-000921,TCK-00171,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00171: Follow-up verification details recorded.,[],False,2026-01-08T08:15:00
+MSG-000922,TCK-00172,EMP-0050,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00172: Follow-up verification details recorded.,[],False,2026-01-08T08:40:00
+MSG-000923,TCK-00173,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00173: Follow-up verification details recorded.,[],False,2026-01-08T09:05:00
+MSG-000924,TCK-00174,EMP-0007,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00174: Follow-up verification details recorded.,[],False,2026-01-08T09:30:00
+MSG-000925,TCK-00175,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00175: Follow-up verification details recorded.,[],True,2026-01-08T09:55:00
+MSG-000926,TCK-00176,EMP-0040,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00176: Follow-up verification details recorded.,[],False,2026-01-08T10:20:00
+MSG-000927,TCK-00177,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00177: Follow-up verification details recorded.,[],False,2026-01-08T10:45:00
+MSG-000928,TCK-00178,EMP-0048,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00178: Follow-up verification details recorded.,[],False,2026-01-08T11:10:00
+MSG-000929,TCK-00179,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00179: Follow-up verification details recorded.,[],False,2026-01-08T11:35:00
+MSG-000930,TCK-00180,EMP-0035,INTERNAL_NOTE,Update message on ticket REQ-2026-00180: Follow-up verification details recorded.,[],True,2026-01-08T12:00:00
+MSG-000931,TCK-00181,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00181: Follow-up verification details recorded.,[],False,2026-01-08T12:25:00
+MSG-000932,TCK-00182,EMP-0025,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00182: Follow-up verification details recorded.,[],False,2026-01-08T12:50:00
+MSG-000933,TCK-00183,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00183: Follow-up verification details recorded.,[],False,2026-01-08T13:15:00
+MSG-000934,TCK-00184,EMP-0043,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00184: Follow-up verification details recorded.,[],False,2026-01-08T13:40:00
+MSG-000935,TCK-00185,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00185: Follow-up verification details recorded.,[],True,2026-01-08T14:05:00
+MSG-000936,TCK-00186,EMP-0033,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00186: Follow-up verification details recorded.,[],False,2026-01-08T14:30:00
+MSG-000937,TCK-00187,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00187: Follow-up verification details recorded.,[],False,2026-01-08T14:55:00
+MSG-000938,TCK-00188,EMP-0010,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00188: Follow-up verification details recorded.,[],False,2026-01-08T15:20:00
+MSG-000939,TCK-00189,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00189: Follow-up verification details recorded.,[],False,2026-01-08T15:45:00
+MSG-000940,TCK-00190,EMP-0042,INTERNAL_NOTE,Update message on ticket REQ-2026-00190: Follow-up verification details recorded.,[],True,2026-01-08T16:10:00
+MSG-000941,TCK-00191,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00191: Follow-up verification details recorded.,[],False,2026-01-08T16:35:00
+MSG-000942,TCK-00192,EMP-0028,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00192: Follow-up verification details recorded.,[],False,2026-01-08T17:00:00
+MSG-000943,TCK-00193,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00193: Follow-up verification details recorded.,[],False,2026-01-08T17:25:00
+MSG-000944,TCK-00194,EMP-0037,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00194: Follow-up verification details recorded.,[],False,2026-01-08T17:50:00
+MSG-000945,TCK-00195,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00195: Follow-up verification details recorded.,[],True,2026-01-08T18:15:00
+MSG-000946,TCK-00196,EMP-0019,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00196: Follow-up verification details recorded.,[],False,2026-01-08T18:40:00
+MSG-000947,TCK-00197,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00197: Follow-up verification details recorded.,[],False,2026-01-08T19:05:00
+MSG-000948,TCK-00198,EMP-0047,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00198: Follow-up verification details recorded.,[],False,2026-01-08T19:30:00
+MSG-000949,TCK-00199,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00199: Follow-up verification details recorded.,[],False,2026-01-08T19:55:00
+MSG-000950,TCK-00200,EMP-0014,INTERNAL_NOTE,Update message on ticket REQ-2026-00200: Follow-up verification details recorded.,[],True,2026-01-08T20:20:00
+MSG-000951,TCK-00201,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00201: Follow-up verification details recorded.,[],False,2026-01-08T20:45:00
+MSG-000952,TCK-00202,EMP-0050,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00202: Follow-up verification details recorded.,[],False,2026-01-08T21:10:00
+MSG-000953,TCK-00203,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00203: Follow-up verification details recorded.,[],False,2026-01-08T21:35:00
+MSG-000954,TCK-00204,EMP-0016,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00204: Follow-up verification details recorded.,[],False,2026-01-08T22:00:00
+MSG-000955,TCK-00205,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00205: Follow-up verification details recorded.,[],True,2026-01-08T22:25:00
+MSG-000956,TCK-00206,EMP-0031,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00206: Follow-up verification details recorded.,[],False,2026-01-08T22:50:00
+MSG-000957,TCK-00207,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00207: Follow-up verification details recorded.,[],False,2026-01-08T23:15:00
+MSG-000958,TCK-00208,EMP-0044,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00208: Follow-up verification details recorded.,[],False,2026-01-08T23:40:00
+MSG-000959,TCK-00209,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00209: Follow-up verification details recorded.,[],False,2026-01-09T00:05:00
+MSG-000960,TCK-00210,EMP-0045,INTERNAL_NOTE,Update message on ticket REQ-2026-00210: Follow-up verification details recorded.,[],True,2026-01-09T00:30:00
+MSG-000961,TCK-00211,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00211: Follow-up verification details recorded.,[],False,2026-01-09T00:55:00
+MSG-000962,TCK-00212,EMP-0035,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00212: Follow-up verification details recorded.,[],False,2026-01-09T01:20:00
+MSG-000963,TCK-00213,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00213: Follow-up verification details recorded.,[],False,2026-01-09T01:45:00
+MSG-000964,TCK-00214,EMP-0023,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00214: Follow-up verification details recorded.,[],False,2026-01-09T02:10:00
+MSG-000965,TCK-00215,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00215: Follow-up verification details recorded.,[],True,2026-01-09T02:35:00
+MSG-000966,TCK-00216,EMP-0046,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00216: Follow-up verification details recorded.,[],False,2026-01-09T03:00:00
+MSG-000967,TCK-00217,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00217: Follow-up verification details recorded.,[],False,2026-01-09T03:25:00
+MSG-000968,TCK-00218,EMP-0005,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00218: Follow-up verification details recorded.,[],False,2026-01-09T03:50:00
+MSG-000969,TCK-00219,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00219: Follow-up verification details recorded.,[],False,2026-01-09T04:15:00
+MSG-000970,TCK-00220,EMP-0017,INTERNAL_NOTE,Update message on ticket REQ-2026-00220: Follow-up verification details recorded.,[],True,2026-01-09T04:40:00
+MSG-000971,TCK-00221,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00221: Follow-up verification details recorded.,[],False,2026-01-09T05:05:00
+MSG-000972,TCK-00222,EMP-0031,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00222: Follow-up verification details recorded.,[],False,2026-01-09T05:30:00
+MSG-000973,TCK-00223,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00223: Follow-up verification details recorded.,[],False,2026-01-09T05:55:00
+MSG-000974,TCK-00224,EMP-0028,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00224: Follow-up verification details recorded.,[],False,2026-01-09T06:20:00
+MSG-000975,TCK-00225,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00225: Follow-up verification details recorded.,[],True,2026-01-09T06:45:00
+MSG-000976,TCK-00226,EMP-0020,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00226: Follow-up verification details recorded.,[],False,2026-01-09T07:10:00
+MSG-000977,TCK-00227,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00227: Follow-up verification details recorded.,[],False,2026-01-09T07:35:00
+MSG-000978,TCK-00228,EMP-0007,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00228: Follow-up verification details recorded.,[],False,2026-01-09T08:00:00
+MSG-000979,TCK-00229,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00229: Follow-up verification details recorded.,[],False,2026-01-09T08:25:00
+MSG-000980,TCK-00230,EMP-0044,INTERNAL_NOTE,Update message on ticket REQ-2026-00230: Follow-up verification details recorded.,[],True,2026-01-09T08:50:00
+MSG-000981,TCK-00231,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00231: Follow-up verification details recorded.,[],False,2026-01-09T09:15:00
+MSG-000982,TCK-00232,EMP-0012,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00232: Follow-up verification details recorded.,[],False,2026-01-09T09:40:00
+MSG-000983,TCK-00233,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00233: Follow-up verification details recorded.,[],False,2026-01-09T10:05:00
+MSG-000984,TCK-00234,EMP-0046,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00234: Follow-up verification details recorded.,[],False,2026-01-09T10:30:00
+MSG-000985,TCK-00235,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00235: Follow-up verification details recorded.,[],True,2026-01-09T10:55:00
+MSG-000986,TCK-00236,EMP-0036,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00236: Follow-up verification details recorded.,[],False,2026-01-09T11:20:00
+MSG-000987,TCK-00237,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00237: Follow-up verification details recorded.,[],False,2026-01-09T11:45:00
+MSG-000988,TCK-00238,EMP-0044,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00238: Follow-up verification details recorded.,[],False,2026-01-09T12:10:00
+MSG-000989,TCK-00239,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00239: Follow-up verification details recorded.,[],False,2026-01-09T12:35:00
+MSG-000990,TCK-00240,EMP-0042,INTERNAL_NOTE,Update message on ticket REQ-2026-00240: Follow-up verification details recorded.,[],True,2026-01-09T13:00:00
+MSG-000991,TCK-00241,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00241: Follow-up verification details recorded.,[],False,2026-01-09T13:25:00
+MSG-000992,TCK-00242,EMP-0044,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00242: Follow-up verification details recorded.,[],False,2026-01-09T13:50:00
+MSG-000993,TCK-00243,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00243: Follow-up verification details recorded.,[],False,2026-01-09T14:15:00
+MSG-000994,TCK-00244,EMP-0016,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00244: Follow-up verification details recorded.,[],False,2026-01-09T14:40:00
+MSG-000995,TCK-00245,EMP-0003,INTERNAL_NOTE,Update message on ticket REQ-2026-00245: Follow-up verification details recorded.,[],True,2026-01-09T15:05:00
+MSG-000996,TCK-00246,EMP-0025,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00246: Follow-up verification details recorded.,[],False,2026-01-09T15:30:00
+MSG-000997,TCK-00247,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00247: Follow-up verification details recorded.,[],False,2026-01-09T15:55:00
+MSG-000998,TCK-00248,EMP-0027,EMPLOYEE_NOTE,Update message on ticket REQ-2026-00248: Follow-up verification details recorded.,[],False,2026-01-09T16:20:00
+MSG-000999,TCK-00249,EMP-0003,AGENT_REPLY,Update message on ticket REQ-2026-00249: Follow-up verification details recorded.,[],False,2026-01-09T16:45:00
+MSG-001000,TCK-00250,EMP-0014,INTERNAL_NOTE,Update message on ticket REQ-2026-00250: Follow-up verification details recorded.,[],True,2026-01-09T17:10:00

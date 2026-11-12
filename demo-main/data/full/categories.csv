@@ -1,0 +1,8 @@
+category_id,name,code,description,default_priority,is_sensitive_default,tier,created_at
+CAT-001,Benefits,BEN,"Health insurance, 401k, HSA/FSA, wellness perks",MEDIUM,False,TIER_1,2023-01-01T00:00:00
+CAT-002,Leave & Time Off,LEV,"PTO, sick leave, parental and bereavement leave",MEDIUM,False,TIER_1,2023-01-01T00:00:00
+CAT-003,Payroll & Compensation,PAY,"Direct deposit, paycheck disputes, bonuses, tax withholding",HIGH,False,TIER_2,2023-01-01T00:00:00
+CAT-004,Onboarding & Offboarding,ONB,"Equipment requisition, new hire paperwork, exit processing",MEDIUM,False,TIER_1,2023-01-01T00:00:00
+CAT-005,Workplace Relations,REL,"Manager conflict, performance plans, team dynamics",HIGH,False,TIER_2,2023-01-01T00:00:00
+CAT-006,Health & Safety,SAF,"Ergonomics, workplace injury, safety hazards",HIGH,False,TIER_2,2023-01-01T00:00:00
+CAT-007,Compliance & Ethics,CMP,"Harassment, discrimination, whistleblowing, code of conduct",URGENT,True,TIER_3,2023-01-01T00:00:00

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Policies & AI Assistant - HR Request Resolution System</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .ai-assistant-hero {
+      background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%);
+      color: var(--white);
+      border-radius: var(--radius-lg);
+      padding: 32px 36px;
+      margin-bottom: 32px;
+      box-shadow: var(--shadow-md);
+    }
+    .query-box-wrap {
+      display: flex;
+      gap: 12px;
+      margin-top: 20px;
+    }
+    .quick-chips-wrap {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 14px;
+    }
+    .quick-rag-query {
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: var(--white);
+      padding: 5px 12px;
+      border-radius: 9999px;
+      font-size: 0.78rem;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .quick-rag-query:hover {
+      background: rgba(255, 255, 255, 0.25);
+    }
+    .rag-answer-card {
+      background: var(--white);
+      color: var(--gray-800);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin-top: 24px;
+      box-shadow: var(--shadow-lg);
+      display: none;
+    }
+  </style>
+</head>
+<body id="policies-view">
+
+  <div class="app-layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="brand-icon">HR</div>
+        <div class="brand-text">
+          <h2>Resolution Hub</h2>
+          <span>Enterprise Portal</span>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <div class="nav-section-title">Navigation</div>
+        <a href="dashboard.html" class="nav-link">
+          <span>Dashboard</span>
+        </a>
+        <a href="tickets.html" class="nav-link">
+          <span>HR Requests</span>
+        </a>
+        <a href="policies.html" class="nav-link active">
+          <span>Policies & AI</span>
+        </a>
+        
+        <div class="nav-section-title hr-only" style="display:none;">Management</div>
+        <a href="analytics.html" class="nav-link hr-only" style="display:none;">
+          <span>Analytics & SLAs</span>
+        </a>
+        <a href="analytics.html#anomalies" class="nav-link compliance-only" style="display:none;">
+          <span>Anomaly Radar</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="user-snippet">
+          <div class="user-avatar current-user-avatar">U</div>
+          <div class="user-details">
+            <div class="user-name current-user-name">User</div>
+            <div class="user-role current-user-role">Role</div>
+          </div>
+        </div>
+        <button class="btn-logout" title="Sign Out">&#x2715;</button>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-wrapper">
+      <header class="topbar">
+        <div class="topbar-title">
+          <h1>Policy Library & AI Assistant</h1>
+        </div>
+      </header>
+
+      <div class="content-container">
+        <!-- AI Policy Assistant Hero -->
+        <div class="ai-assistant-hero">
+          <div style="display:flex; align-items:center; gap:10px;">
+            <div style="font-size:1.8rem;">&#x1F916;</div>
+            <div>
+              <h2 style="font-size:1.35rem; font-weight:800;">Corporate Policy AI Assistant (RAG)</h2>
+              <p style="color:var(--gray-300); font-size:0.88rem; margin-top:2px;">
+                Ask questions about corporate benefits, leave rules, and compensation. Verified against currently active policy versions.
+              </p>
+            </div>
+          </div>
+
+          <div class="query-box-wrap">
+            <input type="text" id="rag-query-input" class="form-control" placeholder="e.g. How many hours of unused PTO can I roll over into next year?" style="border:none; padding:14px; font-size:0.95rem;">
+            <button class="btn btn-primary" onclick="handleAskRAG()" style="padding:0 24px;">Search Policies</button>
+          </div>
+
+          <div class="quick-chips-wrap">
+            <span style="font-size:0.75rem; color:var(--gray-400); margin-top:5px;">Suggested Inquiries:</span>
+            <button class="quick-rag-query">“What is our 401(k) company matching percentage?”</button>
+            <button class="quick-rag-query">“How many hours of unused PTO can roll over?”</button>
+            <button class="quick-rag-query">“What is the paid parental leave allowance?”</button>
+            <button class="quick-rag-query">“How do I report a paycheck discrepancy?”</button>
+          </div>
+
+          <!-- RAG Result Card -->
+          <div id="rag-result-container" class="rag-answer-card">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; border-bottom:1px solid var(--gray-200); padding-bottom:8px;">
+              <span style="font-size:0.85rem; font-weight:700; color:var(--primary); text-transform:uppercase;">
+                &#x2705; Policy Verified Answer
+              </span>
+              <span id="rag-model-badge" class="badge badge-medium">Engine: RAG</span>
+            </div>
+            
+            <div id="rag-answer-text" style="font-size:0.95rem; line-height:1.6; color:var(--gray-800); margin-bottom:16px;"></div>
+
+            <div style="margin-top:16px;">
+              <h4 style="font-size:0.82rem; font-weight:700; text-transform:uppercase; color:var(--gray-500); margin-bottom:8px;">
+                Exact Policy Citations:
+              </h4>
+              <div id="rag-citations-list"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Policy Documents Library -->
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+          <div>
+            <h2 style="font-size:1.2rem; font-weight:700; color:var(--gray-900);">Approved Corporate Policy Documents</h2>
+            <p style="font-size:0.85rem; color:var(--gray-500);">Version-controlled documents with immutable changelogs.</p>
+          </div>
+          <div style="width:280px;">
+            <input type="text" id="policy-search" class="form-control" placeholder="Search policies by code or title...">
+          </div>
+        </div>
+
+        <!-- Policies Container -->
+        <div id="policies-container">
+          <div style="padding:32px; text-align:center; color:var(--gray-500);">Loading corporate policies...</div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Modal: View Policy Articles -->
+  <div id="modal-view-articles" class="modal-backdrop">
+    <div class="modal-content" style="max-width: 760px;">
+      <div class="modal-header">
+        <h3 id="modal-policy-title" style="font-size:1.15rem; font-weight:700;">Policy Articles</h3>
+        <button class="close-btn" onclick="closeModal('modal-view-articles')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div id="modal-articles-list"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" onclick="closeModal('modal-view-articles')">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/api.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/policies.js"></script>
+</body>
+</html>
+

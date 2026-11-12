@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analytics & Anomalies - HR Request Resolution System</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="analytics-view">
+
+  <div class="app-layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="brand-icon">HR</div>
+        <div class="brand-text">
+          <h2>Resolution Hub</h2>
+          <span>Enterprise Portal</span>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <div class="nav-section-title">Navigation</div>
+        <a href="dashboard.html" class="nav-link">
+          <span>Dashboard</span>
+        </a>
+        <a href="tickets.html" class="nav-link">
+          <span>HR Requests</span>
+        </a>
+        <a href="policies.html" class="nav-link">
+          <span>Policies & AI</span>
+        </a>
+        
+        <div class="nav-section-title">Management</div>
+        <a href="analytics.html" class="nav-link active">
+          <span>Analytics & SLAs</span>
+        </a>
+        <a href="#anomalies" class="nav-link">
+          <span>Anomaly Radar</span>
+        </a>
+        <a href="#audit" class="nav-link">
+          <span>Audit Logs</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="user-snippet">
+          <div class="user-avatar current-user-avatar">U</div>
+          <div class="user-details">
+            <div class="user-name current-user-name">User</div>
+            <div class="user-role current-user-role">Role</div>
+          </div>
+        </div>
+        <button class="btn-logout" title="Sign Out">&#x2715;</button>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-wrapper">
+      <header class="topbar">
+        <div class="topbar-title">
+          <h1>Analytics, SLAs & Anomaly Radar</h1>
+        </div>
+        <div class="topbar-actions">
+          <button id="btn-run-anomaly-scan" class="btn btn-danger btn-sm">&#x1F50D; Run Anomaly Scan</button>
+        </div>
+      </header>
+
+      <div class="content-container">
+        <!-- KPI Summary Stats -->
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-title">Total Processed</span>
+            <div class="stat-value" id="an-total-tickets">--</div>
+            <div class="stat-footer">Lifetime HR requests</div>
+          </div>
+          <div class="stat-card">
+            <span class="stat-title">Resolved Requests</span>
+            <div class="stat-value" id="an-resolved-tickets" style="color:var(--success);">--</div>
+            <div class="stat-footer">Completed with citations</div>
+          </div>
+          <div class="stat-card">
+            <span class="stat-title">SLA Compliance Rate</span>
+            <div class="stat-value" id="an-sla-compliance">--%</div>
+            <div class="stat-footer">Business-hours metric</div>
+          </div>
+          <div class="stat-card">
+            <span class="stat-title">Avg Resolution Hours</span>
+            <div class="stat-value" id="an-avg-resolution">--h</div>
+            <div class="stat-footer">Business hours only</div>
+          </div>
+          <div class="stat-card">
+            <span class="stat-title">Active Anomalies</span>
+            <div class="stat-value" id="an-total-anomalies" style="color:var(--danger);">--</div>
+            <div class="stat-footer">Compliance radar</div>
+          </div>
+        </div>
+
+        <!-- 2 Column Analytics Grid -->
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(400px, 1fr)); gap:24px; margin-bottom:28px;">
+          <!-- Category Volume Trends -->
+          <div class="card" style="margin-bottom:0;">
+            <div class="card-header">
+              <h3 class="card-title">Ticket Volume by Category</h3>
+            </div>
+            <div class="card-body" id="category-trends-container">
+              <div style="color:var(--gray-500); padding:20px;">Loading category distribution...</div>
+            </div>
+          </div>
+
+          <!-- HR Agent Workload -->
+          <div class="card" style="margin-bottom:0;">
+            <div class="card-header">
+              <h3 class="card-title">Agent Workload & Performance</h3>
+            </div>
+            <div class="card-body" style="padding:0;">
+              <div class="table-responsive">
+                <table class="data-table">
+                  <thead>
+                    <tr>
+                      <th>Agent</th>
+                      <th>Active</th>
+                      <th>Resolved</th>
+                      <th>Rating</th>
+                      <th>Breached</th>
+                    </tr>
+                  </thead>
+                  <tbody id="agent-workload-tbody">
+                    <tr><td colspan="5" style="text-align:center; padding:16px;">Loading agent metrics...</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Anomaly Radar Section -->
+        <div id="anomalies" class="card" style="border-left: 4px solid var(--danger);">
+          <div class="card-header">
+            <div>
+              <h2 class="card-title" style="color:var(--danger);">&#x26A0; Enterprise Anomaly Detection Radar</h2>
+              <p style="font-size:0.82rem; color:var(--gray-500); margin-top:2px;">
+                Automated detection for Obsolete Policy Citations, Sensitive Cases in General Queue, SLA Business Hours Miscalculations, and Unsupported Claims.
+              </p>
+            </div>
+          </div>
+          <div class="card-body" style="padding:0;">
+            <div class="table-responsive">
+              <table class="data-table">
+                <thead>
+                  <tr>
+                    <th>Anomaly ID</th>
+                    <th>Anomaly Type</th>
+                    <th>Severity</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody id="anomalies-tbody">
+                  <tr><td colspan="6" style="text-align:center; padding:24px; color:var(--gray-500);">Loading anomalies radar...</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- Immutable Audit Trail Section -->
+        <div id="audit" class="card">
+          <div class="card-header">
+            <h2 class="card-title">&#x1F4DC; Immutable Audit Event History</h2>
+          </div>
+          <div class="card-body" style="padding:0;">
+            <div class="table-responsive">
+              <table class="data-table">
+                <thead>
+                  <tr>
+                    <th>Audit ID</th>
+                    <th>Entity & Event</th>
+                    <th>Actor</th>
+                    <th>Details</th>
+                    <th>Timestamp</th>
+                  </tr>
+                </thead>
+                <tbody id="audit-tbody">
+                  <tr><td colspan="5" style="text-align:center; padding:24px; color:var(--gray-500);">Loading audit logs...</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <script src="js/api.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/analytics.js"></script>
+</body>
+</html>
+
