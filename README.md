@@ -224,21 +224,6 @@ Open your browser and visit:
 
 `http://localhost:3000/`
 
-**Option 2: Access Through the Backend**
-
-If the backend is configured to serve the frontend, visit:
-
-`http://localhost:8000/`
-
-**Important:** Start the backend separately in another terminal:
-
-```powershell
-python -m uvicorn app.main:app --app-dir backend --reload --port 8000
-```
-
-The frontend communicates with the backend API running on port `8000`.
-
-
 ## 5. Demo Login Credentials
 
 The system provides 1-click quick-fill buttons on `login.html`:
